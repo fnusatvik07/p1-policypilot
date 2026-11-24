@@ -1,0 +1,103 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Calculating business days - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Calculating business days</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-011 — Calculating business days</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System:</strong> OpsWiki<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective/issued date:</strong> 2023-06-05<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training  </p>
+<h2>Purpose</h2>
+<p>Use this page to calculate business days for dispute and claims processing dates. Business-day counting is used when setting internal follow-up dates, reviewing deadline status, and checking whether a case is within or outside the applicable timeline. This instruction applies when working in <strong>ClaimTrack 2.0</strong>, <strong>CardView</strong>, or the <strong>Corvane Card Services portal</strong>.</p>
+<p>For the official holiday list and counting conventions, use <strong>CPS-SOP-231 — Business Day Calculation and Holiday Calendar</strong>.</p>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the claim type and channel in <strong>ClaimTrack 2.0</strong> before counting days.</li>
+<li>Use the Harborline business calendar in <strong>CPS-SOP-231</strong>; do not rely on a personal calendar.</li>
+<li>Count only business days, excluding weekends and bank holidays listed in CPS-SOP-231.</li>
+<li>If a date falls on a non-business day, move the action date to the next business day.</li>
+<li>For Corvane network activity, verify the transaction date in Corvane before you calculate elapsed time.</li>
+<li>If the case is already escalated, follow the case notes first and then verify the business-day count.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<h3>1. Open the case and identify the controlling date</h3>
+<ol>
+<li>Sign in to <strong>ClaimTrack 2.0</strong>.</li>
+<li>Search for the claim number and open the case record.</li>
+<li>Review the case header for:</li>
+<li>claim type,</li>
+<li>received date,</li>
+<li>transaction date,</li>
+<li>any prior deadline notes.</li>
+<li>Confirm which date controls the count. For most claims, use the date noted in the active work item or the date shown in the claim timeline.</li>
+<li>If the claim involves a card transaction, open the related account in <strong>CardView</strong> and confirm the transaction timestamp.</li>
+</ol>
+<h3>2. Verify the calendar standard</h3>
+<ol>
+<li>In ClaimTrack 2.0, open the case and select the <strong>Deadlines</strong> tab.</li>
+<li>Review the automated deadline clock. Confirm whether the system has already populated a due date.</li>
+<li>Open <strong>CPS-SOP-231 — Business Day Calculation and Holiday Calendar</strong> in the Disputes Ops Library.</li>
+<li>Confirm the current year’s bank holidays and weekend handling rules.</li>
+<li>If the case is tied to a card network event, open the <strong>Corvane Card Services portal</strong> and verify the network processing date against the claim record.</li>
+</ol>
+<h3>3. Count business days in ClaimTrack 2.0</h3>
+<ol>
+<li>In ClaimTrack 2.0, select the applicable date field for the work item.</li>
+<li>Choose the date that starts the count.</li>
+<li>Use the deadline clock to advance one day at a time and count only days that are not:</li>
+<li>Saturday,</li>
+<li>Sunday,</li>
+<li>a listed holiday in CPS-SOP-231.</li>
+<li>Do not count the start date unless the work item or procedure specifically says to include it.</li>
+<li>Stop counting when you reach the required business day number.</li>
+<li>Save the resulting due date in the case notes or deadline field, as applicable.</li>
+</ol>
+<h3>4. Confirm the date in CardView</h3>
+<ol>
+<li>Open <strong>CardView</strong> for the account.</li>
+<li>Review the transaction history and posted date.</li>
+<li>Compare the CardView posted date with the claim date in ClaimTrack 2.0.</li>
+<li>If the dates differ, use the date required by the active procedure governing the claim type.</li>
+<li>Document the selected date in the ClaimTrack notes so the audit trail shows why that date was used.</li>
+</ol>
+<h3>5. Confirm Corvane dates for network disputes</h3>
+<ol>
+<li>Open the <strong>Corvane Card Services portal</strong> for the transaction.</li>
+<li>Review the network event date, settlement date, or chargeback-related date shown on the case.</li>
+<li>Compare the Corvane date to the ClaimTrack timeline.</li>
+<li>If the Corvane date is the controlling date for the work item, use that date for the business-day count.</li>
+<li>Save the Corvane reference number in the case notes when available.</li>
+</ol>
+<h3>6. Record the calculation</h3>
+<ol>
+<li>Add a short note in ClaimTrack 2.0 showing:</li>
+<li>start date,</li>
+<li>excluded non-business days,</li>
+<li>counted business days,</li>
+<li>resulting due date.</li>
+<li>If the case has an open task, update the task due date to match the calculation.</li>
+<li>If you find a mismatch between systems, notify your lead before sending any customer communication.</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Keep the count visible in the case notes. A clear date trail reduces rework during quality review and helps the next analyst verify the deadline quickly.</p>
+<p><strong>Warning</strong></p>
+<p>Do not use a calendar app, spreadsheet estimate, or memory-based count for official case processing. Use ClaimTrack 2.0, CardView, Corvane, and CPS-SOP-231 together.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><a href="CPS-SOP-210">CPS-SOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="CPS-SOP-211">CPS-SOP-211 — Provisional Credit</a></li>
+<li><a href="CPS-SOP-212">CPS-SOP-212 — Final Determination and Customer Notices</a></li>
+<li><a href="CPS-SOP-229">CPS-SOP-229 — Claim Records and Evidence Retention</a></li>
+<li><a href="CPS-SOP-231">CPS-SOP-231 — Business Day Calculation and Holiday Calendar</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 — 2017-04-01:</strong> Published.<br />
+<strong>v2 — 2023-06-05:</strong> Updated for ClaimTrack 2.0, including automated deadline clocks and policy renumbering.</p></div>
+<hr><div class="meta">Page ID 401932 · Space: CPSDISPUTES</div></body></html>

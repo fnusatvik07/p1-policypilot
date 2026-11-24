@@ -1,0 +1,124 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Identifying wire transfers and other excluded items - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Identifying wire transfers and other excluded items</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-008 — Identifying wire transfers and other excluded items</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System(s):</strong> ClaimTrack, CardView, Corvane Card Services portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective/issued date:</strong> 2017-04-01<br />
+<strong>Status at issue:</strong> Active  </p>
+<h2>Purpose</h2>
+<p>Use this page to identify whether a customer’s reported transaction is a wire transfer or another item excluded from the standard card or EFT dispute workflow. Correct identification at intake prevents misclassification, avoids duplicate work, and ensures the case is routed to the correct DOP procedure.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start</strong>
+- Open the claim in <strong>ClaimTrack</strong> and confirm the transaction date, amount, and funding source.
+- Review <strong>CardView</strong> for card-present, card-not-present, and processor notes before assigning a dispute type.
+- If the item appears on a deposit account statement or wire advice, check <strong>HLX Core</strong> and the <strong>Corvane Card Services portal</strong> before proceeding.
+- Do not classify an excluded item as a card dispute solely because the customer used a debit card or enrolled digital channel to initiate the activity.</p>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the claim in ClaimTrack.</strong><br />
+   From the Claims Work Queue, search by claim number, customer name, or masked account number. Open the case summary and review the reported transaction description.</p>
+</li>
+<li>
+<p><strong>Confirm the transaction source.</strong><br />
+   In the Transaction Details panel, verify whether the item was posted through:</p>
+</li>
+<li>Card network activity,</li>
+<li>ACH,</li>
+<li>Wire transfer activity,</li>
+<li>Deposit account transfer activity, or</li>
+<li>
+<p>Another payment channel.</p>
+</li>
+<li>
+<p><strong>Check CardView for card association.</strong><br />
+   Select the customer’s card profile in CardView. Review the recent activity list and issuer notes. If the item is linked to a card authorization, settlement, or chargeback lifecycle, continue with the applicable card procedure. If the item is labeled as wire-related or deposit-transfer-related, continue to Step 4.</p>
+</li>
+<li>
+<p><strong>Open the Corvane Card Services portal.</strong><br />
+   Use the customer’s card reference and transaction date to search the Corvane activity screen. Confirm whether the processor shows:</p>
+</li>
+<li>Network chargeback activity,</li>
+<li>Refund or reversal activity,</li>
+<li>Settlement adjustment, or</li>
+<li>
+<p>No corresponding card record.</p>
+</li>
+<li>
+<p><strong>Identify wire transfers.</strong><br />
+   If the transaction is a wire transfer, note the wire indicators shown in ClaimTrack or on any supporting document. Typical indicators include:</p>
+</li>
+<li>Wire reference number,</li>
+<li>Wire advice or confirmation,</li>
+<li>Incoming or outgoing wire wording,</li>
+<li>
+<p>Beneficiary or originator details associated with a wire instruction.</p>
+</li>
+<li>
+<p><strong>Identify other excluded items.</strong><br />
+   Review the claim narrative and supporting documents for items outside the standard card dispute path, including:</p>
+</li>
+<li>Internal account-to-account transfers,</li>
+<li>Recurring bill payment instructions,</li>
+<li>Cash withdrawal activity,</li>
+<li>Branch-assisted transfer instructions,</li>
+<li>
+<p>Non-card network payment instructions that do not appear in CardView or Corvane.</p>
+</li>
+<li>
+<p><strong>Set the correct case classification.</strong><br />
+   In ClaimTrack, update the dispute category to match the item type. Use the case classification fields to distinguish card, EFT, wire, and other non-card items. Add a short case note describing the evidence reviewed and why the item is excluded from the standard card workflow.</p>
+</li>
+<li>
+<p><strong>Route the case to the correct queue.</strong><br />
+   If the item is a wire transfer or other excluded item, route it to the appropriate non-card queue under the intake routing guidance. If the item remains unclear, leave the case in the review state and escalate to the lead before sending it forward.</p>
+</li>
+<li>
+<p><strong>Document the determination.</strong><br />
+   Record the system screen names reviewed, the indicators found, and the final classification in ClaimTrack. Keep notes brief, factual, and consistent with the transaction record.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong><br />
+A transaction may look like a card payment on the customer’s statement but still be a wire transfer or other excluded item once you review the processor and deposit-system records.</p>
+<p><strong>Warning</strong><br />
+Do not use merchant names alone to determine case type. Some wire and transfer services use merchant-like descriptors that can be misleading without review in CardView, Corvane, and HLX Core.</p>
+<p><strong>Note</strong><br />
+If the customer reports multiple transactions, classify each item separately. One claim may contain both card disputes and excluded items.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><a href="DOP-201">DOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="DOP-203">DOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="DOP-210">DOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="DOP-234">DOP-234 — Coordination with Corvane Card Services</a></li>
+<li><a href="POL-001">POL-001 — Consumer Error Resolution Policy (Electronic Funds Transfers and Card Disputes)</a></li>
+<li><a href="TERMS-WIRE">TERMS-WIRE — Wire Transfer Agreement</a></li>
+</ul>
+<h2>Page history</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th style="text-align: right;">Date</th>
+<th>Change</th>
+<th>Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">2017-04-01</td>
+<td>Published</td>
+<td>Darnell Price</td>
+</tr>
+</tbody>
+</table></div>
+<hr><div class="meta">Page ID 401901 · Space: CPSDISPUTES</div></body></html>

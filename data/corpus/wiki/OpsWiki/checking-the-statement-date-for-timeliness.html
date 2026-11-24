@@ -1,0 +1,104 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Checking the statement date for timeliness - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Checking the statement date for timeliness</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-010 — Checking the statement date for timeliness</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System:</strong> OpsWiki<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective / issued date:</strong> 2017-04-01<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training  </p>
+<h2>Purpose</h2>
+<p>Use this work instruction to confirm the customer’s statement date and determine whether a dispute is timely before it is classified and routed for investigation. This check is performed early in intake and supports consistent handling across ClaimTrack, CardView, and Corvane Card Services.</p>
+<p>This page is used by Claims Intake associates and by any downstream analyst who needs to validate the statement date recorded in the claim file.</p>
+<hr />
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the claim is already created in <strong>ClaimTrack</strong> and that the account number is present.</li>
+<li>Have the customer’s reported transaction date and statement date claim marker available.</li>
+<li>Use <strong>CardView</strong> for card-level statement information and <strong>Corvane Card Services</strong> for processor history when network activity must be confirmed.</li>
+<li>If the account is not a card account, stop and follow the applicable non-card procedure in the Disputes Ops Library.</li>
+</ul>
+</blockquote>
+<hr />
+<h2>Procedure</h2>
+<ol>
+<li><strong>Open the claim in ClaimTrack</strong></li>
+<li>Sign in to <strong>ClaimTrack</strong>.</li>
+<li>Search for the claim by claim number or customer account number.</li>
+<li>Open the claim record.</li>
+<li>
+<p>Review the claim summary panel for the dispute type, transaction date, and any existing statement information.</p>
+</li>
+<li>
+<p><strong>Locate the statement date in ClaimTrack</strong></p>
+</li>
+<li>Select the <strong>Account Details</strong> tab.</li>
+<li>Review the <strong>Statement Date</strong> field.</li>
+<li>If the field is populated and matches the customer statement cycle, continue to Step 5.</li>
+<li>
+<p>If the field is blank, incomplete, or appears inconsistent, continue to Step 3.</p>
+</li>
+<li>
+<p><strong>Verify the statement date in CardView</strong></p>
+</li>
+<li>Open <strong>CardView</strong> in a separate window.</li>
+<li>Search for the cardholder using the account number from ClaimTrack.</li>
+<li>Select the correct card relationship.</li>
+<li>Open the <strong>Statements</strong> screen.</li>
+<li>Identify the most recent statement date that includes the disputed transaction.</li>
+<li>Compare the statement date to the date recorded in ClaimTrack.</li>
+<li>If CardView and ClaimTrack match, update the claim notes to reflect the verification.</li>
+<li>
+<p>If they do not match, proceed to Step 4.</p>
+</li>
+<li>
+<p><strong>Confirm activity in Corvane Card Services</strong></p>
+</li>
+<li>Open the <strong>Corvane Card Services</strong> portal.</li>
+<li>Search the account by card number or processor reference.</li>
+<li>Open the <strong>Transaction History</strong> view.</li>
+<li>Locate the disputed transaction and any posting or statement-cycle indicators.</li>
+<li>Record the processor statement reference in the claim notes.</li>
+<li>
+<p>If Corvane confirms a different cycle date than ClaimTrack or CardView, escalate the discrepancy to the Claims Intake lead before continuing.</p>
+</li>
+<li>
+<p><strong>Determine timeliness</strong></p>
+</li>
+<li>Compare the verified statement date to the transaction date and the dispute received date.</li>
+<li>Use the verified statement date entered in the claim file as the controlling date for timeliness review.</li>
+<li>If the statement date supports timely filing, continue to the applicable claim classification procedure.</li>
+<li>
+<p>If the statement date indicates the claim may be outside the allowable window, route the file to the Claims Intake lead for review before customer contact or disposition.</p>
+</li>
+<li>
+<p><strong>Document the result</strong></p>
+</li>
+<li>In ClaimTrack, add a note stating the source used to verify the statement date.</li>
+<li>Include whether the date was confirmed in ClaimTrack, CardView, or Corvane Card Services.</li>
+<li>Save the claim record.</li>
+<li>Return the claim to the intake queue or the next workflow step.</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Use CardView first when the statement date appears inconsistent in ClaimTrack. In most cases, CardView provides the clearest account-level statement view without requiring a processor lookup.</p>
+<p><strong>Warning</strong></p>
+<p>Do not rely on a customer’s verbal estimate of the statement date when system records are available. If the system sources conflict, pause processing and escalate the discrepancy.</p>
+</blockquote>
+<hr />
+<h2>Related pages</h2>
+<ul>
+<li><a href="DOP-201">DOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="DOP-203">DOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="DOP-210">DOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="DOP-231">DOP-231 — Business Day Calculation and Holiday Calendar</a></li>
+<li><a href="DOP-234">DOP-234 — Coordination with Corvane Card Services</a></li>
+</ul>
+<hr />
+<h2>Page history</h2>
+<p><strong>v1 — 2017-04-01:</strong> Published.</p></div>
+<hr><div class="meta">Page ID 401921 · Space: CPSDISPUTES</div></body></html>

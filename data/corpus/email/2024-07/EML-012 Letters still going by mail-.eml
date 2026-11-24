@@ -1,0 +1,99 @@
+From: Luis Carvajal <luis.carvajal@harborlinebank.com>
+To: Priya Raman <priya.raman@harborlinebank.com>,
+ Tasha Morrow <tasha.morrow@harborlinebank.com>,
+ Hannah Brandt <hannah.brandt@harborlinebank.com>,
+ Owen Pruitt <owen.pruitt@harborlinebank.com>,
+ Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>
+Cc: Marcus Oyelaran <marcus.oyelaran@harborlinebank.com>,
+ Dana Whitfield <dana.whitfield@harborlinebank.com>,
+ Samuel Okafor <samuel.okafor@harborlinebank.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborlinebank.com>
+Subject: RE: Letters still going by mail?
+Date: Wed, 03 Jul 2024 09:12:00 -0000
+Message-ID: <179543013437.89985.11105285438068160209@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Luis Carvajal =20
+To: Priya Raman; Tasha Morrow; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi =20
+Cc: Marcus Oyelaran; Dana Whitfield; Samuel Okafor; Mei-Lin Zhou =20
+Date: Wed, Jul 3, 2024 09:12 AM =20
+Subject: RE: Letters still going by mail?
+
+Team,
+
+Quick check on last week=E2=80=99s production review: we are still seeing a f=
+ew final determination packets routed to print from CPS-SOP-230 when the cust=
+omer is enrolled in digital banking.
+
+Effective July 1, 2024, provisional credit notices and final determination no=
+tices must be sent through secure message in online and mobile banking within=
+ 1 business day; paper mail is used only for customers not enrolled in digita=
+l banking.
+
+Please treat that as the operational standard for all debit and EFT claims no=
+w in ClaimTrack 2.0. If the case is digital-eligible, do not queue a paper le=
+tter unless there is a confirmed enrollment exception. Tasha, please have Int=
+ake stop telling customers =E2=80=9Cwe=E2=80=99ll mail it out=E2=80=9D unless=
+ the system check shows no online/mobile enrollment.
+
+I am also asking QA to add this to the review checklist for the next cycle. M=
+ei-Lin, if Compliance Testing wants a sample pull from the July 1=E2=80=932 p=
+opulation, we can export from the notices queue and compare against the secur=
+e-message delivery log.
+
+Luis
+
+---
+
+From: Priya Raman =20
+To: Luis Carvajal; Tasha Morrow; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi  =
+
+Cc: Marcus Oyelaran; Dana Whitfield; Samuel Okafor; Mei-Lin Zhou =20
+Date: Wed, Jul 3, 2024 08:41 AM =20
+Subject: RE: Letters still going by mail?
+
+Agree. This came up in yesterday=E2=80=99s steering group too.
+
+CPS-SOP-230 still reflects the older mail workflow, so Ops needs to be carefu=
+l until the procedure is revised. In the meantime, please use the OB-2024-11 =
+standard and the notice templates in the digital message center. If a custome=
+r is not enrolled, print and mail remains the fallback.
+
+Luis, can you send me the exact sentence you want circulated to analysts? I w=
+ant the same wording in the floor huddle note.
+
+Priya
+
+> From: Luis Carvajal =20
+> Sent: Wed, Jul 3, 2024 8:19 AM =20
+> Subject: Letters still going by mail?
+>
+> Got a question from an analyst in Grand Rapids: are we still mailing provis=
+ional credit and final decision letters for every case?
+>
+> I thought the July 1 change moved those to secure message for digital users=
+, but I=E2=80=99m seeing mixed practice in the queue. Can someone confirm the=
+ operating rule and whether CPS-SOP-230 is getting updated?
+>
+> Thanks,
+> Luis
+
+---
+
+From: Tasha Morrow =20
+To: Priya Raman; Luis Carvajal; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi =20
+Cc: Marcus Oyelaran; Dana Whitfield =20
+Date: Wed, Jul 3, 2024 08:28 AM =20
+Subject: RE: Letters still going by mail?
+
+I=E2=80=99ll brief Intake at 10:00. We=E2=80=99ve had a couple of associates =
+default to paper because that=E2=80=99s how the old script reads.
+
+Also, for anyone taking calls this morning: if a customer asks where the noti=
+ce will appear, tell them secure message in online/mobile banking if they=E2=
+=80=99re enrolled; otherwise by mail. No need to over-explain the back office=
+ process.
+
+Tasha

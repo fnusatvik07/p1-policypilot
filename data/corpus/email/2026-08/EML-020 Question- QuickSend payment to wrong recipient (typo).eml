@@ -1,0 +1,93 @@
+From: Luis Carvajal <luis.carvajal@harborlinebank.com>
+To: Tasha Morrow <tasha.morrow@harborlinebank.com>
+Cc: Priya Raman <priya.raman@harborlinebank.com>,
+ Hannah Brandt <hannah.brandt@harborlinebank.com>,
+ Samuel Okafor <samuel.okafor@harborlinebank.com>
+Subject: RE: QuickSend payment to wrong recipient (typo)
+Date: Tue, 11 Aug 2026 16:42:18 -0400
+Message-ID: <179543013438.89985.13997525239209781023@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Luis Carvajal =20
+To: Tasha Morrow =20
+Cc: Priya Raman; Hannah Brandt; Samuel Okafor =20
+Date: Tue, 11 Aug 2026 16:42:18 -0400 =20
+Subject: RE: QuickSend payment to wrong recipient (typo)
+
+Tasha,
+
+I reviewed the item you sent over from Claims Intake. This is a QuickSend P2P=
+ transfer where the customer entered one digit incorrectly in the recipient p=
+hone number and the funds went to an unintended registered recipient.
+
+Per CPS-SOP-207 and FAQ-QS-01, this is not treated as an unauthorized transfe=
+r if the sender authenticated the payment and entered the destination details=
+. Please route it as a QuickSend error case, not as fraud, unless there is a =
+separate allegation of account compromise.
+
+Action for Intake: =20
+- confirm the customer=E2=80=99s original entry details and save the screensh=
+ot/claim notes in ClaimTrack 2.0; =20
+- verify whether the intended recipient is in the customer=E2=80=99s contacts=
+ list or recent payee history; =20
+- advise the customer that we will contact the receiving bank through the Qui=
+ckSend network process, but we cannot guarantee recovery.
+
+If the customer says the recipient is unknown and there are indicators of coe=
+rcion or account takeover, send to Fraud Ops under CPS-SOP-218.
+
+Luis
+
+---
+
+From: Tasha Morrow =20
+To: Luis Carvajal =20
+Cc: Priya Raman =20
+Date: Tue, 11 Aug 2026 16:19:03 -0400 =20
+Subject: RE: QuickSend payment to wrong recipient (typo)
+
+Thanks, Luis.
+
+We have one customer in Columbus saying the QuickSend was meant for their con=
+tractor, but they entered the wrong last digit on the mobile app. They called=
+ within the hour and asked if we could =E2=80=9Creverse it right away.=E2=80=
+=9D
+
+I told the associate to avoid promising a reversal and to set expectations th=
+at this is a disputed recipient-direction issue. We=E2=80=99ve got the claim =
+in ClaimTrack under the QuickSend queue, but the analyst wanted to know wheth=
+er to classify it as an EFT error or fraud since the customer is upset and us=
+ing the word =E2=80=9Cscam.=E2=80=9D
+
+Do you want Intake to push these directly to your team, or keep them in the s=
+tandard QuickSend flow from CPS-SOP-207?
+
+Tasha
+
+---
+
+From: Priya Raman =20
+To: Tasha Morrow; Luis Carvajal =20
+Cc: Hannah Brandt; Samuel Okafor =20
+Date: Tue, 11 Aug 2026 15:58:44 -0400 =20
+Subject: QuickSend payment to wrong recipient (typo)
+
+Team,
+
+We keep seeing these. For the intake and investigation path, use the QuickSen=
+d procedure and keep the classification tight: wrong-recipient by typo is han=
+dled differently from unauthorized transfer claims.
+
+Please make sure the notes capture:
+- exact recipient identifier entered by the customer;
+- time of submission and when the customer noticed the error;
+- whether the customer has any evidence the intended payee was saved correctl=
+y in the app.
+
+Luis, please send Tasha the standard routing language for the analysts. Hanna=
+h, if the customer starts framing this as =E2=80=9CI was tricked into sending=
+ it,=E2=80=9D we may need to compare against the fraud referral guidance.
+
+Priya

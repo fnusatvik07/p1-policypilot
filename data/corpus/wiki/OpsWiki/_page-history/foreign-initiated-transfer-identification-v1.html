@@ -1,0 +1,106 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Foreign-initiated transfer identification - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Foreign-initiated transfer identification</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-024 — Foreign-initiated transfer identification</h1>
+<p><strong>Document type:</strong> Work Instruction<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective date:</strong> 2017-04-01<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training</p>
+<h2>Purpose</h2>
+<p>Use this procedure to identify whether a disputed or reported transfer was initiated outside the United States and to document that determination in ClaimTrack, CardView, and Corvane Card Services records. This work instruction supports claim classification, evidence handling, and downstream investigation routing under the dispute procedures referenced in <strong>DOP-201</strong>, <strong>DOP-203</strong>, <strong>DOP-206</strong>, and <strong>DOP-234</strong>.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start:</strong> Confirm that the claim is open in <strong>ClaimTrack</strong> and that you have the card/account number, transaction date, amount, and merchant or transfer descriptor from the intake record. If the transaction is a card-not-present or card-present debit item processed through Corvane, use the Corvane portal to verify network data before making a final foreign-origin determination.</p>
+</blockquote>
+<p>You will use:</p>
+<ul>
+<li><strong>ClaimTrack</strong> for case notes, disposition coding, and workflow status</li>
+<li><strong>CardView</strong> for cardholder account and transaction detail</li>
+<li><strong>Corvane Card Services portal</strong> for processor and network indicators</li>
+</ul>
+<p>If the item is already classified under <strong>DOP-204</strong>, <strong>DOP-205</strong>, or <strong>DOP-217</strong>, follow the primary procedure first and use this work instruction only to complete the foreign-initiated check.</p>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the case in ClaimTrack.</strong><br />
+   From the ClaimTrack work queue, open the customer claim and review the intake summary. Confirm the transaction line item is the one under review.</p>
+</li>
+<li>
+<p><strong>Review the transaction details in ClaimTrack.</strong><br />
+   Select the transaction and check for any of the following:</p>
+</li>
+<li>foreign country code</li>
+<li>international merchant location</li>
+<li>overseas IP or terminal indicator</li>
+<li>non-U.S. authorization or settlement marker</li>
+<li>
+<p>foreign currency conversion reference</p>
+</li>
+<li>
+<p><strong>Cross-check the card record in CardView.</strong><br />
+   Launch <strong>CardView</strong> from the ClaimTrack case tools menu. On the card servicing screen, review:</p>
+</li>
+<li>authorization location</li>
+<li>merchant country, if displayed</li>
+<li>card presentment details</li>
+<li>
+<p>reversal or adjustment activity tied to the same item</p>
+</li>
+<li>
+<p><strong>Open the Corvane Card Services portal.</strong><br />
+   From the case tools panel, select <strong>Corvane Portal</strong> and search by card number, transaction date, and amount. Open the network transaction record.</p>
+</li>
+<li>
+<p><strong>Confirm foreign-origin indicators in Corvane.</strong><br />
+   In the transaction record, review:</p>
+</li>
+<li>merchant country</li>
+<li>acquirer country</li>
+<li>terminal country</li>
+<li>ISO message fields, when populated</li>
+<li>
+<p>interchange or network notes describing international acceptance</p>
+</li>
+<li>
+<p><strong>Determine whether the transfer was foreign-initiated.</strong><br />
+   Mark the item as foreign-initiated if the processor or network record shows initiation outside the United States, even if the merchant descriptor includes a U.S. billing name. If the country indicators conflict, use the most specific network field available and escalate for review rather than guessing.</p>
+</li>
+<li>
+<p><strong>Update ClaimTrack.</strong><br />
+   In the case activity notes, record:</p>
+</li>
+<li>the systems reviewed</li>
+<li>the foreign indicator(s) found</li>
+<li>the date and time of review</li>
+<li>
+<p>your conclusion: foreign-initiated, not foreign-initiated, or inconclusive</p>
+</li>
+<li>
+<p><strong>Apply the appropriate case flag.</strong><br />
+   In ClaimTrack, set the case flag for foreign-initiated transfer identification. If the item requires further handling under another dispute procedure, route the case to the appropriate queue and note the basis for transfer.</p>
+</li>
+<li>
+<p><strong>Save and close the record review.</strong><br />
+   Save all notes, return the case to the work queue, and ensure the status reflects the next required action.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> When the descriptor is abbreviated or unfamiliar, use Corvane before relying on merchant text alone. Merchant text may reflect the processor’s billing label rather than the actual point of initiation.</p>
+<p><strong>Warning:</strong> Do not use customer statements alone to determine foreign origin. Documented network or processor data must support the conclusion.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><a href="DOP-201">DOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="DOP-203">DOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="DOP-206">DOP-206 — ACH Debit Disputes</a></li>
+<li><a href="DOP-210">DOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="DOP-217">DOP-217 — Chargeback Filing and Recovery</a></li>
+<li><a href="DOP-234">DOP-234 — Coordination with Corvane Card Services</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 | 2017-04-01 | Published</strong><br />
+Initial issue for OpsWiki under WI-024.</p></div>
+<hr><div class="meta">Page ID 402061 · Space: CPSDISPUTES</div></body></html>

@@ -1,0 +1,90 @@
+From: Ifeoma Adeyemi <Ifeoma.Adeyemi@harborlinebank.com>
+To: Tasha Morrow <Tasha.Morrow@harborlinebank.com>,
+ Luis Carvajal <Luis.Carvajal@harborlinebank.com>
+Cc: Gregory Hale <Gregory.Hale@harborlinebank.com>,
+ Samuel Okafor <Samuel.Okafor@harborlinebank.com>
+Subject: Re: Claim 22-0619-44817 opened in Reg E for wire out
+Date: Tue, 21 Jun 2022 09:14:00 -0500
+Message-ID: <179543013434.89985.10892664235628797826@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Ifeoma Adeyemi <Ifeoma.Adeyemi@harborlinebank.com> =20
+To: Tasha Morrow <Tasha.Morrow@harborlinebank.com>; Luis Carvajal <Luis.Carva=
+jal@harborlinebank.com> =20
+Cc: Gregory Hale <Gregory.Hale@harborlinebank.com>; Samuel Okafor <Samuel.Oka=
+for@harborlinebank.com> =20
+Date: 2022-06-21 16:18 =20
+Subject: Re: Claim 22-0619-44817 opened in Reg E for wire out
+
+Team,
+
+I reviewed the QA note and agree this was misclassified at intake. The transa=
+ction is an outgoing wire, so it should have been routed outside the Reg E qu=
+eue and handled under the wire process. The customer=E2=80=99s filing path in=
+ ClaimTrack needs to be corrected, and the closure letter should not referenc=
+e EFT error resolution rights.
+
+Wire transfers made through Fedwire or a similar wire transfer system are not=
+ electronic fund transfers under Regulation E and are handled under the Wire =
+Transfer Agreement, not this procedure.
+
+Please update the case notes to reflect the reclassification, move the file t=
+o the proper disposition queue, and make sure the customer-facing language al=
+igns to TERMS-WIRE. Also, QA will log this under DOP-227 as a training opport=
+unity for intake. Tasha, please confirm whether the associate followed the in=
+take script or if the error occurred when the claim was re-keyed from the con=
+tact center referral.
+
+Ifeoma
+
+---
+
+From: Tasha Morrow <Tasha.Morrow@harborlinebank.com> =20
+To: Ifeoma Adeyemi <Ifeoma.Adeyemi@harborlinebank.com>; Luis Carvajal <Luis.C=
+arvajal@harborlinebank.com> =20
+Cc: Gregory Hale <Gregory.Hale@harborlinebank.com> =20
+Date: 2022-06-21 15:42 =20
+Subject: Re: Claim 22-0619-44817 opened in Reg E for wire out
+
+Ifeoma,
+
+Confirmed. The claim came in from Contact Center on 6/19 and was keyed into C=
+laimTrack as a Reg E unauthorized transfer matter. The customer said =E2=80=
+=9Cwire transfer=E2=80=9D during the call, but the intake associate used the =
+debit template and did not stop to verify the channel.
+
+I=E2=80=99ve asked the team to correct the classification in the case file an=
+d route it to the wire servicing team for review under TERMS-WIRE. No provisi=
+onal credit was issued, and no customer letter has gone out yet.
+
+I=E2=80=99ll have the intake lead review the call and coach the associate. If=
+ you want, I can also ask Darnell to pull this into the next refresher on DOP=
+-201 / DOP-203 distinctions.
+
+Tasha
+
+---
+
+From: Luis Carvajal <Luis.Carvajal@harborlinebank.com> =20
+To: Tasha Morrow <Tasha.Morrow@harborlinebank.com>; Ifeoma Adeyemi <Ifeoma.Ad=
+eyemi@harborlinebank.com> =20
+Cc: Gregory Hale <Gregory.Hale@harborlinebank.com> =20
+Date: 2022-06-21 14:58 =20
+Subject: Claim 22-0619-44817 opened in Reg E for wire out
+
+Team,
+
+Flagging one from this morning. ClaimTrack case 22-0619-44817 was opened as a=
+n unauthorized debit/EFT claim, but the transaction detail shows an outgoing =
+wire from HLX Core to an external bank. I=E2=80=99ve paused analyst work pend=
+ing direction.
+
+Can QA confirm the proper handling path? I want to make sure we don=E2=80=99t=
+ keep it in the Reg E queue and that the customer notice, if any, uses the co=
+rrect agreement. The analyst noted the customer was upset about the wire post=
+ing and asked for a =E2=80=9Cchargeback,=E2=80=9D which is another sign this =
+may need a clean reclass.
+
+Luis

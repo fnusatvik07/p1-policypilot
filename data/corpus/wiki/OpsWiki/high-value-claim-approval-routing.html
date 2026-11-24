@@ -1,0 +1,100 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>High-value claim approval routing - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>High-value claim approval routing</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-032 — High-value claim approval routing</h1>
+<p><strong>Document ID:</strong> WI-032<br />
+<strong>Title:</strong> High-value claim approval routing<br />
+<strong>Type:</strong> Work instruction (OpsWiki)<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective/Issued Date:</strong> 2023-06-05<br />
+<strong>Status at Issue:</strong> Active<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Applies to:</strong> Claims Intake, Debit &amp; EFT Investigations, Credit Card Investigations, Chargeback Recovery<br />
+<strong>Change note:</strong> Updated for ClaimTrack 2.0 with automated deadline clocks.</p>
+<h2>Purpose</h2>
+<p>This work instruction explains how to route a high-value claim for approval in ClaimTrack and, where applicable, record supporting account context in CardView and Corvane Card Services. Use this page after you have completed intake, classification, and initial coverage review under <strong>CPS-SOP-201</strong>, <strong>CPS-SOP-203</strong>, <strong>CPS-SOP-204</strong>, <strong>CPS-SOP-205</strong>, <strong>CPS-SOP-206</strong>, or <strong>CPS-SOP-209</strong>, and the claim meets the approval threshold or other escalation criteria described in <strong>CPS-SOP-219</strong>.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the claim is already opened in <strong>ClaimTrack 2.0</strong> and assigned to the correct queue.</li>
+<li>Have the customer profile open in <strong>CardView</strong> if the claim involves a debit, credit, or prepaid card.</li>
+<li>Use <strong>Corvane Card Services</strong> only for claims that require processor-side review or network chargeback coordination.</li>
+<li>Confirm your access includes approval routing and note updates in ClaimTrack.</li>
+<li>Do not route a claim until the claim type, product, and dispute reason are confirmed.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the claim in ClaimTrack 2.0.</strong><br />
+   Search by claim number, customer name, or account number. Open the claim summary and review the <strong>Status</strong>, <strong>Claim Type</strong>, <strong>Product</strong>, <strong>Assigned Queue</strong>, and <strong>Deadline Clock</strong> fields. ClaimTrack 2.0 displays the clock automatically once the claim is opened.</p>
+</li>
+<li>
+<p><strong>Verify the approval trigger.</strong><br />
+   In the case header, review the dollar amount, duplicate claim flag, prior provisional credit activity, and any manual review notes. If the case is already designated for high-value routing, the <strong>Approval Routing</strong> banner displays at the top of the claim. Confirm the banner before taking any action.</p>
+</li>
+<li>
+<p><strong>Select the routing action.</strong><br />
+   In the left navigation, click <strong>Actions</strong> &gt; <strong>Route for Approval</strong>.<br />
+   In the routing window, select the appropriate approval path:</p>
+</li>
+<li><strong>Claims Intake Supervisor</strong></li>
+<li><strong>Investigations Manager</strong></li>
+<li><strong>Chargeback Recovery Manager</strong></li>
+<li>
+<p><strong>QA Review Hold</strong></p>
+</li>
+<li>
+<p><strong>Enter the routing reason.</strong><br />
+   In <strong>Reason Code</strong>, choose the code that matches the case condition. In <strong>Comments</strong>, enter a concise summary of the routing basis, including the claim type, amount, and any exception factors. Keep comments factual and limited to case handling. If the deadline clock is near expiration, note that in the comments field.</p>
+</li>
+<li>
+<p><strong>Attach supporting notes or documents.</strong><br />
+   If the claim file includes a customer affidavit, merchant correspondence, or supporting screenshots, click <strong>Attachments</strong> and confirm the items are present. If a document is missing, note the gap in the comments field rather than uploading an incomplete file set. Do not upload duplicate files.</p>
+</li>
+<li>
+<p><strong>Update CardView, if needed.</strong><br />
+   Open <strong>CardView</strong> in a new tab. Review the account status, card product, and recent posting history. If there is a temporary service issue, card reissue indicator, or cardholder restriction that affects routing, record the note in ClaimTrack before returning to the routing screen.</p>
+</li>
+<li>
+<p><strong>Check Corvane Card Services, if applicable.</strong><br />
+   For claims involving network chargeback activity, open the corresponding Corvane case. Confirm merchant response dates, provisional debit activity, and processor notes. If Corvane shows a pending action, enter a reference note in ClaimTrack and continue routing. Use the same claim number whenever Corvane displays multiple related items.</p>
+</li>
+<li>
+<p><strong>Submit the approval route.</strong><br />
+   Return to ClaimTrack, confirm the selected path, and click <strong>Submit</strong>. Verify the case status changes to <strong>Pending Approval</strong> or the equivalent approval-hold status shown by the queue configuration.</p>
+</li>
+<li>
+<p><strong>Notify the next queue.</strong><br />
+   Use the internal task note to indicate the routing destination and any time-sensitive handling point. If the case has a same-day customer contact requirement, include that in the queue note.</p>
+</li>
+<li>
+<p><strong>Close the routing task.</strong><br />
+    Confirm the activity log shows the route action, timestamp, and user ID. If the case remains on hold, leave the case open and stop processing until approval is completed.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>If the claim is borderline and you are unsure whether it requires approval routing, pause and escalate through the queue lead before submitting. Incorrect routing can delay customer communication and downstream case handling.</p>
+<p><strong>Warning</strong></p>
+<p>Do not edit the claim amount, dispute reason, or product type to force a different approval path. Route the case based on the verified record only.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><a href="CPS-SOP-201">CPS-SOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="CPS-SOP-203">CPS-SOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="CPS-SOP-210">CPS-SOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="CPS-SOP-211">CPS-SOP-211 — Provisional Credit</a></li>
+<li><a href="CPS-SOP-217">CPS-SOP-217 — Chargeback Filing and Recovery</a></li>
+<li><a href="CPS-SOP-219">CPS-SOP-219 — High-Value Claim Approvals</a></li>
+<li><a href="CPS-SOP-227">CPS-SOP-227 — Disputes Quality Assurance Review</a></li>
+<li><a href="CPS-SOP-234">CPS-SOP-234 — Coordination with Corvane Card Services</a></li>
+<li><a href="PAGE-HOME">PAGE-HOME — Disputes Operations Home</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 — 2017-04-01:</strong> Published.<br />
+<strong>v2 — 2023-06-05:</strong> Updated for ClaimTrack 2.0; routing screen references, deadline clock handling, and related page links revised.</p></div>
+<hr><div class="meta">Page ID 402142 · Space: CPSDISPUTES</div></body></html>

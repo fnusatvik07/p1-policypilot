@@ -1,0 +1,91 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Posting provisional credit - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Posting provisional credit</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-014 — Posting provisional credit</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System(s):</strong> ClaimTrack 2.0, CardView, Corvane Card Services portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective/issued date:</strong> 2023-06-05<br />
+<strong>Status at issue:</strong> Active  </p>
+<h2>Purpose</h2>
+<p>Use this page to post provisional credit after a dispute claim is approved for temporary credit under the applicable investigation workflow. This instruction covers the operational steps in ClaimTrack 2.0, CardView, and the Corvane portal, along with the validation checks required before the credit is released to the customer’s deposit or card account.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start</strong><br />
+Confirm that the claim is eligible for provisional credit, the approval is recorded in ClaimTrack, and the account is open and not restricted from posting. If the customer holds multiple accounts, verify that the credit is being applied to the same account referenced in the claim record. Do not post provisional credit until the investigation owner has completed the approval step or a documented escalation authorizes release.</p>
+</blockquote>
+<h3>Prerequisites</h3>
+<ul>
+<li>Claim is in approved status in <strong>ClaimTrack 2.0</strong></li>
+<li>Account information is verified in <strong>CardView</strong> or <strong>HLX Core</strong>, as applicable</li>
+<li>Corvane access is available for debit, credit, or prepaid card posting activity</li>
+<li>You have the claim number, masked account number, and credit amount</li>
+<li>If the account is joint, trust, deceased, or POA-related, confirm the case has the required handling notes before posting</li>
+</ul>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the claim in ClaimTrack 2.0.</strong><br />
+   From the work queue, search by claim number, customer identifier, or account number. Open the case record, then review the claim summary panel. Confirm the claim status is <strong>Approved for Provisional Credit</strong> and that the automated deadline clock is no longer the only due-date reference for the case.</p>
+</li>
+<li>
+<p><strong>Review the approval details.</strong><br />
+   Select the <strong>Decision</strong> tab and read the approved amount, claim type, and posting notes. Confirm whether the credit applies to a deposit account or a card account. If the investigation approved only part of the disputed amount, use the exact approved figure shown in the case notes.</p>
+</li>
+<li>
+<p><strong>Validate the target account in CardView.</strong><br />
+   Open <strong>CardView</strong> in a separate session and search using the masked card number or customer profile. Confirm the account status, product type, and servicing profile. For debit disputes, verify the linked deposit account. For credit card and prepaid cases, confirm the active card profile matches the claim record.</p>
+</li>
+<li>
+<p><strong>Open Corvane Card Services portal.</strong><br />
+   Launch the Corvane portal and navigate to the account servicing screen. Use the search field to locate the correct debit, credit, or prepaid profile. If the account does not appear, stop and confirm the account mapping before proceeding.</p>
+</li>
+<li>
+<p><strong>Select the provisional credit action.</strong><br />
+   In Corvane, open the <strong>Account Actions</strong> menu and choose the provisional credit function used for the product type. Enter the approved amount exactly as shown in ClaimTrack 2.0. Do not round, net, or alter the amount unless the case notes specifically instruct otherwise.</p>
+</li>
+<li>
+<p><strong>Enter reference information.</strong><br />
+   Populate the posting reason, claim number, and reference text. Use the standard description used by Disputes Operations. Add the approval date and your operator ID in the comment field if the screen provides a narrative field.</p>
+</li>
+<li>
+<p><strong>Confirm the funding destination.</strong><br />
+   If the credit posts to a deposit account, verify the destination account in <strong>HLX Core</strong> before final submission. If the credit posts to a card ledger, confirm the correct Corvane profile and product are displayed on the confirmation screen.</p>
+</li>
+<li>
+<p><strong>Submit the posting.</strong><br />
+   Review all entries on the confirmation page, then select <strong>Submit</strong>. Wait for the system acknowledgment message and record the confirmation number or posting ID from the success screen.</p>
+</li>
+<li>
+<p><strong>Update the claim in ClaimTrack 2.0.</strong><br />
+   Return to the case record and add a case note with the posting confirmation number, amount, and posting date. Update the task status to reflect that provisional credit has been issued. If the case has a linked follow-up task, retain the linkage and do not close the claim task.</p>
+</li>
+<li>
+<p><strong>Complete the case file.</strong><br />
+    Attach or reference any required posting evidence in the case notes. If the workflow requires customer notice generation, route the case to the applicable notice process after the posting is complete.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong><br />
+Compare the approved amount in ClaimTrack 2.0 with the amount entered in Corvane before you submit. Most posting errors occur when the operator relies on the case summary instead of the approved decision line.</p>
+<p><strong>Warning</strong><br />
+Do not post provisional credit to a closed, charged-off, or blocked account without documented approval from the investigation manager. If the system rejects the transaction, stop and escalate rather than retrying the posting multiple times.</p>
+<p><strong>Tip</strong><br />
+If the customer received a merchant credit during the investigation, review the case notes before posting to avoid duplicate crediting.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>CPS-SOP-210</strong> — Investigation Timelines and Extensions  </li>
+<li><strong>CPS-SOP-211</strong> — Provisional Credit  </li>
+<li><strong>CPS-SOP-212</strong> — Final Determination and Customer Notices  </li>
+<li><strong>CPS-SOP-213</strong> — Reversal of Provisional Credit  </li>
+<li><strong>CPS-SOP-229</strong> — Claim Records and Evidence Retention  </li>
+<li><strong>CPS-SOP-234</strong> — Coordination with Corvane Card Services  </li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 — 2017-04-01:</strong> Published under the DOP-211 series.<br />
+<strong>v2 — 2023-06-05:</strong> Updated for ClaimTrack 2.0 and policy renumbering to CPS-SOP-211.</p></div>
+<hr><div class="meta">Page ID 401962 · Space: CPSDISPUTES</div></body></html>

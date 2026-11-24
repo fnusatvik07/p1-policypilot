@@ -1,0 +1,12 @@
+-- Load CSVs into Postgres (run from data/db):
+\copy customers FROM 'csv/customers.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy accounts FROM 'csv/accounts.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy cards FROM 'csv/cards.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy statements FROM 'csv/statements.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy transactions FROM 'csv/transactions.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy dispute_cases FROM 'csv/dispute_cases.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy case_events FROM 'csv/case_events.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy letters FROM 'csv/letters.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy chargebacks FROM 'csv/chargebacks.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy analysts FROM 'csv/analysts.csv' WITH (FORMAT csv, HEADER true, NULL '')
+\copy holidays FROM 'csv/holidays.csv' WITH (FORMAT csv, HEADER true, NULL '')

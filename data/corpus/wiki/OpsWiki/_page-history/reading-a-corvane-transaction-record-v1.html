@@ -1,0 +1,159 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Reading a Corvane transaction record - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Reading a Corvane transaction record</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-009 — Reading a Corvane transaction record</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective / issued date:</strong> 2017-04-01<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training</p>
+<h2>Purpose</h2>
+<p>Use this page to read a Corvane transaction record when reviewing a debit, credit, or prepaid card dispute. Corvane is the third-party processor used for card transaction and chargeback activity. This instruction explains where to find the record, how to match it to the claim, and which fields are typically relied on during investigation work.</p>
+<p>For dispute handling steps, use this page together with:</p>
+<ul>
+<li><a href="DOP-203">DOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="DOP-204">DOP-204 — Debit Card Point-of-Sale Disputes</a></li>
+<li><a href="DOP-209">DOP-209 — Credit Card Billing Error Disputes</a></li>
+<li><a href="DOP-217">DOP-217 — Chargeback Filing and Recovery</a></li>
+<li><a href="DOP-234">DOP-234 — Coordination with Corvane Card Services</a></li>
+</ul>
+<hr />
+<blockquote>
+<p>[!NOTE]
+<strong>Before you start</strong></p>
+<p>Confirm the claim number in ClaimTrack and the last four digits of the card number before opening Corvane. If the claim is a duplicate, a repeat claim, or tied to a merchant credit, review the applicable procedure first so you are reading the correct transaction record.<br />
+You will need access to:</p>
+<ul>
+<li>ClaimTrack</li>
+<li>CardView</li>
+<li>Corvane Card Services portal</li>
+</ul>
+<p>Use only the current claim record. Do not rely on screenshots or notes copied into shared files when a live system record is available.</p>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li><strong>Open the claim in ClaimTrack.</strong>  </li>
+<li>Log in to ClaimTrack.</li>
+<li>Search by claim number, card number, or customer name.</li>
+<li>Open the claim from the search results.</li>
+<li>
+<p>Verify the dispute type and transaction date on the claim header.</p>
+</li>
+<li>
+<p><strong>Review the card details in CardView.</strong>  </p>
+</li>
+<li>From the ClaimTrack claim, select the card/account link or open CardView separately.</li>
+<li>Confirm the product type: debit, credit, or prepaid.</li>
+<li>Verify the masked card number, account status, and cardholder name.</li>
+<li>
+<p>Check whether the card was reissued, closed, or replaced before the disputed date.</p>
+</li>
+<li>
+<p><strong>Open the Corvane portal.</strong>  </p>
+</li>
+<li>Launch the Corvane Card Services portal in your browser.</li>
+<li>Sign in using your network credentials.</li>
+<li>
+<p>Select the transaction search or account activity function.</p>
+</li>
+<li>
+<p><strong>Search for the transaction.</strong>  </p>
+</li>
+<li>Enter the masked card number, transaction date, or amount as available.</li>
+<li>If the claim references a merchant name, use the merchant search field.</li>
+<li>
+<p>Run the search and open the matching transaction record.</p>
+</li>
+<li>
+<p><strong>Read the transaction header.</strong><br />
+   Confirm the following first:</p>
+</li>
+<li>Transaction date and time</li>
+<li>Posting date, if shown</li>
+<li>Amount</li>
+<li>Merchant name and merchant location</li>
+<li>Card type and account identifier</li>
+<li>
+<p>Authorization response, if present</p>
+</li>
+<li>
+<p><strong>Review authorization and settlement details.</strong>  </p>
+</li>
+<li>Check whether the item was approved, declined, reversed, or adjusted.</li>
+<li>Compare the authorization amount to the settled amount.</li>
+<li>Look for partial captures, tips, or split transactions when the amounts differ.</li>
+<li>
+<p>If a merchant credit appears, note the credit date and amount.</p>
+</li>
+<li>
+<p><strong>Check the transaction status and dispute indicators.</strong>  </p>
+</li>
+<li>Review any chargeback, retrieval, representment, or reversal indicators shown in Corvane.</li>
+<li>Note whether the item has already been worked by Chargeback Recovery.</li>
+<li>
+<p>Confirm whether the transaction is still open, final, or closed.</p>
+</li>
+<li>
+<p><strong>Document the record in ClaimTrack.</strong>  </p>
+</li>
+<li>Return to ClaimTrack.</li>
+<li>Add case notes that summarize the Corvane record.</li>
+<li>Record the fields used to support the next action, such as merchant name, amount, dates, and status.</li>
+<li>Attach or reference any system-generated record permitted by procedure.</li>
+</ol>
+<blockquote>
+<p>[!TIP]
+When the merchant name in Corvane does not match the customer’s description, compare the transaction date, amount, and location before concluding it is the wrong item. The posted merchant descriptor may differ from the store name the customer uses.</p>
+<p>[!WARNING]
+Do not treat a single authorization screen as the complete transaction history. Some disputes require both authorization and settlement data before the record can be read correctly.</p>
+</blockquote>
+<h2>Field guide</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>What it usually shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Transaction date/time</td>
+<td>When the transaction was initiated or posted in Corvane</td>
+</tr>
+<tr>
+<td>Merchant name</td>
+<td>The descriptor associated with the transaction</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Original, settled, adjusted, or credited value</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Open, closed, reversed, credited, or disputed</td>
+</tr>
+<tr>
+<td>Reference number</td>
+<td>Identifier used when comparing Corvane, CardView, and ClaimTrack</td>
+</tr>
+<tr>
+<td>Network indicator</td>
+<td>Card network or processing flag tied to the transaction</td>
+</tr>
+</tbody>
+</table>
+<h2>Related pages</h2>
+<ul>
+<li><a href="DOP-201">DOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="DOP-203">DOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="DOP-210">DOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="DOP-217">DOP-217 — Chargeback Filing and Recovery</a></li>
+<li><a href="DOP-229">DOP-229 — Claim Records and Evidence Retention</a></li>
+<li><a href="DOP-234">DOP-234 — Coordination with Corvane Card Services</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 | 2017-04-01 | Published</strong><br />
+Initial issue of WI-009.</p></div>
+<hr><div class="meta">Page ID 401911 · Space: CPSDISPUTES</div></body></html>

@@ -1,0 +1,88 @@
+From: Tasha Morrow <tmorrow@harborline.com>
+To: Gregory Hale <ghale@harborline.com>
+Cc: Darnell Price <dprice@harborline.com>, Mei-Lin Zhou <mzhou@harborline.com>
+Subject: RE: Policy exception request - branch-submitted claim intake timing
+Date: Mon, 02 Nov 2020 16:18:42 -0500
+Message-ID: <179543013434.89985.2574020394472462046@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Tasha Morrow <tmorrow@harborline.com> =20
+To: Gregory Hale <ghale@harborline.com> =20
+Cc: Darnell Price <dprice@harborline.com>, Mei-Lin Zhou <mzhou@harborline.com=
+> =20
+Date: Mon, 2 Nov 2020 16:18:42 -0500 =20
+Subject: RE: Policy exception request - branch-submitted claim intake timing
+
+Greg,
+
+Requesting a temporary exception to the branch-submitted claim intake deadlin=
+e under DOP-224.
+
+Branches are still handling a higher-than-normal volume of paper claim packet=
+s and supporting docs, and several sites are getting same-day submissions clo=
+se to closing. We are seeing missed cutoffs for scan-to-ClaimTrack entry even=
+ when the branch enters the claim correctly in TellerOne. The backlog is conc=
+entrated in branches with reduced staffing and shared scanning resources.
+
+Proposed exception:
+- allow branch-submitted claims to be transmitted to Claims Intake by 12:00 p=
+.m. the next business day, instead of same business day;
+- keep all regulatory timelines unchanged;
+- have branches mark any late-day intake packets as =E2=80=9Cnext-day scan=E2=
+=80=9D in the branch log for tracking.
+
+This would give us a cleaner process through the end of the month while we st=
+abilize staffing. We can monitor daily volumes and roll back once the branch =
+queue normalizes.
+
+If you=E2=80=99re aligned, I=E2=80=99ll send a short note to branch ops and u=
+pdate the DOP-224 job aid in OpsWiki.
+
+Tasha
+
+---
+
+From: Gregory Hale <ghale@harborline.com> =20
+To: Tasha Morrow <tmorrow@harborline.com> =20
+Cc: Darnell Price <dprice@harborline.com>, Mei-Lin Zhou <mzhou@harborline.com=
+> =20
+Date: Mon, 2 Nov 2020 16:31:09 -0500 =20
+Subject: RE: Policy exception request - branch-submitted claim intake timing
+
+Tasha,
+
+Approved as an internal operating exception through 11/30, subject to the con=
+trols below:
+1. no change to customer-facing promises or required notices;
+2. Claims Intake still logs receipt date/time based on when the branch sends =
+the packet, not when we open it;
+3. any packet missing a branch date stamp gets escalated back to the branch s=
+ame day.
+
+Please loop in Darnell so training can reinforce the new routing note. Mei-Li=
+n, please keep this on your QA radar in case we see misdated branch entries.
+
+Greg
+
+---
+
+From: Tasha Morrow <tmorrow@harborline.com> =20
+To: Gregory Hale <ghale@harborline.com> =20
+Cc: Darnell Price <dprice@harborline.com>, Mei-Lin Zhou <mzhou@harborline.com=
+>, Branch Operations Distribution <branchops@harborline.com> =20
+Date: Mon, 2 Nov 2020 16:44:58 -0500 =20
+Subject: RE: Policy exception request - branch-submitted claim intake timing
+
+Thanks, Greg.
+
+I=E2=80=99ll send the branch note now and have Darnell push the reminder in t=
+he next training huddle. The Claims Intake leads will watch for packets with =
+no branch date stamp and return those immediately.
+
+I=E2=80=99ll also have the team flag any repeat issues in the daily intake lo=
+g so we can decide whether this needs a longer-term procedure change in DOP-2=
+24.
+
+Tasha

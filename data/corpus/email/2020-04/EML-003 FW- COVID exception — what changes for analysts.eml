@@ -1,0 +1,91 @@
+From: Luis Carvajal <luis.carvajal@harborlinebank.com>
+To: Debit & EFT Investigations Analysts
+Cc: Gregory Hale <gregory.hale@harborlinebank.com>,
+ Tasha Morrow <tasha.morrow@harborlinebank.com>,
+ Hannah Brandt <hannah.brandt@harborlinebank.com>,
+ Owen Pruitt <owen.pruitt@harborlinebank.com>,
+ Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>,
+ Darnell Price <darnell.price@harborlinebank.com>
+Subject: FW: COVID exception =?utf-8?b?4oCU?= what changes for analysts
+Date: Thu, 16 Apr 2020 09:14:00 -0500
+Message-ID: <179543013434.89985.4517457392071889495@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Luis Carvajal =20
+To: Debit & EFT Investigations Analysts =20
+Cc: Gregory Hale; Tasha Morrow; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi; D=
+arnell Price =20
+Date: 2020-04-16 08:12 =20
+Subject: FW: COVID exception =E2=80=94 what changes for analysts
+
+Team=E2=80=94
+
+Quick heads-up on the operating exception that went live yesterday.
+
+Until June 30, 2021, the internal target for the provisional credit decision =
+is extended to the 15th business day after the notice of error; the 10-busine=
+ss-day regulatory deadline is unchanged.
+
+Practically, this means:
+- continue keying notices and case actions in ClaimTrack the same day received
+- keep using DOP-210 and DOP-211 for timeline checks and provisional credit d=
+ecisions
+- do not tell customers anything has changed about their rights or our regula=
+tory timing
+- if a file is close to the old internal target, escalate to your lead as usu=
+al; we are still prioritizing hardship, elderly, and recurring electronic tra=
+nsfer claims
+
+This is an internal target change only. Any notice, letter, or customer-facin=
+g language must remain aligned to POL-001, POL-013, DOP-230, and the standard=
+ templates.
+
+Please keep questions in the team channel or route them through your supervis=
+or. I will cover the queue impact in the next huddle.
+
+Luis
+
+---
+
+From: Gregory Hale =20
+To: Luis Carvajal; Debit & EFT Investigations Analysts =20
+Cc: Tasha Morrow; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi; Darnell Price  =
+
+Date: 2020-04-15 17:40 =20
+Subject: RE: COVID exception =E2=80=94 what changes for analysts
+
+Adding context from Disputes Ops:
+
+The exception is temporary and is being used to give teams room while staffin=
+g is uneven. It does not change how we classify claims, how we calculate busi=
+ness days, or when we issue customer notices under DOP-212.
+
+Luis will send the team-specific instructions for Debit & EFT, but the main p=
+oint is simple: the old internal provisional credit target is relaxed, while =
+the legal deadline stays put. Please keep documenting delays in ClaimTrack no=
+tes so QA and Reporting can see the impact.
+
+Greg
+
+---
+
+From: Samuel Okafor =20
+To: Gregory Hale; Luis Carvajal =20
+Cc: Dana Whitfield; Marcus Oyelaran; Mei-Lin Zhou; Erin Kowalski =20
+Date: 2020-04-15 16:05 =20
+Subject: COVID operating exception =E2=80=94 disputes timelines
+
+Greg, Luis=E2=80=94
+
+Per the approved exception, operating teams may use the temporary internal ta=
+rget adjustment through June 30, 2021. Please make sure your managers brief a=
+nalysts and that any job aids or queue scripts reflect the temporary internal=
+ target only.
+
+No changes are being made to regulatory requirements or customer disclosures.=
+ If you need help updating the procedure references, coordinate with Policy G=
+overnance and Compliance Testing.
+
+Sam

@@ -1,0 +1,94 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Reversing provisional credit - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Reversing provisional credit</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-021 — Reversing provisional credit</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System(s):</strong> ClaimTrack 2.0, CardView, Corvane Card Services portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective/Issued:</strong> 2023-06-05<br />
+<strong>Status:</strong> Active  </p>
+<h2>Purpose</h2>
+<p>Use this procedure when a dispute case has an outstanding provisional credit and the investigator or supervisor has approved reversal. This page covers the operational steps to document the reversal in ClaimTrack 2.0, update the card account record in CardView, and complete the Corvane return action where applicable. For decisioning, notices, and records retention, see <strong>CPS-SOP-213 — Reversal of Provisional Credit</strong>, <strong>CPS-SOP-212 — Final Determination and Customer Notices</strong>, and <strong>CPS-SOP-229 — Claim Records and Evidence Retention</strong>.</p>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the case is in a status that allows reversal under <strong>CPS-SOP-213</strong>.</li>
+<li>Verify the approved reversal amount in the case notes and supporting documentation.</li>
+<li>Confirm whether the provisional credit was posted to a debit, credit, or prepaid card account.</li>
+<li>If the case involves a network chargeback or processor action, have the Corvane case reference available.</li>
+<li>Do not reverse partial amounts unless the approval specifically authorizes a partial reversal.</li>
+<li>In ClaimTrack 2.0, the automated deadline clock continues to run; complete the work item before exiting the case if the task is assigned to you.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the case in ClaimTrack 2.0.</strong><br />
+   Search by case number, customer name, or card number. Open the case and review the <strong>Investigation Summary</strong>, <strong>Timeline</strong>, and <strong>Financials</strong> tabs before making any changes. Confirm the deadline clock, assigned queue, and current case owner.</p>
+</li>
+<li>
+<p><strong>Confirm the reversal basis.</strong><br />
+   Check the case disposition and notes to verify that the provisional credit must be reversed. If the disposition is unclear, stop and route the case to the assigned analyst or supervisor. Do not rely on the financial entry alone.</p>
+</li>
+<li>
+<p><strong>Select the provisional credit transaction.</strong><br />
+   In the <strong>Financials</strong> tab, locate the provisional credit entry. Confirm the posting date, amount, and linked account. Record these details in the case notes. If more than one provisional credit exists, use the entry tied to the approved reversal.</p>
+</li>
+<li>
+<p><strong>Initiate the reversal in ClaimTrack 2.0.</strong><br />
+   Choose <strong>Actions &gt; Reverse Provisional Credit</strong>. Enter the approved reversal amount exactly as shown in the approval record. Add the required reason code and any case-specific comment text. Save the action before moving to another tab.</p>
+</li>
+<li>
+<p><strong>Review the ClaimTrack status update.</strong><br />
+   Verify that ClaimTrack shows the reversal as pending completion or posted, depending on the case configuration. If the transaction does not save, do not re-enter it until you confirm whether a duplicate action was created.</p>
+</li>
+<li>
+<p><strong>Update CardView.</strong><br />
+   Open CardView for the affected cardholder account. Review the ledger to confirm the provisional credit appears on the account history. If the reversal has not yet reflected, document in the account notes that the reversal was initiated in ClaimTrack and proceed to the account adjustment step.</p>
+</li>
+<li>
+<p><strong>Post the offset or debit adjustment.</strong><br />
+   In CardView, apply the reversal adjustment using the appropriate account maintenance function for the card type. Confirm the amount, effective date, and transaction description before submitting. For debit and prepaid accounts, verify the funding account linkage before finalizing.</p>
+</li>
+<li>
+<p><strong>Check for balance changes.</strong><br />
+   Review the available balance, current balance, and any dispute-related holds. If the reversal creates a negative balance or overdraft condition, note it in the case and follow the related account servicing process. Do not override balance errors without a documented correction path.</p>
+</li>
+<li>
+<p><strong>Complete Corvane action, if applicable.</strong><br />
+   If the original provisional credit was tied to a Corvane-managed dispute or chargeback workflow, sign in to the Corvane Card Services portal. Locate the case using the Corvane reference number and post the reversal status update. Save the audit trail reference in ClaimTrack.</p>
+</li>
+<li>
+<p><strong>Document the final outcome.</strong><br />
+    Return to ClaimTrack and enter the final reversal note, including the CardView confirmation and any Corvane reference numbers. Attach supporting screenshots or system confirmations only if required by the case file standard. Keep the note factual and limited to operational actions taken.</p>
+</li>
+<li>
+<p><strong>Complete the work item.</strong><br />
+    Mark the operational step complete and route the case to the next queue or closure step per <strong>CPS-SOP-212</strong> and <strong>CPS-SOP-229</strong>. If the case is still assigned to you, confirm the queue changes before signing off.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>ClaimTrack 2.0 replaces manual deadline tracking with an automated clock. Use the case header to confirm whether the task is approaching its internal due time before you switch systems.</p>
+<p><strong>Warning</strong></p>
+<p>A reversal entered in ClaimTrack without the matching CardView adjustment can leave the account out of balance. Always verify both systems before closing the work item.</p>
+<p><strong>Tip</strong></p>
+<p>If Corvane shows a different amount than ClaimTrack, pause and reconcile the case before posting. Do not correct the amount in more than one system without an approved adjustment record.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>CPS-SOP-211 — Provisional Credit</strong></li>
+<li><strong>CPS-SOP-212 — Final Determination and Customer Notices</strong></li>
+<li><strong>CPS-SOP-213 — Reversal of Provisional Credit</strong></li>
+<li><strong>CPS-SOP-229 — Claim Records and Evidence Retention</strong></li>
+<li><strong>CPS-SOP-234 — Coordination with Corvane Card Services</strong></li>
+</ul>
+<h2>Page history</h2>
+<ul>
+<li><strong>v1 (2017-04-01):</strong> Published.</li>
+<li><strong>v2 (2023-06-05):</strong> Updated for ClaimTrack 2.0 and policy renumbering from DOP to CPS-SOP.</li>
+</ul></div>
+<hr><div class="meta">Page ID 402032 · Space: CPSDISPUTES</div></body></html>

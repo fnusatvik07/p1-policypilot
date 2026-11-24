@@ -1,0 +1,136 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Duplicate claim detection - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Duplicate claim detection</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-037 — Duplicate claim detection</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System(s):</strong> ClaimTrack 2.0, CardView, Corvane portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective / issued date:</strong> 2023-06-05<br />
+<strong>Status at issue:</strong> Active</p>
+<h2>Purpose</h2>
+<p>Use this procedure when a customer submits a new dispute claim and there is a possibility that the same transaction, account, or event has already been claimed. Duplicate claim detection prevents duplicate case creation, duplicate case handling, and duplicate customer communication.</p>
+<p>This page supports the claim intake workflow in ClaimTrack 2.0 and should be used together with <strong>CPS-SOP-201 Claim Intake (All Channels)</strong> and <strong>CPS-SOP-223 Duplicate and Repeat Claims</strong>.</p>
+<blockquote>
+<p>[!NOTE]
+This work instruction covers intake screening only. If the claim is already open, escalated, or resolved, follow the applicable dispute procedure and do not create a second case.</p>
+</blockquote>
+<h2>Before you start</h2>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Required access</td>
+<td>Confirm you have access to ClaimTrack 2.0, CardView, and the Corvane portal.</td>
+</tr>
+<tr>
+<td>Intake facts</td>
+<td>Gather customer name, account number, transaction date, amount, merchant name, and last four digits of the card or account.</td>
+</tr>
+<tr>
+<td>Search scope</td>
+<td>Check open, pending, and recently closed claims for the same customer and transaction.</td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td>Keep all search results and notes in the case record.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!WARNING]
+Do not rely on customer memory alone. Duplicate detection must be based on system records, transaction details, and case notes.</p>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open ClaimTrack 2.0.</strong><br />
+   Sign in to ClaimTrack and select <strong>Claims Intake</strong> from the left navigation. Confirm the claim queue is set to the correct intake channel before you begin the search.</p>
+</li>
+<li>
+<p><strong>Search for the customer.</strong><br />
+   In the <strong>Customer Search</strong> panel, enter the customer’s last name and one additional identifier, such as account number or card number. Select <strong>Search</strong>.</p>
+</li>
+<li>
+<p><strong>Review matching cases.</strong><br />
+   In the results list, review all cases tied to the same customer. Pay particular attention to cases with:</p>
+</li>
+<li>the same transaction date,</li>
+<li>the same merchant or card network reference,</li>
+<li>the same amount, and</li>
+<li>
+<p>the same dispute reason.</p>
+</li>
+<li>
+<p><strong>Open each possible match.</strong><br />
+   Select the case number to open the record. Review:</p>
+</li>
+<li>case status,</li>
+<li>dispute type,</li>
+<li>claimed transaction details,</li>
+<li>notes from prior associates, and</li>
+<li>
+<p>any references to withdrawal, replacement, or re-filed disputes.</p>
+</li>
+<li>
+<p><strong>Check CardView for account-level activity.</strong><br />
+   Return to the customer profile and open <strong>CardView</strong>. Confirm whether the transaction appears on the card ledger and whether any prior dispute indicators, temporary credits, or reversals are present.</p>
+</li>
+<li>
+<p><strong>Check Corvane portal for network disputes.</strong><br />
+   If the claim involves a debit, credit, or prepaid card transaction routed through Corvane, open the Corvane portal and search by card number and transaction date. Review whether a network chargeback, representment, or earlier dispute record exists.</p>
+</li>
+<li>
+<p><strong>Compare the transaction identifiers.</strong><br />
+   Compare the following across ClaimTrack, CardView, and Corvane:</p>
+</li>
+<li>transaction date and posting date,</li>
+<li>amount,</li>
+<li>merchant name,</li>
+<li>authorization or retrieval reference, and</li>
+<li>
+<p>partial card number.</p>
+</li>
+<li>
+<p><strong>Determine whether the claim is a duplicate.</strong><br />
+   Treat the claim as duplicate when the same event is already open or previously handled and no new transaction is identified. If the claim is partially overlapping but contains a new transaction, process only the new item and note the overlap.</p>
+</li>
+<li>
+<p><strong>Document the outcome in ClaimTrack.</strong><br />
+   Add a case note stating the duplicate match source, the matching case number, and the system(s) reviewed. Use clear language such as “duplicate of prior claim” or “partial overlap; new item remains open.”</p>
+</li>
+<li>
+<p><strong>Route the claim as required.</strong><br />
+    If the claim is a duplicate, follow the disposition in <strong>CPS-SOP-223</strong> and do not create a new investigation path. If the match is unclear, escalate the case for review using the normal intake escalation queue.</p>
+</li>
+</ol>
+<blockquote>
+<p>[!TIP]
+When two claims share the same merchant and date but different amounts, confirm whether one amount is a partial approval, split tender, or a separate cardholder event before marking a duplicate.</p>
+<p>[!TIP]
+Search spelling variants and merchant abbreviations. A duplicate may not appear under the exact same merchant name shown by the customer.</p>
+<p>[!WARNING]
+Never delete a claim record to remove a duplicate. Keep both records visible in ClaimTrack and document the disposition in the appropriate case.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>CPS-SOP-201</strong> — Claim Intake (All Channels)</li>
+<li><strong>CPS-SOP-203</strong> — Claim Classification and Coverage</li>
+<li><strong>CPS-SOP-223</strong> — Duplicate and Repeat Claims</li>
+<li><strong>CPS-SOP-229</strong> — Claim Records and Evidence Retention</li>
+<li><strong>CPS-SOP-234</strong> — Coordination with Corvane Card Services</li>
+<li><strong>POL-004</strong> — Records Retention Policy — Consumer Disputes</li>
+</ul>
+<h2>Page history</h2>
+<ul>
+<li><strong>v1</strong> — 2017-04-01 — Published.</li>
+<li><strong>v2</strong> — 2023-06-05 — Updated for ClaimTrack 2.0; procedure text refreshed for current ClaimTrack navigation and ClaimTrack 2.0 automated deadline clocks.</li>
+</ul></div>
+<hr><div class="meta">Page ID 402192 · Space: CPSDISPUTES</div></body></html>

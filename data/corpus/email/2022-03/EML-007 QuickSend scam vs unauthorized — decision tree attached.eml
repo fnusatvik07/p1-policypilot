@@ -1,0 +1,100 @@
+From: Luis Carvajal <Luis.Carvajal@harborline.com>
+To: Tasha Morrow <Tasha.Morrow@harborline.com>,
+ Gregory Hale <Gregory.Hale@harborline.com>
+Cc: Dana Whitfield <Dana.Whitfield@harborline.com>,
+ Marcus Oyelaran <Marcus.Oyelaran@harborline.com>,
+ Sofia Lindqvist <Sofia.Lindqvist@harborline.com>,
+ Rebecca Sloane <Rebecca.Sloane@harborline.com>,
+ Darnell Price <Darnell.Price@harborline.com>
+Subject: RE: QuickSend scam vs unauthorized =?utf-8?b?4oCU?= decision tree
+ attached
+Date: Wed, 02 Mar 2022 04:18:00 -0000
+Message-ID: <179543013434.89985.10060236952204337488@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Luis Carvajal <Luis.Carvajal@harborline.com> =20
+To: Tasha Morrow <Tasha.Morrow@harborline.com>; Gregory Hale <Gregory.Hale@ha=
+rborline.com> =20
+Cc: Dana Whitfield <Dana.Whitfield@harborline.com>; Marcus Oyelaran <Marcus.O=
+yelaran@harborline.com>; Sofia Lindqvist <Sofia.Lindqvist@harborline.com>; Re=
+becca Sloane <Rebecca.Sloane@harborline.com>; Darnell Price <Darnell.Price@ha=
+rborline.com> =20
+Date: Wed, Mar 2, 2022 4:18 PM =20
+Subject: RE: QuickSend scam vs unauthorized =E2=80=94 decision tree attached
+
+Team,
+
+Attaching the decision tree we reviewed for DOP-207 / FAQ-QS-01. Please route=
+ all new QuickSend claims through this logic effective immediately.
+
+The key call is still source of initiation, not whether the customer was pres=
+sured. If the fraudster logged in and sent the transfer using credentials or =
+an OTP, it is Reg E unauthorized. If the customer used their own app session =
+and sent the payment to a bad actor, we do not classify it as unauthorized, b=
+ut we still log the matter for scam review and possible reimbursement conside=
+ration.
+
+- If a fraudster obtained the customer's QuickSend login credentials or one-t=
+ime passcode and initiated the payment, the payment is treated as an unauthor=
+ized transfer under Regulation E, even if the customer was tricked into shari=
+ng the credentials.
+- If the customer personally sent a QuickSend payment to a scammer, the payme=
+nt is not an unauthorized transfer, but the claim is still logged and reviewe=
+d under the Scam Reimbursement Guideline.
+
+Tasha, please make sure Claims Intake is using the updated intake notes. Greg=
+, can you have QA spot-check the first batch next week? We need consistency w=
+ith the 3/1 CFPB FAQ response and no drift back to the old =E2=80=9Cscam =3D =
+unauthorized=E2=80=9D shorthand.
+
+Luis
+
+---
+
+From: Gregory Hale <Gregory.Hale@harborline.com> =20
+To: Luis Carvajal <Luis.Carvajal@harborline.com> =20
+Cc: Tasha Morrow <Tasha.Morrow@harborline.com>; Dana Whitfield <Dana.Whitfiel=
+d@harborline.com>; Marcus Oyelaran <Marcus.Oyelaran@harborline.com> =20
+Date: Wed, Mar 2, 2022 2:42 PM =20
+Subject: RE: QuickSend scam vs unauthorized =E2=80=94 decision tree attached
+
+Looks good to me, Luis.
+
+The decision tree is clear enough for Intake and the analysts. I=E2=80=99ll h=
+ave Ifeoma pull a QA sample once the guidance is live in the Disputes Ops Lib=
+rary. Please also keep the language aligned with DOP-203 and DOP-207 so the r=
+eps aren=E2=80=99t trying to force scam-only claims into Reg E buckets.
+
+One ask: can you add a note on the evidence sequence? If the customer says =
+=E2=80=9CI shared my code,=E2=80=9D we still need to document whether the fra=
+udster initiated the transfer from the customer=E2=80=99s authenticated sessi=
+on or whether the customer actually approved the send.
+
+Greg
+
+> From: Luis Carvajal <Luis.Carvajal@harborline.com> =20
+> To: Gregory Hale <Gregory.Hale@harborline.com>; Tasha Morrow <Tasha.Morrow@=
+harborline.com> =20
+> Cc: Dana Whitfield <Dana.Whitfield@harborline.com>; Marcus Oyelaran <Marcus=
+.Oyelaran@harborline.com>; Rebecca Sloane <Rebecca.Sloane@harborline.com> =20
+> Date: Wed, Mar 2, 2022 1:11 PM =20
+> Subject: QuickSend scam vs unauthorized =E2=80=94 decision tree attached
+>
+> Team =E2=80=94
+>
+> Per the 3/1 CFPB FAQ response and the updated DOP-207 draft, we need one cl=
+ean decision tree for Claims Intake and DEB analysts. The issue keeps coming =
+up when customers say they were =E2=80=9Cscammed=E2=80=9D after giving someon=
+e the OTP.
+>
+> The main point: unauthorized transfer depends on who initiated the send. Sc=
+am reimbursement is a separate review path and does not change the Reg E clas=
+sification.
+>
+> I attached the draft tree for review. Please send edits today if you see an=
+y gaps.
+>
+> Luis
+

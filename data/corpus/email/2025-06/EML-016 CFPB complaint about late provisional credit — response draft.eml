@@ -1,0 +1,114 @@
+From: Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>
+To: Priya Raman <priya.raman@harborlinebank.com>,
+ Catherine Doyle <catherine.doyle@harborlinebank.com>
+Cc: Dana Whitfield <dana.whitfield@harborlinebank.com>,
+ Marcus Oyelaran <marcus.oyelaran@harborlinebank.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborlinebank.com>
+Subject: RE: CFPB complaint - late provisional credit response draft
+Date: Mon, 02 Jun 2025 16:42:00 -0400
+Message-ID: <179543013438.89985.7738774760351418614@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Ifeoma Adeyemi =20
+To: Priya Raman; Catherine Doyle =20
+Cc: Dana Whitfield; Marcus Oyelaran; Mei-Lin Zhou =20
+Date: Mon, 2 Jun 2025 16:42:00 -0400 =20
+Subject: RE: CFPB complaint - late provisional credit response draft
+
+Priya/Catherine,
+
+I=E2=80=99ve reviewed the draft against CPS-SOP-211 and CPS-SOP-235. The subs=
+tance is close, but I recommend tightening the language on the timing issue s=
+o we don=E2=80=99t overstate the customer impact or imply a policy exception =
+that didn=E2=80=99t exist.
+
+Suggested edits:
+- State plainly that the provisional credit was not issued when the claim was=
+ originally reviewed.
+- Confirm that the credit was later applied after the issue was identified an=
+d escalated.
+- Avoid saying =E2=80=9Csystem error=E2=80=9D unless we can support that from=
+ the case notes; =E2=80=9Cprocessing delay=E2=80=9D is safer if we keep it ge=
+neric.
+- If we reference the secure message notice, use the same wording as CPS-SOP-=
+230 and OB-2024-11.
+
+I also want Legal to confirm the response does not concede a broader control =
+failure. We can acknowledge the complaint and the late credit, then say we re=
+viewed the file and took corrective action.
+
+I=E2=80=99ll be offline after 5, but I can review a clean version before send=
+ if needed.
+
+Ifeoma
+
+---
+
+From: Catherine Doyle =20
+To: Ifeoma Adeyemi; Priya Raman =20
+Cc: Dana Whitfield; Marcus Oyelaran =20
+Date: Mon, 2 Jun 2025 15:58:00 -0400 =20
+Subject: RE: CFPB complaint - late provisional credit response draft
+
+Agreed with Ifeoma.
+
+For the CFPB portal response, keep it factual and avoid unnecessary detail ab=
+out internal controls. We should not speculate on root cause in the customer-=
+facing response. The draft should reflect:
+1) the complaint was received through the CFPB portal,
+2) the customer=E2=80=99s claim was investigated under Regulation E and CPS-S=
+OP-211,
+3) the provisional credit was not provided on the initial timeline, and
+4) the credit was subsequently issued after the matter was escalated.
+
+Please send me the revised paragraph once you=E2=80=99ve updated it. I=E2=80=
+=99m fine with the current close, provided we remove the line that says =E2=
+=80=9Cthe matter was resolved within policy=E2=80=9D unless we can support th=
+at as written.
+
+Catherine
+
+---
+
+From: Priya Raman =20
+To: Ifeoma Adeyemi; Catherine Doyle =20
+Cc: Dana Whitfield; Marcus Oyelaran =20
+Date: Mon, 2 Jun 2025 15:21:00 -0400 =20
+Subject: CFPB complaint - late provisional credit response draft
+
+Team,
+
+Attached below is the draft response for the CFPB complaint. The customer say=
+s the provisional credit came late. We checked the ClaimTrack file and the cr=
+edit was issued after the initial review, so the response says we apologize f=
+or the delay and note that the account was corrected once the issue was ident=
+ified.
+
+Draft language:
+
+=E2=80=9CWe reviewed the customer=E2=80=99s concern regarding the timing of t=
+he provisional credit on the disputed debit card transaction. Our records sho=
+w the claim was opened and reviewed in ClaimTrack, and the provisional credit=
+ was not issued at the time of the initial review. After the issue was identi=
+fied, we completed the correction and applied the provisional credit to the c=
+ustomer=E2=80=99s account. We apologize for the delay and have taken steps to=
+ ensure the matter was addressed.=E2=80=9D
+
+Please let me know if you want the response to include a reference to the cus=
+tomer notice timing under CPS-SOP-230, or if this is enough for the portal re=
+sponse.
+
+Priya
+
+> From: Dana Whitfield =20
+> To: Priya Raman; Ifeoma Adeyemi; Catherine Doyle =20
+> Date: Mon, 2 Jun 2025 14:47:00 -0400 =20
+> Subject: RE: CFPB complaint - late provisional credit response draft
+>
+> Please keep the tone measured and factual. We want a clear response that ac=
+knowledges the complaint, but no extra commentary. Also make sure the final v=
+ersion aligns with CPS-SOP-235 and the complaint file in ClaimTrack.
+>
+> Dana

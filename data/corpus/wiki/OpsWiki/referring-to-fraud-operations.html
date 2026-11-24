@@ -1,0 +1,105 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Referring to Fraud Operations - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Referring to Fraud Operations</h1>
+<div class="meta">Created by Darnell Price · Last updated 2020-05-01 · Version 1</div>
+<div class="content"><h1>WI-031 — Referring to Fraud Operations</h1>
+<p><strong>Type:</strong> Work Instruction (OpsWiki)<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective / issued:</strong> 2020-05-01<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Applies to:</strong> Claims Intake, Debit &amp; EFT Investigations, Credit Card Investigations, Chargeback Recovery, and related dispute intake work queues</p>
+<h2>Purpose</h2>
+<p>Use this procedure when a claim shows indicators of account takeover, card compromise, application fraud, or other activity that requires review by <strong>Fraud Operations</strong> under <strong>DOP-218 — Fraud Referral and Account Compromise</strong>. This page covers the referral path from <strong>ClaimTrack</strong>, <strong>CardView</strong>, and the <strong>Corvane Card Services</strong> portal.</p>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the customer interaction is already in ClaimTrack and that the claim has a case number.</li>
+<li>Have the relevant account number, card status, transaction details, and any supporting notes available.</li>
+<li>Review the claim for obvious dispute-only issues first; do not refer routine merchant disputes to Fraud Operations.</li>
+<li>If the case involves a provisional credit timing issue, follow the current operating exception in effect at the time of processing.</li>
+</ul>
+</blockquote>
+<h2>Steps</h2>
+<ol>
+<li>
+<p><strong>Open the claim in ClaimTrack.</strong><br />
+   Search by case number, customer name, or account number. Open the active claim record and verify that the claim is in an eligible status for referral.</p>
+</li>
+<li>
+<p><strong>Review the claim summary and notes.</strong><br />
+   Check the intake summary, transaction list, and prior analyst notes for fraud indicators such as:</p>
+</li>
+<li>multiple unauthorized transactions in a short window,</li>
+<li>card present / card not present pattern changes,</li>
+<li>address or contact changes immediately before the transaction,</li>
+<li>
+<p>device, login, or authentication anomalies.</p>
+</li>
+<li>
+<p><strong>Confirm the related account details in CardView.</strong><br />
+   Open <strong>CardView</strong> and confirm:</p>
+</li>
+<li>current card status,</li>
+<li>recent status changes,</li>
+<li>replacement card history,</li>
+<li>recent PIN, limits, or profile changes.</li>
+</ol>
+<p>If the claim is tied to a debit, credit, or prepaid card, document the relevant card status in ClaimTrack notes before proceeding.</p>
+<ol>
+<li>
+<p><strong>Check Corvane Card Services for network activity.</strong><br />
+   If the case includes network chargebacks or card processor activity, open the <strong>Corvane Card Services</strong> portal and review the dispute/chargeback history. Capture any processor references that support the referral reason.</p>
+</li>
+<li>
+<p><strong>Determine whether the case meets fraud referral criteria.</strong><br />
+   Refer the case to Fraud Operations when the record indicates potential compromise that requires specialized review outside the standard dispute workflow. If the issue remains within ordinary consumer dispute handling, continue with the applicable dispute procedure instead.</p>
+</li>
+<li>
+<p><strong>Create the referral in ClaimTrack.</strong><br />
+   In the ClaimTrack case actions menu:</p>
+</li>
+<li>select <strong>Refer / Escalate</strong>,</li>
+<li>choose <strong>Fraud Operations</strong> as the destination queue,</li>
+<li>enter a concise referral note,</li>
+<li>include the key facts, system checks completed, and any urgent account-impact concerns,</li>
+<li>
+<p>save the case.</p>
+</li>
+<li>
+<p><strong>Update the case disposition and routing fields.</strong><br />
+   Set the referral reason code, confirm the assigned queue, and attach any supporting documentation already collected in the claim file. Do not close the underlying claim unless the case has been re-routed under an approved process.</p>
+</li>
+<li>
+<p><strong>Notify the customer-facing owner, if applicable.</strong><br />
+   If the claim is owned by another disputes team, add an internal note so the investigator understands that Fraud Operations will review the compromise issue separately.</p>
+</li>
+<li>
+<p><strong>Monitor the ClaimTrack queue.</strong><br />
+   Verify that the referral appears in the Fraud Operations queue and that no validation errors prevented routing. If routing fails, re-open the case, correct the queue selection, and resubmit.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Keep the referral note factual and brief. Include the trigger event, the systems reviewed, and the reason Fraud Operations is needed. Avoid conclusions that are not supported by the file.</p>
+<p><strong>Warning</strong></p>
+<p>Do not use Fraud Operations referral as a substitute for normal dispute investigation. A referral does not replace required claim handling steps in <strong>DOP-201</strong>, <strong>DOP-203</strong>, or the product-specific dispute procedures.</p>
+</blockquote>
+<p>Until June 30, 2021, the internal target for the provisional credit decision is extended to the 15th business day after the notice of error; the 10-business-day regulatory deadline is unchanged.</p>
+<h2>Related pages</h2>
+<ul>
+<li><strong>DOP-201</strong> — Claim Intake (All Channels)</li>
+<li><strong>DOP-203</strong> — Claim Classification and Coverage</li>
+<li><strong>DOP-210</strong> — Investigation Timelines and Extensions</li>
+<li><strong>DOP-211</strong> — Provisional Credit</li>
+<li><strong>DOP-218</strong> — Fraud Referral and Account Compromise</li>
+<li><strong>DOP-229</strong> — Claim Records and Evidence Retention</li>
+<li><strong>POL-008</strong> — Fraud Risk Management Policy</li>
+<li><strong>POL-001</strong> — Consumer Error Resolution Policy (Electronic Funds Transfers and Card Disputes)</li>
+</ul>
+<h2>Page history</h2>
+<ul>
+<li><strong>v1 — 2020-05-01:</strong> Initial issue. Added fraud referral steps and COVID operating exception reference.</li>
+</ul></div>
+<hr><div class="meta">Page ID 402131 · Space: CPSDISPUTES</div></body></html>

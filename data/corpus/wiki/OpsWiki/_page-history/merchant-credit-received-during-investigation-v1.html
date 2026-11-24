@@ -1,0 +1,116 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Merchant credit received during investigation - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Merchant credit received during investigation</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-036 — Merchant credit received during investigation</h1>
+<p><strong>Type:</strong> Work-instruction<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective/issued date:</strong> 2017-04-01<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training  </p>
+<h2>Purpose</h2>
+<p>Use this procedure when a merchant credit posts while a claim is still open. The credit may reduce the amount under review, change the case balance, or require closure and notice updates. Complete the steps below before finalizing any disposition in ClaimTrack.</p>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the claim is still in an open investigation status.</li>
+<li>Have the claim number, card number, and posted credit amount available.</li>
+<li>Use <strong>CardView</strong> to confirm posting details before making any case update.</li>
+<li>If the credit relates to a chargeback recovery item, follow <strong>DOP-217</strong> and <strong>DOP-234</strong> first.</li>
+<li>If the credit creates a customer-contact event or complaint risk, pause and follow <strong>DOP-228</strong>.</li>
+<li>Do not close the claim until the case balance has been reconciled in ClaimTrack.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the case in ClaimTrack.</strong><br />
+   Search by claim number, card number, or customer name. Open the claim record and verify the dispute type, claim status, and current amount under investigation.</p>
+</li>
+<li>
+<p><strong>Review the transaction history.</strong><br />
+   In ClaimTrack, select <strong>Transactions</strong> and review the disputed item, any provisional credit already issued, and any prior balance adjustments. Confirm the merchant credit is not a duplicate posting.</p>
+</li>
+<li>
+<p><strong>Verify the credit in CardView.</strong><br />
+   Open <strong>CardView</strong> and locate the card account. Check the posting date, amount, merchant name, and transaction reference. Use the account activity view to confirm whether the credit is pending or posted.</p>
+</li>
+<li>
+<p><strong>Confirm the source and purpose of the credit.</strong><br />
+   Determine whether the credit is:</p>
+</li>
+<li>a merchant refund for the disputed item,</li>
+<li>a courtesy credit unrelated to the claim, or</li>
+<li>a partial recovery tied to chargeback activity.</li>
+</ol>
+<p>If the credit is unclear, route the case to the assigned analyst queue and document the reason for hold.</p>
+<ol>
+<li>
+<p><strong>Update the ClaimTrack financials.</strong><br />
+   In the claim record, open <strong>Financials</strong> and enter the merchant credit amount as a case adjustment. Reduce the amount under investigation by the posted credit amount. If the credit fully satisfies the disputed amount, prepare the case for closure.</p>
+</li>
+<li>
+<p><strong>Document the action taken.</strong><br />
+   Add a case note in ClaimTrack with:</p>
+</li>
+<li>date the credit posted,</li>
+<li>amount credited,</li>
+<li>source system verified in CardView,</li>
+<li>any resulting balance change,</li>
+<li>whether the claim remains open or is ready to close.</li>
+</ol>
+<p>Keep the note concise and factual.</p>
+<ol>
+<li>
+<p><strong>Review the customer notice requirement.</strong><br />
+   If the credit changes the case outcome or balance, confirm whether a revised customer notice is needed under <strong>DOP-212</strong> and <strong>DOP-230</strong>. If a notice is required, complete the letter workflow before closing the case.</p>
+</li>
+<li>
+<p><strong>Check for related recoveries in Corvane portal.</strong><br />
+   If the merchant credit was received through a chargeback or network recovery, open the <strong>Corvane Card Services portal</strong> and verify whether a corresponding recovery record exists. Match the recovery amount to the posted credit before closing the loop in ClaimTrack.</p>
+</li>
+<li>
+<p><strong>Finalize the claim status.</strong><br />
+   If the merchant credit resolves the disputed amount, change the claim status to the appropriate closed state in ClaimTrack. If only part of the dispute was credited, keep the case open and continue investigation on the remaining balance.</p>
+</li>
+<li>
+<p><strong>Complete quality-ready documentation.</strong><br />
+    Ensure the case file contains the CardView verification, the ClaimTrack adjustment, and the final status decision. Cases with merchant credits are subject to review under <strong>DOP-227</strong> and retention under <strong>DOP-229</strong>.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Always compare the credit amount to the original disputed amount before making a closure decision. A merchant credit may not cover fees, overdraft items, or other related transactions.</p>
+<p><strong>Warning</strong></p>
+<p>Do not reverse or offset a merchant credit based only on the customer’s verbal statement. Always confirm the posting in CardView and, where applicable, in the Corvane portal.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>DOP-211</strong> — Provisional Credit  </li>
+<li><strong>DOP-212</strong> — Final Determination and Customer Notices  </li>
+<li><strong>DOP-217</strong> — Chargeback Filing and Recovery  </li>
+<li><strong>DOP-227</strong> — Disputes Quality Assurance Review  </li>
+<li><strong>DOP-229</strong> — Claim Records and Evidence Retention  </li>
+<li><strong>DOP-234</strong> — Coordination with Corvane Card Services  </li>
+</ul>
+<h2>Page history</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th style="text-align: right;">Date</th>
+<th>Change</th>
+<th>Owner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">2017-04-01</td>
+<td>Published</td>
+<td>Darnell Price</td>
+</tr>
+</tbody>
+</table></div>
+<hr><div class="meta">Page ID 402181 · Space: CPSDISPUTES</div></body></html>

@@ -1,0 +1,74 @@
+From: Hannah Brandt <hannah.brandt@harborline.com>
+To: Priya Raman <priya.raman@harborline.com>
+Cc: Samuel Okafor <samuel.okafor@harborline.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborline.com>
+Subject: Re: Credit card FAQ says 90 days =?utf-8?b?4oCU?= is that right?
+Date: Mon, 30 Sep 2024 04:18:00 -0000
+Message-ID: <179543013437.89985.10353144037217341363@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Hannah Brandt <hannah.brandt@harborline.com> =20
+To: Priya Raman <priya.raman@harborline.com> =20
+Cc: Samuel Okafor <samuel.okafor@harborline.com>, Mei-Lin Zhou <mei-lin.zhou@=
+harborline.com> =20
+Date: Mon, Sep 30, 2024 4:18 PM =20
+Subject: Re: Credit card FAQ says 90 days =E2=80=94 is that right?
+
+Priya,
+
+I checked FAQ-CC-02 against POL-009 and CPS-SOP-209. The 90-day language is n=
+ot right for billing error notice timeliness.
+
+A credit card billing error notice is timely if Harborline receives it within=
+ 60 days after we sent the first periodic statement that reflected the error.
+
+FAQ-CC-02 still has the old contact-center wording from before the billing-er=
+ror rewrite. That FAQ is being used by Card & Payment Services and, based on =
+the recent QA sample, by at least a few Claims Intake associates who transfer=
+ credit card complaints over from the branch and contact center queues.
+
+I recommend we update the FAQ and the job aid in OpsWiki today, then send a s=
+hort clarification to Jordan and Tasha so they can reinforce it in huddles. I=
+ will also log this with Samuel under RCM since the discrepancy is customer-f=
+acing.
+
+Hannah
+
+---
+
+From: Priya Raman <priya.raman@harborline.com> =20
+To: Hannah Brandt <hannah.brandt@harborline.com> =20
+Cc: Marcus Oyelaran <marcus.oyelaran@harborline.com>, Dana Whitfield <dana.wh=
+itfield@harborline.com> =20
+Date: Mon, Sep 30, 2024 3:41 PM =20
+Subject: Re: Credit card FAQ says 90 days =E2=80=94 is that right?
+
+Thanks, Hannah. Please confirm the correct standard in writing so we can alig=
+n the FAQ and any downstream guidance. If the FAQ is off, I want Disputes Ops=
+, Contact Center, and the branch script owners on the same page before tomorr=
+ow=E2=80=99s steering group.
+
+Priya
+
+---
+
+From: Hannah Brandt <hannah.brandt@harborline.com> =20
+To: Priya Raman <priya.raman@harborline.com> =20
+Cc: Tasha Morrow <tasha.morrow@harborline.com>, Jordan Ellis <jordan.ellis@ha=
+rborline.com> =20
+Date: Mon, Sep 30, 2024 3:12 PM =20
+Subject: Credit card FAQ says 90 days =E2=80=94 is that right?
+
+Priya,
+
+A rep in Credit Card Investigations flagged FAQ-CC-02. It says a customer has=
+ 90 days to notify us about a billing error. I think that conflicts with what=
+ we use in claims review, but I want to make sure before we change anything i=
+n the FAQ.
+
+Can you confirm whether 90 days is just an internal guidance note or if the F=
+AQ needs correction?
+
+Hannah
