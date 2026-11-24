@@ -10,7 +10,7 @@
 ![Domain](https://img.shields.io/badge/domain-banking%20disputes-111111?style=for-the-badge)
 ![Stack](https://img.shields.io/badge/stack-Agentic%20RAG%20%2B%20Knowledge%20Graph-1f6feb?style=for-the-badge)
 
-[Problem Statement](PROBLEM_STATEMENT.md) &nbsp;|&nbsp; [Data Guide](docs/DATA_GUIDE.md) &nbsp;|&nbsp; [Live APIs](docs/LIVE_APIS.md) &nbsp;|&nbsp; [What to Submit](docs/SUBMISSION.md) &nbsp;|&nbsp; [Video Script](video/SCRIPT.md)
+[Problem Statement](PROBLEM_STATEMENT.md) &nbsp;|&nbsp; [Data Guide](docs/DATA_GUIDE.md) &nbsp;|&nbsp; [Live APIs](docs/LIVE_APIS.md) &nbsp;|&nbsp; [What to Submit](docs/SUBMISSION.md) &nbsp;|&nbsp; [Walkthrough Video](video/P1-POLICYPILOT_walkthrough.mp4) &nbsp;|&nbsp; [Video Script](video/SCRIPT.md)
 
 </div>
 
