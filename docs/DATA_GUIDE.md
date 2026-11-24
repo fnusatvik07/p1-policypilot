@@ -1,79 +1,140 @@
-# Data guide — P1-POLICYPILOT
+<div align="center">
 
-Everything a student needs is in this repository. Sizes are approximate.
+# Data Guide
 
-## 1. `data/corpus/` — Harborline's document library (364 files, ~28 MB)
+### PolicyPilot &nbsp;·&nbsp; `P1-POLICYPILOT`
 
-Exported as-is from five source systems, so folder layout, file names and formats differ by system.
+</div>
 
-| Folder | Source system | Typical content |
-|---|---|---|
-| `policy-portal/` | PolicyHub | Board-approved policies (with `_Archive` of old versions), customer agreements & disclosures, assurance / audit reports |
-| `sharepoint/` | Disputes Ops Library, Consumer Compliance Committee | SOPs, job aids, memos and ops bulletins (by year), letter templates, committee minutes & decks |
-| `wiki/OpsWiki/` | OpsWiki (Confluence) | how-to pages, FAQs, cheat sheets (some outdated but still linked) |
-| `shared-drive/S_CPS_Disputes/` | Shared drive `S:\CPS\Disputes` | trackers, spreadsheets, working copies |
-| `email/YYYY-MM/` | Exchange archive | `.eml` threads where decisions and exceptions are discussed |
+Everything you need is in this repository. Here is what each part is and how to use it.
 
-File types: docx 159 · html 98 · pdf 66 · eml 20 · xlsx 13 · pptx 8.
-Document IDs look like `POL-001`, `CPS-SOP-211`, `JA-114`, `WI-031`, `MEMO-2021-08`, `OB-2026-21`, `IA-2021-07`, `EML-008`.
+| # | Part | Folder |
+|:--|:--|:--|
+| 1 | Bank documents | `data/corpus/` |
+| 2 | Document registry | `data/registry/` |
+| 3 | Case database | `data/db/` |
+| 4 | Change releases | `changes/` |
+| 5 | Real public data | `data/real/` |
+| 6 | Questions | `eval/` |
 
-## 2. `data/registry/dms_export.csv` — document registry
+<br>
 
-One row per file: `path, source_system, doc_id, title, version, status, effective_date, owner, last_modified`.
-Statuses: `active`, `superseded`, `final`, `expired` (and some blank). Treat it like a real DMS export — useful, but not always complete or correct; the documents themselves are the source of truth.
+## 1. Bank documents
 
-## 3. `data/db/` — disputes case database (~150 MB)
+**Folder:** `data/corpus/` &nbsp;·&nbsp; **364 files** &nbsp;·&nbsp; about 28 MB
 
-Same data in three forms: `harborline_disputes.sqlite`, `csv/*.csv`, and `schema_postgres.sql` + `load_postgres.sql`.
+These are exported as-is from five systems, so folder layout, file names and formats differ by system.
 
-| Table | Rows | |
-|---|---|---|
+| Folder | System | Typical content |
+|:--|:--|:--|
+| `policy-portal/` | PolicyHub | Board-approved policies (old versions in `_Archive`), customer agreements and disclosures, audit reports |
+| `sharepoint/` | Disputes Ops Library, Consumer Compliance Committee | Procedures (SOPs), job aids, memos and bulletins by year, letter templates, committee minutes and decks |
+| `wiki/OpsWiki/` | OpsWiki (Confluence) | How-to pages, FAQs, cheat sheets. Some are outdated but still linked. |
+| `shared-drive/S_CPS_Disputes/` | Shared drive | Trackers, spreadsheets, working copies |
+| `email/YYYY-MM/` | Email archive | `.eml` threads where decisions and exceptions are discussed |
+
+**File types:** docx 159 &nbsp;·&nbsp; html 98 &nbsp;·&nbsp; pdf 66 &nbsp;·&nbsp; eml 20 &nbsp;·&nbsp; xlsx 13 &nbsp;·&nbsp; pptx 8
+
+**Document IDs** look like `POL-001`, `CPS-SOP-211`, `JA-114`, `WI-031`, `MEMO-2021-08`, `OB-2026-21`, `IA-2021-07`, `EML-008`.
+
+<br>
+
+## 2. Document registry
+
+**File:** `data/registry/dms_export.csv`
+
+One row per file with these columns:
+
+`path` · `source_system` · `doc_id` · `title` · `version` · `status` · `effective_date` · `owner` · `last_modified`
+
+**Status values:** `active`, `superseded`, `final`, `expired`, and some blank.
+
+> **Tip:** treat it like a real export from a document system. It is useful, but not always complete or correct. The documents themselves are the source of truth.
+
+<br>
+
+## 3. Case database
+
+**Folder:** `data/db/` &nbsp;·&nbsp; about 150 MB
+
+The same data in three forms:
+
+- `harborline_disputes.sqlite` (easiest to start with)
+- `csv/*.csv`
+- `schema_postgres.sql` and `load_postgres.sql`
+
+| Table | Rows | Notes |
+|:--|--:|:--|
 | customers | 6,500 | |
-| accounts | 10,853 | checking, savings, credit card, prepaid |
+| accounts | 10,853 | Checking, savings, credit card, prepaid |
 | cards | 10,853 | |
 | transactions | 248,761 | |
-| statements | 472,007 | statement cycles (needed for 60-day / billing-cycle rules) |
-| dispute_cases | 8,182 | case number `HL-YYYY-NNNNNN`, regime (Reg E / Reg Z), dates, amounts, outcome |
-| case_events | 54,176 | notice, provisional credit, letters, decisions… |
-| chargebacks | 2,737 | network chargebacks linked to cases |
-| letters | 13,955 | customer letters sent |
+| statements | 472,007 | Statement cycles, needed for the 60-day and billing-cycle rules |
+| dispute_cases | 8,182 | Case number `HL-YYYY-NNNNNN`, regulation, dates, amounts, outcome |
+| case_events | 54,176 | Notice, provisional credit, letters, decisions |
+| chargebacks | 2,737 | Card network chargebacks linked to cases |
+| letters | 13,955 | Letters sent to customers |
 | analysts | 128 | |
-| holidays | 145 | bank holiday calendar |
+| holidays | 145 | Bank holiday calendar |
 
-## 4. `changes/release-NN_*/` — change feed
+<br>
 
-Each release has `events.jsonl` plus a `files/` folder. Event fields:
-`event_id, emitted_at, source_system, action (UPSERT | RETIRE | DELETE), doc_id, version, title, effective_from, file, target_path, sha256, supersedes, comment`.
-Apply releases in order. `effective_from` can be in the future — the new rule is not in force until then.
+## 4. Change releases
 
-## 5. `data/real/` — real public data (unmodified text)
+**Folder:** `changes/release-NN_*/`
+
+Each release has an `events.jsonl` file and a `files/` folder with the new documents.
+
+| Field | Meaning |
+|:--|:--|
+| `event_id` | Unique ID of the event |
+| `emitted_at` | When the event was sent |
+| `source_system` | Which system it came from |
+| `action` | `UPSERT` (new or changed), `RETIRE` (keep for history, remove from search) or `DELETE` |
+| `doc_id`, `version`, `title` | Which document |
+| `effective_from` | When the change takes effect. **Can be in the future.** |
+| `file`, `target_path`, `sha256` | Where the new file is and where it belongs |
+| `supersedes` | Which version it replaces |
+| `comment` | Why the change was made |
+
+> **Tip:** apply releases in order. A change with a future `effective_from` is not in force until that date.
+
+<br>
+
+## 5. Real public data
+
+**Folder:** `data/real/` &nbsp;·&nbsp; about 82 MB &nbsp;·&nbsp; text is unmodified
 
 | Folder | Content |
-|---|---|
-| `regulations/` | Point-in-time versions of Reg E (12 CFR 1005, all sections, appendices, official interpretations), Reg Z 1026.2/.12/.13 + commentary, Reg CC 229.10–229.13, as Markdown with front matter (`version_effective_date`, `next_version_date`). Index: `versions_index.csv` |
-| `federal-register/` | CFPB final rules that amended these regulations, as Markdown + `index.csv` |
-| `cfpb-guidance/` | EFT FAQs, examination procedures, compliance guides, bulletins, Supervisory Highlights (PDF/MD) + `index.csv` |
-| `cfpb-enforcement/` | Consent orders / complaints about dispute and error-resolution failures + `index.csv` with summaries |
-| `complaints/` | ~56,600 CFPB consumer complaints about disputes, unauthorized transactions and fraud (~20,500 with the consumer's own narrative). `complaints.parquet`, `complaints_sample.csv`, `README_stats.txt` |
-| `calendar/` | US federal holidays (actual + observed dates, Federal Reserve closures) |
+|:--|:--|
+| `regulations/` | Every version of Reg E (all sections, appendices, official interpretations), Reg Z 1026.2, 1026.12, 1026.13 plus commentary, and Reg CC 229.10 to 229.13. Markdown with `version_effective_date` and `next_version_date`. Index: `versions_index.csv` |
+| `federal-register/` | CFPB final rules that changed these regulations, plus `index.csv` |
+| `cfpb-guidance/` | EFT FAQs, exam procedures, compliance guides, bulletins, Supervisory Highlights, plus `index.csv` |
+| `cfpb-enforcement/` | Consent orders and complaints about dispute handling failures, plus `index.csv` with summaries |
+| `complaints/` | About 56,600 CFPB consumer complaints about disputes, unauthorized transactions and fraud. About 20,500 include the consumer's own story. |
+| `calendar/` | US federal holidays with actual and observed dates, and Federal Reserve closures |
 
-`data/real/MANIFEST.json` lists every file with sha256 and source URL; `SUMMARY.md` lists counts and known gaps. Rebuild with `scripts/real/*.py`.
+`data/real/MANIFEST.json` lists every file with a checksum and source URL. `data/real/SUMMARY.md` has counts and known gaps. Rebuild any of it with the scripts in `scripts/real/`.
 
-## 6. `eval/questions_public.jsonl` — 117 public questions
+<br>
 
-Fields: `id, qtype, question, answer, as_of, citations[{doc_id, version, quote}], reg_refs, difficulty, requires, notes`.
+## 6. Questions
 
-| qtype | n | What it tests |
-|---|---|---|
-| document_detail | 30 | find the specific rule in the right document |
-| fact | 20 | simple lookup, often repeated across documents |
-| as_of | 14 | answer for a past date using the version in force then |
-| report_detail | 10 | audit / assurance report findings, owners, due dates |
-| multi_hop | 8 | chain across documents (audit → memo → SOP) |
-| deadline_calc | 8 | business-day / calendar-day arithmetic with holidays |
-| conflict | 7 | sources disagree or an outdated page is still linked |
-| unanswerable | 7 | correct behaviour is to decline |
-| database | 7 | needs SQL over the case database |
-| decision_detail | 6 | committee decisions and action items |
+**File:** `eval/questions_public.jsonl` &nbsp;·&nbsp; **117 questions**
 
-Default `as_of` is the date the snapshot was taken; questions with another `as_of` must be answered for that date.
+Each line has: `id`, `qtype`, `question`, `answer`, `as_of`, `citations` (doc_id, version, quote), `reg_refs`, `difficulty`, `requires`, `notes`.
+
+| Type | Count | What it tests |
+|:--|--:|:--|
+| `document_detail` | 30 | Find the exact rule in the right document |
+| `fact` | 20 | Simple lookup, often repeated across documents |
+| `as_of` | 14 | Answer for a past date using the version in force then |
+| `report_detail` | 10 | Audit report findings, owners, due dates |
+| `multi_hop` | 8 | Follow a chain across documents (audit, then memo, then procedure) |
+| `deadline_calc` | 8 | Business-day and calendar-day maths with holidays |
+| `conflict` | 7 | Sources disagree, or an outdated page is still linked |
+| `unanswerable` | 7 | The right behaviour is to say it is not covered |
+| `database` | 7 | Needs SQL over the case database |
+| `decision_detail` | 6 | Committee decisions and action items |
+
+> **Tip:** most questions use the snapshot date as `as_of`. When a question has a different `as_of`, answer it for that date.
