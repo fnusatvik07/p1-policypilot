@@ -11,7 +11,7 @@
 | Data guide | [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md) |
 | Live APIs | [docs/LIVE_APIS.md](docs/LIVE_APIS.md) |
 | What to submit | [docs/SUBMISSION.md](docs/SUBMISSION.md) |
-| Walkthrough video | [video/P1-POLICYPILOT_walkthrough.mp4](video/P1-POLICYPILOT_walkthrough.mp4) |
+| Walkthrough video | [video/SCRIPT.md](video/SCRIPT.md) (video file being produced) |
 
 ## Repository layout
 
