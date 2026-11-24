@@ -1,0 +1,126 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Contact center warm transfer to Disputes - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Contact center warm transfer to Disputes</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-041 — Contact center warm transfer to Disputes</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>System(s):</strong> Genesys, ClaimTrack, CardView, Corvane portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective date:</strong> 2017-04-01<br />
+<strong>Status at issue:</strong> Active</p>
+<h2>Purpose</h2>
+<p>Use this procedure when a contact center associate needs to remain on the line with the customer while transferring the call to Disputes for claim intake or claim status support. The objective is to complete a controlled warm transfer, confirm the reason for transfer, and ensure the Disputes associate receives accurate account and issue details before the handoff.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the customer is already authenticated under Contact Center procedures.</li>
+<li>Confirm the issue is within Disputes scope and not a general servicing, branch, or fraud-only call.</li>
+<li>Have the following ready:</li>
+<li>customer name and masked account identifier</li>
+<li>product type</li>
+<li>transaction date, amount, and merchant or ATM name</li>
+<li>any claim or reference number already provided</li>
+<li>If the caller is reporting a card transaction, open <strong>CardView</strong> before transfer.</li>
+<li>If a dispute case already exists, open <strong>ClaimTrack</strong> and verify the case number before transfer.</li>
+<li>Use the <strong>Corvane portal</strong> only when the issue requires card-processor investigation details or network chargeback status.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open the customer interaction in Genesys.</strong><br />
+   From the active interaction, confirm the call is live and on hold is not engaged unless you have already advised the customer of a brief pause.</p>
+</li>
+<li>
+<p><strong>Review the reason for transfer.</strong><br />
+   Determine whether the request is:</p>
+</li>
+<li>new claim intake,</li>
+<li>claim status follow-up,</li>
+<li>document request related to an existing dispute, or</li>
+<li>
+<p>merchant credit / card processing question requiring Disputes review.</p>
+</li>
+<li>
+<p><strong>Open CardView.</strong><br />
+   Use the customer profile search to locate the account tied to the call.</p>
+</li>
+<li>Select the correct card or deposit account.</li>
+<li>Verify the product displayed matches the customer’s description.</li>
+<li>
+<p>Review recent card activity if the customer is asking about a transaction.</p>
+</li>
+<li>
+<p><strong>Open ClaimTrack.</strong><br />
+   If a dispute case number exists:</p>
+</li>
+<li>search by case number, customer name, or masked account number;</li>
+<li>open the case summary;</li>
+<li>confirm case type, status, and assigned queue.</li>
+</ol>
+<p>If no case exists, note that the transfer is for intake and leave the case creation to Disputes.</p>
+<ol>
+<li><strong>Check Corvane portal when needed.</strong><br />
+   For debit, credit, or prepaid card items involving network or processor-level information:</li>
+<li>open the Corvane portal;</li>
+<li>search using the card reference or transaction reference available;</li>
+<li>capture only the status details needed for the handoff;</li>
+<li>
+<p>do not attempt to resolve a network dispute in the contact center queue.</p>
+</li>
+<li>
+<p><strong>Prepare the transfer summary.</strong><br />
+   In Genesys, document a concise warm-transfer summary with:</p>
+</li>
+<li>product type,</li>
+<li>transaction details,</li>
+<li>claim status,</li>
+<li>any prior customer statements,</li>
+<li>
+<p>any action already taken in CardView, ClaimTrack, or Corvane.</p>
+</li>
+<li>
+<p><strong>Select the Disputes transfer destination.</strong><br />
+   In the transfer menu, choose the current Disputes queue or the designated intake line for the issue type. If the customer’s issue is already in an existing queue, use the same queue unless instructed otherwise by a supervisor.</p>
+</li>
+<li>
+<p><strong>Announce the transfer to the customer.</strong><br />
+   State the reason for transfer, then briefly summarize the issue and the information gathered. Remain on the line until the Disputes associate answers.</p>
+</li>
+<li>
+<p><strong>Complete the warm handoff.</strong><br />
+   When the Disputes associate answers:</p>
+</li>
+<li>identify yourself, the customer, and the reason for transfer;</li>
+<li>provide the transfer summary;</li>
+<li>give the claim number if one exists;</li>
+<li>
+<p>confirm whether CardView, ClaimTrack, or Corvane was reviewed.</p>
+</li>
+<li>
+<p><strong>Release the call.</strong><br />
+    Stay on the line until the Disputes associate acknowledges the transfer. Then disconnect from the call. If the transfer fails, return to the customer and retry or follow supervisor direction.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>When the customer has multiple concerns, transfer only the dispute-related issue to Disputes. Handle general servicing questions separately under contact center procedures.</p>
+<p><strong>Warning</strong></p>
+<p>Do not promise claim approval, provisional credit, or timing outcomes during the transfer. Provide only the facts reviewed in the systems.</p>
+<p><strong>Tip</strong></p>
+<p>If the customer cannot provide transaction details, transfer anyway when the call clearly concerns a card or account transaction dispute. Disputes will determine whether the claim can be opened.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><a href="#">DOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="#">DOP-203 — Claim Classification and Coverage</a></li>
+<li><a href="#">DOP-225 — Claims Received by the Contact Center</a></li>
+<li><a href="#">DOP-234 — Coordination with Corvane Card Services</a></li>
+<li><a href="#">DOP-230 — Customer Letters and Notices</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 — 2017-04-01:</strong> Published.</p></div>
+<hr><div class="meta">Page ID 402231 · Space: CPSDISPUTES</div></body></html>

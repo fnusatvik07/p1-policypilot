@@ -1,0 +1,78 @@
+From: Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>
+To: Priya Raman <priya.raman@harborlinebank.com>,
+ Tasha Morrow <tasha.morrow@harborlinebank.com>
+Cc: Samuel Okafor <samuel.okafor@harborlinebank.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborlinebank.com>
+Subject: Re: ClaimTrack 2.0 clock paused on holiday =?utf-8?b?4oCU?= expected?
+Date: Wed, 19 Jul 2023 09:14:00 -0500
+Message-ID: <179543013435.89985.1728372192399379054@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Ifeoma Adeyemi =20
+To: Priya Raman; Tasha Morrow =20
+Cc: Samuel Okafor; Mei-Lin Zhou =20
+Date: 2023-07-19 16:42 =20
+Subject: Re: ClaimTrack 2.0 clock paused on holiday =E2=80=94 expected?
+
+Priya =E2=80=94 yes, that is expected behavior. ClaimTrack 2.0 uses the holid=
+ay calendar tied to CPS-SOP-231, so the deadline clock pauses on federal holi=
+days and resumes on the next business day.
+
+For dispute deadlines, a business day is Monday through Friday, excluding fed=
+eral holidays observed by the Federal Reserve Banks.
+
+I checked a sample case from today and the system stopped the clock at postin=
+g close, then resumed this morning without any manual adjustment. QA will kee=
+p monitoring the first few holiday cycles to make sure the automated clock is=
+ matching the procedure and the customer notice date fields are still carryin=
+g forward correctly in ClaimTrack.
+
+If anyone sees a case where the clock advanced on a holiday, send me the Clai=
+mTrack case number and the transaction type so we can compare against the bus=
+iness-day calculation logic in CPS-SOP-231 and the intake source in CPS-SOP-2=
+01.
+
+Thanks, =20
+Ifeoma
+
+---
+
+From: Priya Raman =20
+To: Ifeoma Adeyemi; Tasha Morrow =20
+Cc: Samuel Okafor; Mei-Lin Zhou =20
+Date: 2023-07-19 15:58 =20
+Subject: Re: ClaimTrack 2.0 clock paused on holiday =E2=80=94 expected?
+
+Ifeoma, =20
+quick check =E2=80=94 ClaimTrack 2.0 is showing the deadline clock =E2=80=9Cp=
+aused=E2=80=9D for the holiday and then restarting today. Tasha=E2=80=99s tea=
+m asked if that=E2=80=99s a defect or the intended setup after the June cutov=
+er.
+
+Can you confirm? I want to make sure we=E2=80=99re telling Claims Intake the =
+same thing across debit, ACH, QuickSend, and card disputes.
+
+Priya
+
+---
+
+From: Tasha Morrow =20
+To: Priya Raman =20
+Cc: Ifeoma Adeyemi; Samuel Okafor =20
+Date: 2023-07-19 15:41 =20
+Subject: ClaimTrack 2.0 clock paused on holiday =E2=80=94 expected?
+
+Priya =E2=80=94 got a few calls from Columbus and Grand Rapids. Associates ar=
+e seeing the ClaimTrack timer stop on the holiday and then pick back up this =
+morning. No one wants to override it unless we know that=E2=80=99s wrong.
+
+Also, one customer-facing note from Claims Intake still references =E2=80=9Cc=
+alendar day=E2=80=9D in an old email draft, so I=E2=80=99m pulling that from =
+circulation until we confirm the language. We=E2=80=99ve been using the new C=
+laimTrack 2.0 deadline clocks since June, so I assume the pause is built in, =
+but I=E2=80=99d like QA to bless it.
+
+TIA, =20
+Tasha

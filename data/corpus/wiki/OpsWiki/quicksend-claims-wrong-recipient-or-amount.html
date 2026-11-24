@@ -1,0 +1,133 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>QuickSend claims: wrong recipient or amount - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>QuickSend claims: wrong recipient or amount</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-026 — QuickSend claims: wrong recipient or amount</h1>
+<p><strong>Type:</strong> Work Instruction<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective/issued date:</strong> 2023-06-05<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training  </p>
+<h2>Purpose</h2>
+<p>Use this procedure when a customer claims a Harborline QuickSend transfer was sent to the wrong recipient or for the wrong amount. This work instruction covers intake, system verification, claim setup, and handoff for investigation under <strong>CPS-SOP-207 — QuickSend Person-to-Person Payment Disputes</strong>.</p>
+<blockquote>
+<p>[!IMPORTANT]
+If the customer is reporting suspected account takeover, unauthorized access, or a broader fraud pattern, stop this workflow and follow <strong>CPS-SOP-218 — Fraud Referral and Account Compromise</strong>.</p>
+</blockquote>
+<h2>Before you start</h2>
+<blockquote>
+<p>[!NOTE]
+Confirm the transfer type before opening a claim.</p>
+<p>This procedure applies only to <strong>Harborline QuickSend</strong> transfers initiated in the mobile app under the QuickSend service terms. If the payment was made through external ACH, wire, debit card, or bill pay, use the applicable procedure instead.</p>
+</blockquote>
+<p>Have these items ready:
+- Customer name and account number
+- Transfer date, amount, and recipient details
+- Caller identity verification or authenticated digital session record
+- Any customer statement about whether the transfer was sent to the wrong person or for the wrong amount</p>
+<h2>Procedure</h2>
+<ol>
+<li><strong>Open the claim in ClaimTrack 2.0.</strong></li>
+<li>Sign in to <strong>ClaimTrack</strong>.</li>
+<li>Select <strong>New Claim</strong>.</li>
+<li>In the product list, choose <strong>QuickSend</strong>.</li>
+<li>In the issue type field, select <strong>Wrong recipient / wrong amount</strong>.</li>
+<li>Enter the customer’s account number and the transfer date.</li>
+<li>Save the draft claim to generate the claim number.</li>
+<li>
+<p>Confirm the automated deadline clock starts in the claim header.</p>
+</li>
+<li>
+<p><strong>Verify the transfer details in CardView and HLX Core.</strong></p>
+</li>
+<li>Open <strong>CardView</strong> and search the customer profile using the debit account linked to the QuickSend transfer.</li>
+<li>Review the QuickSend transaction reference number, sender funding account, and posted amount.</li>
+<li>Open <strong>HLX Core</strong> and confirm that the debit posted to the correct deposit account.</li>
+<li>Compare the posted amount with the customer’s statement of the error.</li>
+<li>
+<p>If the transfer was posted to the wrong deposit account, note the account number and continue.</p>
+</li>
+<li>
+<p><strong>Review the QuickSend record in the Corvane portal.</strong></p>
+</li>
+<li>Launch the <strong>Corvane Card Services portal</strong>.</li>
+<li>Search the transaction by the QuickSend reference number.</li>
+<li>Review recipient identifier, transfer status, timestamp, and any reversal or return activity.</li>
+<li>Capture the recipient name exactly as shown in the portal.</li>
+<li>
+<p>If the recipient data differs from the customer’s intended recipient, document the variance in ClaimTrack notes.</p>
+</li>
+<li>
+<p><strong>Classify the claim in ClaimTrack.</strong></p>
+</li>
+<li>Open the <strong>Classification</strong> tab.</li>
+<li>Set the claim reason to <strong>Wrong recipient</strong> or <strong>Wrong amount</strong>, as appropriate.</li>
+<li>Add the customer’s description in the narrative field.</li>
+<li>Attach any available screenshots or transaction notes from CardView and the Corvane portal.</li>
+<li>
+<p>Mark the claim as <strong>QuickSend investigation required</strong>.</p>
+</li>
+<li>
+<p><strong>Check for duplicate or related activity.</strong></p>
+</li>
+<li>Search ClaimTrack for prior QuickSend claims on the same account.</li>
+<li>Review whether the customer has already disputed the same transfer.</li>
+<li>If a duplicate exists, follow <strong>CPS-SOP-223 — Duplicate and Repeat Claims</strong>.</li>
+<li>
+<p>If the claim includes charges, reversals, or follow-up fee issues, route accordingly under <strong>CPS-SOP-232 — Fee and Overdraft Refunds Related to Disputes</strong>.</p>
+</li>
+<li>
+<p><strong>Route the claim for investigation.</strong></p>
+</li>
+<li>Assign the claim to the QuickSend queue in Claims Intake.</li>
+<li>Set the investigation reason code in ClaimTrack.</li>
+<li>Add a note stating whether the issue is recipient mismatch, amount mismatch, or both.</li>
+<li>If the customer requests written confirmation, follow <strong>CPS-SOP-202 — Oral Notices and Written Confirmation</strong>.</li>
+<li>If the customer asks for documents later, see <strong>CPS-SOP-214 — Customer Requests for Investigation Documents</strong>.</li>
+</ol>
+<blockquote>
+<p>[!TIP]
+In Corvane, always copy the recipient identifier exactly as displayed. Do not normalize nicknames or abbreviations. Small differences can affect the investigation outcome.</p>
+<p>[!WARNING]
+Do not promise a refund or reversal at intake. Final disposition depends on the investigation results and the applicable QuickSend terms.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>CPS-SOP-201</strong> — Claim Intake (All Channels)</li>
+<li><strong>CPS-SOP-202</strong> — Oral Notices and Written Confirmation</li>
+<li><strong>CPS-SOP-207</strong> — QuickSend Person-to-Person Payment Disputes</li>
+<li><strong>CPS-SOP-210</strong> — Investigation Timelines and Extensions</li>
+<li><strong>CPS-SOP-211</strong> — Provisional Credit</li>
+<li><strong>CPS-SOP-212</strong> — Final Determination and Customer Notices</li>
+<li><strong>CPS-SOP-214</strong> — Customer Requests for Investigation Documents</li>
+<li><strong>CPS-SOP-223</strong> — Duplicate and Repeat Claims</li>
+<li><strong>CPS-SOP-234</strong> — Coordination with Corvane Card Services</li>
+<li><strong>FAQ-QS-01</strong> — Contact Center FAQ: QuickSend</li>
+<li><strong>POL-001</strong> — Consumer Error Resolution Policy (Electronic Fund Transfers and Card Disputes)</li>
+<li><strong>TERMS-QS</strong> — Harborline QuickSend Service Terms</li>
+</ul>
+<h2>Page history</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th style="text-align: right;">Date</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: right;">2020-05-01</td>
+<td>Published.</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: right;">2023-06-05</td>
+<td>Updated for ClaimTrack 2.0 and policy renumbering to CPS-SOP.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Page history note:</strong> This page supersedes the prior DOP-026 version and reflects the June 2023 migration to ClaimTrack 2.0.</p></div>
+<hr><div class="meta">Page ID 402082 · Space: CPSDISPUTES</div></body></html>

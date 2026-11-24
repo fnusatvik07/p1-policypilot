@@ -1,0 +1,84 @@
+From: Owen Pruitt <owen.pruitt@harborlinebank.com>
+To: Priya Raman <priya.raman@harborlinebank.com>,
+ Marcus Oyelaran <marcus.oyelaran@harborlinebank.com>
+Cc: Tasha Morrow <tasha.morrow@harborlinebank.com>,
+ Hannah Brandt <hannah.brandt@harborlinebank.com>,
+ Luis Carvajal <luis.carvajal@harborlinebank.com>,
+ Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>,
+ Darnell Price <darnell.price@harborlinebank.com>
+Subject: Corvane outage =?utf-8?b?4oCU?= chargeback filing delays
+Date: Mon, 10 Mar 2025 09:14:00 -0500
+Message-ID: <179543013438.89985.12937162279754847113@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Owen Pruitt =20
+To: Priya Raman; Marcus Oyelaran =20
+Cc: Tasha Morrow; Hannah Brandt; Luis Carvajal; Ifeoma Adeyemi; Darnell Price=
+ =20
+Date: 2025-03-10 16:18 =20
+Subject: Corvane outage =E2=80=94 chargeback filing delays
+
+Priya, Marcus,
+
+Quick update on the Corvane issue. The processor outage is still affecting th=
+e outbound network filing queue for several debit and prepaid cases. My team =
+has been able to work items in ClaimTrack 2.0, but we are holding the actual =
+network submissions until Corvane restores the interface.
+
+Chargeback Recovery must file network chargebacks within 30 calendar days of =
+the claim being opened.
+
+That said, we are tracking the oldest impacted claims by open date and watchi=
+ng the deadline clocks in ClaimTrack closely. We=E2=80=99ve also split the qu=
+eue so specialists can continue prep work, evidence review, and merchant docu=
+mentation without waiting on the processor. If Corvane is not back by the aft=
+ernoon cutover, I=E2=80=99ll route a manual status note to Disputes Ops and Q=
+A so we have a clean record of the delay.
+
+Please let me know if you want me to pull a same-day count of impacted claims=
+ by product.
+
+Owen
+
+---
+
+From: Priya Raman =20
+To: Owen Pruitt; Marcus Oyelaran =20
+Cc: Tasha Morrow; Hannah Brandt; Luis Carvajal; Ifeoma Adeyemi; Darnell Price=
+ =20
+Date: 2025-03-10 15:42 =20
+Subject: Re: Corvane outage =E2=80=94 chargeback filing delays
+
+Thanks, Owen. Please keep the business update tight but concrete. I want:
+- current backlog count
+- earliest open date at risk
+- whether any items are approaching the 30-calendar-day point
+- whether Chargeback Recovery needs any temporary support from Claims Intake =
+or QA
+
+Marcus, if Corvane has an ETA, please send it over. If there is any issue wit=
+h the interface recovery, we need to know before the end of day so we can dec=
+ide whether to escalate through the vendor contact path in CPS-SOP-234.
+
+Priya
+
+---
+
+From: Marcus Oyelaran =20
+To: Priya Raman; Owen Pruitt =20
+Cc: Rebecca Sloane; Jordan Ellis; Catherine Doyle =20
+Date: 2025-03-10 15:05 =20
+Subject: Re: Corvane outage =E2=80=94 chargeback filing delays
+
+Team,
+
+Corvane is reporting a platform outage tied to the chargeback submission modu=
+le only. No customer-facing card authorization impact has been reported. They=
+ are working the issue now and have not given a restoration time yet.
+
+Owen, please keep the queue moving on prep and hold filings until service is =
+restored. If you see anything near the deadline window, flag it immediately.
+
+Marcus

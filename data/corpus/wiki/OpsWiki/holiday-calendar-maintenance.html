@@ -1,0 +1,143 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Holiday calendar maintenance - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Holiday calendar maintenance</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-047 — Holiday calendar maintenance</h1>
+<p><strong>Type:</strong> Work instruction<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective/issued date:</strong> 2023-06-05<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training</p>
+<h2>Purpose</h2>
+<p>Use this page to maintain the Holiday Calendar used by Disputes Operations for business-day calculations, deadline monitoring, and claim processing support. This work instruction covers updates in <strong>ClaimTrack 2.0</strong>, <strong>CardView</strong>, and the <strong>Corvane portal</strong>. It supports <strong>CPS-SOP-231 — Business Day Calculation and Holiday Calendar</strong> and is used by Claims Intake, investigations teams, and Quality Assurance.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the holiday change has been approved through the Operations Training intake queue or the Disputes Operations control mailbox.</li>
+<li>Verify the effective date before editing any calendar entries.</li>
+<li>Do not post a holiday if the date is already loaded in more than one system without checking for duplicates.</li>
+<li>If the update affects a business-day count for open cases, notify the team lead before closing the request.</li>
+</ul>
+<p><strong>Required systems</strong></p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ClaimTrack 2.0</td>
+<td>Primary holiday calendar used for case deadlines</td>
+</tr>
+<tr>
+<td>CardView</td>
+<td>Reference calendar for card servicing screens</td>
+</tr>
+<tr>
+<td>Corvane portal</td>
+<td>Processor calendar for card-related dispute handling</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h2>Procedure</h2>
+<h3>1) Update ClaimTrack 2.0</h3>
+<ol>
+<li>Sign in to <strong>ClaimTrack 2.0</strong>.</li>
+<li>From the home page, select <strong>Administration</strong>.</li>
+<li>Select <strong>Calendars</strong>.</li>
+<li>Open <strong>Holiday Calendar</strong>.</li>
+<li>Select <strong>Edit</strong>.</li>
+<li>Choose the applicable calendar year.</li>
+<li>Select <strong>Add Holiday</strong>.</li>
+<li>Enter the <strong>holiday name</strong> exactly as approved.</li>
+<li>Enter the <strong>observed date</strong> if the office closure is observed on a different business day.</li>
+<li>Confirm the system-generated deadline clocks recalculate after the date is added.</li>
+<li>Set <strong>Status</strong> to <strong>Active</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+<li>Review the calendar grid to confirm the date appears as a non-business day.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> In ClaimTrack 2.0, the deadline clock updates immediately after save. Review the open-case view before leaving the record so you can spot any date that still displays the prior business-day count.</p>
+</blockquote>
+<h3>2) Update CardView</h3>
+<ol>
+<li>Sign in to <strong>CardView</strong>.</li>
+<li>Open the <strong>Maintenance</strong> menu.</li>
+<li>Select <strong>Reference Data</strong>.</li>
+<li>Select <strong>Holiday Schedule</strong>.</li>
+<li>Search for the same calendar year used in ClaimTrack 2.0.</li>
+<li>Open the record and select <strong>Edit</strong>.</li>
+<li>Add the holiday date and name.</li>
+<li>Confirm the <strong>processing indicator</strong> is set to exclude the date from standard business-day calculations.</li>
+<li>Select <strong>Submit</strong>.</li>
+<li>Refresh the screen and verify the update displays in the schedule summary.</li>
+</ol>
+<blockquote>
+<p><strong>Warning:</strong> CardView is used by servicing associates during active customer contact. An incorrect holiday date may affect the expected timing shown on the servicing screen and can cause confusion when a customer asks about next-day follow-up.</p>
+</blockquote>
+<h3>3) Update the Corvane portal</h3>
+<ol>
+<li>Open the <strong>Corvane portal</strong>.</li>
+<li>Sign in with your approved operations credentials.</li>
+<li>Select <strong>Processor Tools</strong>.</li>
+<li>Select <strong>Calendar Management</strong>.</li>
+<li>Choose <strong>Harborline Disputes</strong> from the calendar list.</li>
+<li>Select <strong>Edit Dates</strong>.</li>
+<li>Add the holiday date and observed date, if applicable.</li>
+<li>Select <strong>Validate</strong> to run the date check.</li>
+<li>Resolve any duplicate-date message before saving.</li>
+<li>Select <strong>Publish</strong>.</li>
+<li>Record the confirmation number shown on the success screen.</li>
+</ol>
+<h3>4) Verify consistency across systems</h3>
+<ol>
+<li>Return to <strong>ClaimTrack 2.0</strong> and confirm the holiday appears in the active year list.</li>
+<li>Check <strong>CardView</strong> to confirm the same date is present.</li>
+<li>Reopen the <strong>Corvane portal</strong> calendar summary and confirm the published status.</li>
+<li>Compare the three systems for matching holiday name, date, and observed date.</li>
+<li>If all three match, mark the request complete in the maintenance log.</li>
+</ol>
+<h2>Tips and warnings</h2>
+<blockquote>
+<p><strong>Tip:</strong> When a holiday falls on a weekend, update the observed closure date in all three systems at the same time. This reduces rework for Claims Intake and the investigations queues.</p>
+<p><strong>Warning:</strong> Do not remove historical holidays from prior years. Historical dates support case reviews, audit questions, and time-to-response validation.</p>
+<p><strong>Tip:</strong> If the request comes in after business hours, complete the system update first and send the completion notice the next business day.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>CPS-SOP-231 — Business Day Calculation and Holiday Calendar</strong></li>
+<li><strong>CPS-SOP-210 — Investigation Timelines and Extensions</strong></li>
+<li><strong>CPS-SOP-229 — Claim Records and Evidence Retention</strong></li>
+<li><strong>POL-004 — Records Retention Policy — Consumer Disputes</strong></li>
+<li><strong>POL-011 — Policy and Procedure Governance Standard</strong></li>
+<li><strong>PAGE-HOME — Disputes Operations Home</strong></li>
+</ul>
+<h2>Page history</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Date</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2017-04-01</td>
+<td>Published</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2023-06-05</td>
+<td>Updated for ClaimTrack 2.0 and policy renumbering to CPS-SOP-231</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Page maintained in OpsWiki.</strong></p></div>
+<hr><div class="meta">Page ID 402292 · Space: CPSDISPUTES</div></body></html>

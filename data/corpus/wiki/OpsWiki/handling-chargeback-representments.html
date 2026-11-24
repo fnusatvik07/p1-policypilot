@@ -1,0 +1,126 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Handling chargeback representments - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Handling chargeback representments</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 2</div>
+<div class="content"><h1>WI-018 — Handling chargeback representments</h1>
+<p><strong>Type:</strong> Work Instruction<br />
+<strong>System(s):</strong> ClaimTrack 2.0, CardView, Corvane Card Services Portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 2<br />
+<strong>Effective / issued date:</strong> 2023-06-05<br />
+<strong>Status at issue:</strong> Active  </p>
+<h2>Overview</h2>
+<p>This work instruction explains how Disputes Operations associates process chargeback representments after a merchant resubmits documentation through Corvane Card Services. The procedure covers case review in ClaimTrack 2.0, account verification in CardView, and filing the representment response in the Corvane portal.</p>
+<p>This page is used by Chargeback Recovery and by analysts supporting debit and credit card disputes when a representment is received for an existing chargeback case. Follow the steps in order so the case record, customer impact, and filing status remain aligned.</p>
+<blockquote>
+<p>[!note]
+<strong>Before you start</strong>
+- Confirm the case is already open in ClaimTrack and assigned to a chargeback recovery queue.
+- Have the ClaimTrack case number, cardholder name, last four digits of the card, and merchant name available.
+- Review the chargeback reason code and original dispute summary before opening the merchant packet.
+- Use CardView to confirm current card status and account ownership before taking any action on the case.
+- If the merchant packet is incomplete, route the case to the queue lead for review rather than filing a partial response.</p>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li><strong>Open the case in ClaimTrack</strong></li>
+<li>Sign in to <strong>ClaimTrack 2.0</strong>.</li>
+<li>In the global search bar, enter the ClaimTrack case number.</li>
+<li>Select the case from the search results.</li>
+<li>
+<p>Confirm the case status shows the active chargeback representment stage and that the automated deadline clock is present on the header.</p>
+</li>
+<li>
+<p><strong>Review the case record</strong></p>
+</li>
+<li>Open the <strong>Dispute Details</strong> tab.</li>
+<li>Verify the merchant name, transaction date, amount, and reason code.</li>
+<li>Review the timeline and notes for prior customer contact, provisional credit activity, and earlier chargeback actions.</li>
+<li>Open <strong>Documents</strong> and confirm whether the merchant packet is already attached.</li>
+</ol>
+<blockquote>
+<p>[!warning]
+Do not update the case outcome until you have reviewed the cardholder profile and confirmed that the representment packet matches the transaction on file. Filing against the wrong transaction creates an inaccurate recovery record.</p>
+</blockquote>
+<ol>
+<li><strong>Check the cardholder profile in CardView</strong></li>
+<li>From ClaimTrack, select <strong>Open CardView</strong>.</li>
+<li>Search by card number or customer identifier.</li>
+<li>Confirm the card is linked to the correct account.</li>
+<li>Verify account status, card status, and mailing address on file.</li>
+<li>
+<p>If the account is closed or the card has been reissued, document the status in ClaimTrack before proceeding.</p>
+</li>
+<li>
+<p><strong>Open the representment packet in Corvane</strong></p>
+</li>
+<li>In ClaimTrack, select <strong>Open in Corvane</strong>.</li>
+<li>Sign in to the <strong>Corvane Card Services portal</strong> if prompted.</li>
+<li>Locate the merchant submission associated with the case number.</li>
+<li>Open the attached images, receipts, logs, or other evidence supplied by the merchant.</li>
+<li>
+<p>Compare the submission date and transaction details against the ClaimTrack record.</p>
+</li>
+<li>
+<p><strong>Assess the merchant evidence</strong></p>
+</li>
+<li>Determine whether the merchant documentation supports the original chargeback reason.</li>
+<li>Confirm that all pages are legible and that signatures, authorization data, or delivery evidence are present when required.</li>
+<li>If the packet is incomplete or unrelated to the disputed transaction, mark the submission as insufficient and note the deficiency.</li>
+<li>If the packet supports the merchant, prepare the case for representment acceptance.</li>
+</ol>
+<blockquote>
+<p>[!tip]
+Use the standard ClaimTrack notes format for concise documentation:
+- source of the merchant packet
+- evidence reviewed
+- result of the review
+- next action taken in Corvane<br />
+Consistent notes reduce rework during QA review.</p>
+</blockquote>
+<ol>
+<li><strong>Update the case in ClaimTrack</strong></li>
+<li>Return to ClaimTrack and open the <strong>Case Actions</strong> menu.</li>
+<li>Select the appropriate outcome for the review.</li>
+<li>Enter the review summary in the notes field.</li>
+<li>Attach any internal reference documents used in the determination.</li>
+<li>
+<p>Save the case record and verify the status change appears on the main case screen.</p>
+</li>
+<li>
+<p><strong>Submit the representment action in Corvane</strong></p>
+</li>
+<li>Return to the Corvane portal.</li>
+<li>Select the filing or response action required by the case.</li>
+<li>Upload the case reference number and any required internal response fields.</li>
+<li>Confirm the submission details before finalizing.</li>
+<li>
+<p>Record the Corvane confirmation number in ClaimTrack notes.</p>
+</li>
+<li>
+<p><strong>Close out the work item</strong></p>
+</li>
+<li>Reopen the ClaimTrack case summary.</li>
+<li>Confirm the case reflects the submitted representment action.</li>
+<li>Check for any pending tasks, missing documents, or exceptions.</li>
+<li>If no additional action is required, release the case to the next queue or complete the work item per queue instructions.</li>
+</ol>
+<blockquote>
+<p>[!important]
+If the merchant packet arrives after the case has already advanced to the next stage, do not overwrite prior work without supervisor review. Preserve the original record and document the late arrival in the case notes.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><a href="CPS-SOP-217">CPS-SOP-217 — Chargeback Filing and Recovery</a></li>
+<li><a href="CPS-SOP-234">CPS-SOP-234 — Coordination with Corvane Card Services</a></li>
+<li><a href="CPS-SOP-227">CPS-SOP-227 — Disputes Quality Assurance Review</a></li>
+<li><a href="CPS-SOP-229">CPS-SOP-229 — Claim Records and Evidence Retention</a></li>
+<li><a href="CPS-SOP-212">CPS-SOP-212 — Final Determination and Customer Notices</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 | 2017-04-01 | Published</strong><br />
+Initial issue for OpsWiki under WI-018.</p>
+<p><strong>v2 | 2023-06-05 | Revised</strong><br />
+Updated for ClaimTrack 2.0 and automated deadline clocks; policy renumbering reflected in related page links.</p></div>
+<hr><div class="meta">Page ID 402002 · Space: CPSDISPUTES</div></body></html>

@@ -1,0 +1,78 @@
+From: Luis Carvajal <luis.carvajal@harborlinebank.com>
+To: Priya Raman <priya.raman@harborlinebank.com>
+Cc: Tasha Morrow <tasha.morrow@harborlinebank.com>,
+ Hannah Brandt <hannah.brandt@harborlinebank.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborlinebank.com>
+Subject: Re: Auto-credit for small claims =?utf-8?b?4oCU?= exceptions?
+Date: Mon, 20 Jan 2025 09:14:00 -0500
+Message-ID: <179543013437.89985.13208230535885162025@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Luis Carvajal =20
+To: Priya Raman =20
+Cc: Tasha Morrow, Hannah Brandt, Mei-Lin Zhou =20
+Date: 2025-01-20 09:14 =20
+Subject: Re: Auto-credit for small claims =E2=80=94 exceptions?
+
+Priya,
+
+Confirmed on the debit/ATM side. Debit card and ATM claims of $250 or less ar=
+e automatically provisionally credited by ClaimTrack 2.0 on the first busines=
+s day after the claim is opened.
+
+I am not seeing a manual exception route for standard debit/ATM claims in CPS=
+-SOP-211 or JA-114. The only practical holds we are applying today are operat=
+ional:
+- claim not yet classified as eligible debit/ATM
+- duplicate/repeat claim in ClaimTrack
+- active fraud referral or other system stop
+- high-value review routed under CPS-SOP-219
+
+If someone is asking whether the analyst can suppress the auto-credit for a l=
+ow-dollar claim just because the customer is =E2=80=9Cnot really a dispute pe=
+rson,=E2=80=9D I would say no. The system does it once the claim is opened an=
+d coded correctly in ClaimTrack 2.0.
+
+Luis
+
+---
+
+From: Priya Raman =20
+To: Luis Carvajal =20
+Cc: Tasha Morrow, Hannah Brandt, Mei-Lin Zhou =20
+Date: 2025-01-20 08:47 =20
+Subject: Re: Auto-credit for small claims =E2=80=94 exceptions?
+
+Luis,
+
+Thanks. I=E2=80=99m getting pushback from Intake that a few branch and contac=
+t center cases are being opened as low-value debit claims and then agents are=
+ asking whether there is any exception to stop the provisional credit when th=
+e customer =E2=80=9Cjust wants the charge checked.=E2=80=9D
+
+Before I answer, can you confirm the rule as written for the team? Also, if t=
+here are any exceptions in the procedure, I want the same language used by Cl=
+aims Intake and Debit & EFT.
+
+Priya
+
+---
+
+From: Tasha Morrow =20
+To: Priya Raman =20
+Cc: Luis Carvajal, Hannah Brandt =20
+Date: 2025-01-20 08:22 =20
+Subject: Auto-credit for small claims =E2=80=94 exceptions?
+
+Priya,
+
+We had two examples this morning from the Louisville queue and one from Grand=
+ Rapids. The analysts are seeing the auto-credit trigger in ClaimTrack 2.0 an=
+d asking whether there are exceptions for small claims under $250.
+
+Can Luis confirm whether we should ever override it, or if we just make sure =
+the claim is coded right at intake?
+
+Tasha

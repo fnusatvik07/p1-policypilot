@@ -1,0 +1,81 @@
+From: Aaron Whitlock <aaron.whitlock@harborlinebank.com>
+To: Gregory Hale <gregory.hale@harborlinebank.com>,
+ Tasha Morrow <tasha.morrow@harborlinebank.com>
+Cc: Dana Whitfield <dana.whitfield@harborlinebank.com>,
+ Marcus Oyelaran <marcus.oyelaran@harborlinebank.com>,
+ Catherine Doyle <catherine.doyle@harborlinebank.com>,
+ Samuel Okafor <samuel.okafor@harborlinebank.com>
+Subject: Re: FlexCard unregistered card claim =?utf-8?b?4oCU?= how to handle?
+Date: Wed, 03 Apr 2019 09:14:00 -0500
+Message-ID: <179543013433.89985.13679192365072849617@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Aaron Whitlock =20
+To: Gregory Hale; Tasha Morrow =20
+Cc: Dana Whitfield; Marcus Oyelaran; Catherine Doyle; Samuel Okafor =20
+Date: 2019-04-03 16:18 =20
+Subject: Re: FlexCard unregistered card claim =E2=80=94 how to handle?
+
+Greg =E2=80=94 =20
+Yes. For now, route these to Claims Intake as FlexCard claims and code them u=
+nder DOP-208 until registration status is verified in CardView. If the accoun=
+t is not yet registered, hold the usual Reg E liability and error-resolution =
+workflow in abeyance and follow the Cardholder Agreement disclosure.
+
+For general-purpose FlexCard accounts (not payroll FlexCard accounts) where H=
+arborline has not completed customer identification and verification, the Reg=
+ulation E liability limits and error resolution requirements do not apply unt=
+il verification is complete, as disclosed in the Cardholder Agreement.
+
+Please make sure the associates note the verification status in ClaimTrack an=
+d attach the CardView print to the case file. If the customer later completes=
+ verification, the case can be reactivated without a new claim intake. We sho=
+uld also keep Compliance in the loop because this came up in the prepaid rule=
+ go-live review.
+
+Aaron
+
+---
+
+From: Gregory Hale =20
+To: Aaron Whitlock; Tasha Morrow =20
+Cc: Dana Whitfield; Marcus Oyelaran; Catherine Doyle; Samuel Okafor =20
+Date: 2019-04-03 15:42 =20
+Subject: Re: FlexCard unregistered card claim =E2=80=94 how to handle?
+
+Aaron, Tasha =E2=80=94
+
+We just got one from the Louisville site: customer has a FlexCard payroll rel=
+oad, says an ATM withdrawal posted but card is still not registered. Claims I=
+ntake asked whether they should open a Reg E dispute, send provisional credit=
+, or tell the customer to wait.
+
+Can you confirm the handling? I=E2=80=99m especially concerned about what to =
+tell the associates, since the new prepaid rule language is already causing i=
+nconsistent notes in ClaimTrack.
+
+Greg
+
+---
+
+From: Tasha Morrow =20
+To: Gregory Hale; Aaron Whitlock =20
+Cc: Dana Whitfield; Marcus Oyelaran; Catherine Doyle; Samuel Okafor =20
+Date: 2019-04-03 15:10 =20
+Subject: FlexCard unregistered card claim =E2=80=94 how to handle?
+
+Greg, Aaron =E2=80=94
+
+We have a few FlexCard calls coming in today on unregistered cards. Claims In=
+take is not seeing a clean path in DOP-208 for whether these should be worked=
+ as normal EFT errors or held until the card is registered. Can we get a stan=
+dard answer for the floor? The associates are asking if the Cardholder Agreem=
+ent controls, or if we should still open the case and assign it to Debit & EF=
+T Investigations.
+
+If there is a specific script or note requirement, I=E2=80=99ll push it to th=
+e team today.
+
+Tasha

@@ -1,0 +1,100 @@
+From: Priya Raman <priya.raman@harborlinebank.com>
+To: Marcus Oyelaran <marcus.oyelaran@harborlinebank.com>,
+ Dana Whitfield <dana.whitfield@harborlinebank.com>,
+ Jordan Ellis <jordan.ellis@harborlinebank.com>
+Cc: Tasha Morrow <tasha.morrow@harborlinebank.com>,
+ Luis Carvajal <luis.carvajal@harborlinebank.com>,
+ Hannah Brandt <hannah.brandt@harborlinebank.com>,
+ Owen Pruitt <owen.pruitt@harborlinebank.com>,
+ Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>,
+ Samuel Okafor <samuel.okafor@harborlinebank.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborlinebank.com>
+Subject: Re: Policy exception: holiday backlog March 2026
+Date: Mon, 09 Mar 2026 09:14:00 -0500
+Message-ID: <179543013438.89985.16035760590688802187@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Priya Raman =20
+To: Marcus Oyelaran; Dana Whitfield; Jordan Ellis =20
+Cc: Tasha Morrow; Luis Carvajal; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi; =
+Samuel Okafor; Mei-Lin Zhou =20
+Date: 2026-03-09 08:14 =20
+Subject: Re: Policy exception: holiday backlog March 2026
+
+Team,
+
+Confirming the exception for the March holiday backlog in Disputes Operations.
+
+We will keep the regulatory timelines in CPS-SOP-210, CPS-SOP-211, CPS-SOP-21=
+2, and CPS-SOP-230 unchanged. The exception is limited to internal handling t=
+argets only, specifically the same-day queue close target for the claims inta=
+ke overflow and the 24-hour QA touchpoint for aged debit and credit cases rec=
+eived on 2026-03-06 and 2026-03-09.
+
+Effective today through end of day 2026-03-13:
+- Claims Intake may hold open intake batches until 11:00 a.m. ET the next bus=
+iness day before routing to the investigation queues.
+- QA will sample backlog cases on a rolling basis instead of by end-of-day ba=
+tch.
+- Owen=E2=80=99s team may defer non-monetary recovery follow-ups until the ba=
+cklog is cleared, provided chargeback filing dates are not missed.
+
+Tasha, Luis, and Hannah =E2=80=94 please keep cases moving in ClaimTrack 2.0 =
+and use the backlog tag in the work queue notes so Ops Reporting can isolate =
+the exception population. Jordan, if Contact Center gets questions, please ro=
+ute customers to the standard status language; no customer-facing wording cha=
+nges.
+
+I will log this under the March operating exception file and notify Complianc=
+e Testing and Regulatory Change Management for awareness. Please send me any =
+issues by noon.
+
+Priya
+
+---
+
+From: Marcus Oyelaran =20
+To: Priya Raman =20
+Cc: Dana Whitfield; Jordan Ellis =20
+Date: 2026-03-09 07:58 =20
+Subject: Re: Policy exception: holiday backlog March 2026
+
+Priya,
+
+Agreed. The holiday pattern plus Monday volume from the contact center is pus=
+hing the intake and investigation queues higher than forecast. I=E2=80=99m fi=
+ne with a temporary internal target adjustment as long as we stay disciplined=
+ on the actual dispute timelines and notice issuance.
+
+Dana =E2=80=94 I don=E2=80=99t see a policy issue here if it=E2=80=99s docume=
+nted as an operations exception and not a change to customer rights or regula=
+tory timing. Priya, please make sure the scope is tight and time-boxed.
+
+Marcus
+
+---
+
+From: Tasha Morrow =20
+To: Priya Raman =20
+Cc: Luis Carvajal; Hannah Brandt; Owen Pruitt; Ifeoma Adeyemi =20
+Date: 2026-03-09 07:31 =20
+Subject: Re: Policy exception: holiday backlog March 2026
+
+Priya,
+
+Quick update from Claims Intake: we had an elevated queue after the March hol=
+iday and the weekend file drop. We=E2=80=99re seeing older debit claims sitti=
+ng behind new card and QuickSend items, and the same issue is showing in the =
+QA queue.
+
+Requesting a short internal exception so we can clear age bands without forci=
+ng manual overtime on every batch. If approved, we can prioritize by oldest C=
+laimTrack clock first and hold the lower-risk age bands until the afternoon w=
+ave.
+
+Luis/Hannah/Owen =E2=80=94 please confirm whether your teams can absorb route=
+d work from intake through Wednesday.
+
+Tasha

@@ -1,0 +1,102 @@
+From: Alicia Fenwick <alicia.fenwick@harborline.com>
+To: Gregory Hale <gregory.hale@harborline.com>
+Cc: Robert Castellano <robert.castellano@harborline.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborline.com>
+Subject: RE: Audit sample =?utf-8?b?4oCU?= 14 late provisional credits
+Date: Mon, 12 Apr 2021 04:18:00 -0000
+Message-ID: <179543013434.89985.1890702223848595625@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Alicia Fenwick <alicia.fenwick@harborline.com> =20
+To: Gregory Hale <gregory.hale@harborline.com> =20
+Cc: Robert Castellano <robert.castellano@harborline.com>, Mei-Lin Zhou <mei-l=
+in.zhou@harborline.com> =20
+Date: Mon, Apr 12, 2021 4:18 PM =20
+Subject: RE: Audit sample =E2=80=94 14 late provisional credits
+
+Greg,
+
+Thanks. I=E2=80=99ve finished the walk-through on the 14 sample items from Cl=
+aimTrack and the supporting docs in Disputes Ops Library / S:\CPS\Disputes. T=
+he issue is consistent: provisional credit was issued after the business-day =
+target in DOP-211, but the case file does not always show a clear stop point =
+where the extension was justified under DOP-210.
+
+Quick readout:
+- 9/14 had a late credit by 1-3 business days
+- 5/14 were later than that, with no clear evidence of a documented extension=
+ notice before the credit posted
+- in 11/14, the case notes were sufficient to show the analyst recognized the=
+ delay, but the timeline fields in ClaimTrack were not updated cleanly
+
+From a QA standpoint, this looks more like an execution/control issue than a =
+policy gap. The procedures are there; the inconsistency is in how analysts ar=
+e recording the decision path.
+
+Can you have Luis and Tasha pull together a short root-cause note? I=E2=80=99=
+d like it to cover:
+1) where the handoff breaks down,
+2) whether the issue is limited to debit/EFT or also showing up in credit car=
+d cases,
+3) whether the current job aids in OpsWiki match the procedure wording.
+
+If you can send that by Wednesday, Mei-Lin and I can use it in the draft test=
+ing memo.
+
+Alicia
+
+---
+
+From: Gregory Hale <gregory.hale@harborline.com> =20
+To: Alicia Fenwick <alicia.fenwick@harborline.com> =20
+Cc: Luis Carvajal <luis.carvajal@harborline.com>, Tasha Morrow <tasha.morrow@=
+harborline.com> =20
+Date: Mon, Apr 12, 2021 3:41 PM =20
+Subject: RE: Audit sample =E2=80=94 14 late provisional credits
+
+Alicia,
+
+Agreed on the execution issue. I pulled a quick look with Luis and Tasha afte=
+r your earlier note. Most of the late postings are tied to cases that sat in =
+pending status while we waited on merchant or network data from Corvane. The =
+analysts are using the notes field, but not always the ClaimTrack timeline ma=
+rkers, so it reads worse in audit than it does in the live work queue.
+
+I=E2=80=99m not seeing anything that suggests the underlying DOP-211 procedur=
+e is out of sync. The bigger gap is that the team is treating the follow-up w=
+ork as =E2=80=9Calready covered=E2=80=9D once the note is entered. That is no=
+t consistent with how QA is scoring it.
+
+We=E2=80=99ll tighten this up in the daily huddle and have Darnell refresh th=
+e job aid language in OpsWiki so it points people back to the timeline update=
+ step. I=E2=80=99ll also ask Ifeoma to watch for repeat misses in the next QA=
+ sample.
+
+Greg
+
+---
+
+From: Alicia Fenwick <alicia.fenwick@harborline.com> =20
+To: Gregory Hale <gregory.hale@harborline.com> =20
+Cc: Robert Castellano <robert.castellano@harborline.com> =20
+Date: Mon, Apr 12, 2021 2:58 PM =20
+Subject: RE: Audit sample =E2=80=94 14 late provisional credits
+
+Greg,
+
+We=E2=80=99re seeing 14 late provisional credits in the sample set for Q1. I=
+=E2=80=99m not escalating yet, but I need your read on whether this is an iso=
+lated processing issue or a broader control breakdown in Disputes Ops.
+
+Please confirm:
+- whether the delays were tied to one queue or multiple queues,
+- whether any of the cases involved ClaimTrack timing errors,
+- and whether the team is relying on informal workarounds.
+
+Once I have your response, I can close the testing notes and decide whether w=
+e need to tee this up through the Operational Risk Committee or keep it withi=
+n QA remediation.
+
+Alicia

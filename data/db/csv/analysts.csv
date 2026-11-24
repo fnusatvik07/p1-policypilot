@@ -1,0 +1,129 @@
+analyst_id,name,team,hired_date,left_date
+A0001,Crystal West,Claims Intake,2018-08-19,
+A0002,Shawn Hall,Claims Intake,2019-06-06,
+A0003,Kyle Carey,Claims Intake,2015-10-24,
+A0004,Benjamin Hunt,Claims Intake,2016-01-21,
+A0005,Larry Hampton,Claims Intake,2015-08-26,
+A0006,Abigail Walsh,Claims Intake,2017-05-29,2023-08-22
+A0007,Hannah Johnson,Claims Intake,2019-09-09,2022-01-27
+A0008,Andrew Cooke,Claims Intake,2021-03-07,
+A0009,Nicholas Sloan,Claims Intake,2024-04-09,
+A0010,Sabrina Ortiz,Claims Intake,2017-07-03,
+A0011,Marc Miller,Claims Intake,2021-07-15,
+A0012,Jon Webb,Claims Intake,2021-06-21,
+A0013,Robert Beck,Claims Intake,2015-07-23,
+A0014,Joseph Delgado,Claims Intake,2015-07-10,
+A0015,Devin Mcneil,Claims Intake,2016-06-29,2019-06-24
+A0016,Jennifer Williams,Claims Intake,2021-01-23,2025-11-21
+A0017,Sophia Gutierrez,Claims Intake,2021-04-13,
+A0018,Randall Pham,Claims Intake,2017-01-10,2024-10-19
+A0019,Jeanette Sullivan,Claims Intake,2022-03-01,2024-08-16
+A0020,Jessica Moore,Claims Intake,2021-02-21,
+A0021,Brandon Lane,Claims Intake,2021-04-30,2025-01-02
+A0022,Raymond Anderson,Claims Intake,2020-07-26,
+A0023,Charles Drake,Claims Intake,2019-10-18,
+A0024,Kenneth Ho,Claims Intake,2020-03-22,
+A0025,Carolyn Bailey,Claims Intake,2020-01-31,
+A0026,Christopher Jones,Claims Intake,2017-10-14,
+A0027,Paul Conner,Claims Intake,2022-11-03,
+A0028,Elizabeth Hood,Claims Intake,2015-12-02,
+A0029,Thomas Edwards,Claims Intake,2020-11-21,
+A0030,Mallory Miller,Claims Intake,2018-11-07,
+A0031,Melissa Vance,Debit & EFT Investigations,2018-03-25,
+A0032,Shannon Oliver,Debit & EFT Investigations,2015-10-27,2021-11-16
+A0033,Christina Kennedy,Debit & EFT Investigations,2016-11-06,
+A0034,Amanda Mays,Debit & EFT Investigations,2016-09-14,
+A0035,Ian Hernandez,Debit & EFT Investigations,2019-09-24,
+A0036,Robyn Lee,Debit & EFT Investigations,2015-11-14,
+A0037,Sarah Chambers,Debit & EFT Investigations,2021-06-05,
+A0038,Erika Price,Debit & EFT Investigations,2024-03-05,
+A0039,Samuel Strickland,Debit & EFT Investigations,2018-12-05,
+A0040,Elizabeth Wright,Debit & EFT Investigations,2021-07-03,
+A0041,Jacob Gordon,Debit & EFT Investigations,2015-10-09,
+A0042,Aaron Andersen,Debit & EFT Investigations,2018-01-10,
+A0043,Jeremy Montgomery,Debit & EFT Investigations,2022-06-13,
+A0044,Sara Cochran,Debit & EFT Investigations,2022-11-13,
+A0045,Austin Howard,Debit & EFT Investigations,2022-08-22,
+A0046,Robert Gordon,Debit & EFT Investigations,2018-03-11,
+A0047,Amanda Anderson,Debit & EFT Investigations,2022-07-01,
+A0048,Emily Le,Debit & EFT Investigations,2018-12-26,2021-08-31
+A0049,Paul Jacobson,Debit & EFT Investigations,2020-07-15,
+A0050,Rachel Johnson,Debit & EFT Investigations,2018-03-23,2022-05-15
+A0051,Lucas Schwartz,Debit & EFT Investigations,2019-06-18,
+A0052,Carlos Blackwell,Debit & EFT Investigations,2020-07-26,
+A0053,Robert Norton,Debit & EFT Investigations,2019-07-04,
+A0054,Michelle Walker,Debit & EFT Investigations,2016-07-14,
+A0055,Lisa King,Debit & EFT Investigations,2021-03-03,
+A0056,Louis Stein,Debit & EFT Investigations,2019-01-09,
+A0057,David Brandt,Debit & EFT Investigations,2019-04-08,
+A0058,Kevin Gilbert,Debit & EFT Investigations,2016-09-10,2019-10-04
+A0059,Jaime Gonzalez,Debit & EFT Investigations,2017-08-08,
+A0060,Mark Ramirez,Debit & EFT Investigations,2015-02-19,
+A0061,James Conner,Debit & EFT Investigations,2021-08-10,2026-02-19
+A0062,Randy Williams,Debit & EFT Investigations,2015-01-17,2022-05-29
+A0063,Tracy Chavez,Debit & EFT Investigations,2019-02-21,
+A0064,Melissa Kemp,Debit & EFT Investigations,2018-07-29,
+A0065,Joseph Gates,Debit & EFT Investigations,2022-09-29,
+A0066,Jacqueline Bennett,Debit & EFT Investigations,2021-12-04,
+A0067,Charles Rivera,Debit & EFT Investigations,2023-04-19,
+A0068,David Gilbert,Debit & EFT Investigations,2022-08-19,
+A0069,Elizabeth Black,Debit & EFT Investigations,2019-05-27,
+A0070,Vincent Berg,Debit & EFT Investigations,2019-06-03,
+A0071,Stephanie Quinn,Debit & EFT Investigations,2019-06-29,2021-08-12
+A0072,Connie Carter,Debit & EFT Investigations,2017-05-05,
+A0073,Jennifer Diaz,Debit & EFT Investigations,2016-03-26,2018-03-11
+A0074,John Salazar,Debit & EFT Investigations,2016-02-24,2019-03-19
+A0075,Anthony Bradley,Debit & EFT Investigations,2021-01-06,2026-06-18
+A0076,Joseph Ferguson,Credit Card Investigations,2021-11-18,2025-07-31
+A0077,Eric Anderson,Credit Card Investigations,2021-11-20,
+A0078,Ronald Moore,Credit Card Investigations,2022-02-11,
+A0079,Robert Zimmerman,Credit Card Investigations,2021-10-02,
+A0080,Arthur Thomas,Credit Card Investigations,2016-05-18,2023-03-22
+A0081,Debra Cain,Credit Card Investigations,2020-03-23,
+A0082,Amy Nicholson,Credit Card Investigations,2018-07-01,2021-01-04
+A0083,Linda Lane,Credit Card Investigations,2023-05-29,
+A0084,Kelly Vasquez,Credit Card Investigations,2020-05-14,
+A0085,Aaron Brown,Credit Card Investigations,2016-10-23,
+A0086,Cody Moore,Credit Card Investigations,2017-04-20,
+A0087,Ashley Salazar,Credit Card Investigations,2020-12-03,
+A0088,Christina Gutierrez,Credit Card Investigations,2022-09-27,
+A0089,Maria Holland,Credit Card Investigations,2015-04-21,
+A0090,Louis Romero,Credit Card Investigations,2018-05-05,
+A0091,Mark Mcknight,Credit Card Investigations,2016-01-08,
+A0092,Karen Ryan,Credit Card Investigations,2017-12-05,
+A0093,Jeffrey Barr,Credit Card Investigations,2016-11-15,
+A0094,Matthew Thompson,Credit Card Investigations,2017-07-01,
+A0095,Deborah Schneider MD,Credit Card Investigations,2023-09-27,
+A0096,Tammy Bender,Chargeback Recovery,2022-02-19,
+A0097,Anthony Fields,Chargeback Recovery,2023-11-04,
+A0098,Melissa Lowery,Chargeback Recovery,2024-07-24,
+A0099,Elizabeth Mcfarland,Chargeback Recovery,2024-03-05,
+A0100,Angela Romero,Chargeback Recovery,2024-01-04,
+A0101,Tanner Skinner,Chargeback Recovery,2020-07-11,
+A0102,Christopher Melendez,Chargeback Recovery,2015-04-29,
+A0103,James Burke,Chargeback Recovery,2023-11-11,
+A0104,Samuel Dorsey,Chargeback Recovery,2017-03-04,
+A0105,Dr. Kimberly Kennedy,Chargeback Recovery,2018-11-11,
+A0106,Abigail Johnson,Chargeback Recovery,2023-02-09,
+A0107,Cynthia Dyer,Chargeback Recovery,2019-02-02,2021-08-08
+A0108,Jenna Richards,Fraud Operations,2017-07-18,
+A0109,Carolyn Johnson,Fraud Operations,2018-10-15,
+A0110,Marco Martin,Fraud Operations,2021-11-04,
+A0111,Mercedes Johnson,Fraud Operations,2020-05-17,
+A0112,Mason Williams,Fraud Operations,2018-11-10,
+A0113,Anthony Gates,Fraud Operations,2015-12-14,
+A0114,Christina Blevins,Fraud Operations,2016-05-06,
+A0115,Mary Hobbs,Fraud Operations,2023-10-10,
+A0116,Michelle Reyes,Fraud Operations,2017-03-27,
+A0117,Dale Johnson,Fraud Operations,2017-01-01,
+A0118,Susan Molina,Fraud Operations,2022-02-17,
+A0119,Paul Chen,Fraud Operations,2023-02-04,
+A0120,Casey Conner,Fraud Operations,2019-07-03,
+A0121,Elizabeth Rogers,Fraud Operations,2015-12-14,
+A0122,Gregory Conrad,Fraud Operations,2016-11-27,
+A0123,Peter Lozano,Disputes Quality Assurance,2015-04-23,2021-11-23
+A0124,Lindsay Alvarez,Disputes Quality Assurance,2024-01-17,
+A0125,Patrick Mccormick,Disputes Quality Assurance,2021-11-10,
+A0126,Joseph Garcia,Disputes Quality Assurance,2020-04-26,
+A0127,Anthony Knight,Disputes Quality Assurance,2018-12-06,2026-06-12
+A0128,Samantha Andrews,Disputes Quality Assurance,2016-06-20,2026-10-20

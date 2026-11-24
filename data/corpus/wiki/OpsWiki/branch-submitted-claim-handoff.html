@@ -1,0 +1,110 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Branch-submitted claim handoff - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Branch-submitted claim handoff</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-040 — Branch-submitted claim handoff</h1>
+<p><strong>Type:</strong> Work Instruction<br />
+<strong>System(s):</strong> ClaimTrack, CardView, Corvane Card Services portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Effective date:</strong> 2017-04-01<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Version:</strong> 1</p>
+<h2>Purpose</h2>
+<p>Use this work instruction when a branch submits a consumer dispute or claim and the branch needs Claims Intake to assume ownership in ClaimTrack. This page covers the handoff steps only; case classification, coverage, and investigation routing are addressed in the related procedure set.</p>
+<h2>Before you start</h2>
+<blockquote>
+<p><strong>Before you start</strong>
+- Confirm the branch has completed the customer-facing intake in <strong>TellerOne</strong> and attached the branch narrative and any source documents.
+- Have the customer’s full name, account number, last four digits of the card number, branch number, and date received available.
+- Use <strong>CardView</strong> to confirm the card status and the last posted transaction date before creating or updating the case.
+- If the claim involves a network chargeback or merchant reversal already visible in Corvane, note the reference number before handoff.
+- If the branch submission is incomplete, return it to the branch for correction rather than opening a duplicate record in ClaimTrack.</p>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>
+<p><strong>Open ClaimTrack.</strong><br />
+   Sign in using your standard network credentials and select <strong>Claims Intake Queue</strong> from the left navigation pane.</p>
+</li>
+<li>
+<p><strong>Search for the branch submission.</strong><br />
+   In the search bar, enter the customer last name and account number, then click <strong>Search</strong>. If no result appears, search by card last four and branch number.</p>
+</li>
+<li>
+<p><strong>Review the incoming record.</strong><br />
+   Open the claim and verify:</p>
+</li>
+<li>branch location and received date</li>
+<li>claim type selected by the branch</li>
+<li>customer contact details</li>
+<li>
+<p>attached notes, letters, and supporting images</p>
+</li>
+<li>
+<p><strong>Check CardView before accepting the handoff.</strong><br />
+   In a second window, open <strong>CardView</strong> and review the card profile:</p>
+</li>
+<li>card status</li>
+<li>account standing</li>
+<li>transaction history around the disputed date</li>
+<li>
+<p>whether the card is linked to the correct deposit account</p>
+</li>
+<li>
+<p><strong>Check Corvane for processor activity when applicable.</strong><br />
+   If the claim is a debit, credit, or prepaid card item that may have merchant or network activity, open the <strong>Corvane Card Services portal</strong> and look up the card account. Save any visible reference numbers or dispute notes to the ClaimTrack record.</p>
+</li>
+<li>
+<p><strong>Validate the submission against the branch narrative.</strong><br />
+   Compare the branch statement with the account and processor views. If the submission appears to describe the wrong transaction type, do not reclassify the claim here. Route the case to the Claims Intake supervisor queue for correction.</p>
+</li>
+<li>
+<p><strong>Assign the case to Claims Intake.</strong><br />
+   In ClaimTrack, click <strong>Assign To</strong> and select <strong>Claims Intake - Branch Handoff</strong>. Add a concise internal note that includes:</p>
+</li>
+<li>branch name</li>
+<li>date received</li>
+<li>CardView review complete</li>
+<li>Corvane review complete, if applicable</li>
+<li>
+<p>any missing documentation</p>
+</li>
+<li>
+<p><strong>Attach branch materials.</strong><br />
+   Click <strong>Attachments</strong> and upload the branch form, narrative, and any scanned support received from the branch. Confirm the file names are readable and complete.</p>
+</li>
+<li>
+<p><strong>Update the case status.</strong><br />
+   Select <strong>Handoff Complete</strong> from the status menu. Enter the disposition comment, then click <strong>Save</strong>.</p>
+</li>
+<li>
+<p><strong>Send the acknowledgment to the branch.</strong><br />
+    Use the standard branch reply template in ClaimTrack to confirm that Claims Intake has received the submission. Include the ClaimTrack case number and any additional documentation needs.</p>
+</li>
+<li>
+<p><strong>Close your work item.</strong><br />
+    Return to the queue dashboard and confirm the item no longer appears in <strong>Open Branch Submissions</strong>.</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong>
+If the claim is already visible in Corvane with a processor-generated reference, copy that reference into the ClaimTrack notes before saving. This reduces duplicate research later.</p>
+<p><strong>Warning</strong>
+Do not create a second ClaimTrack record if the branch submission already exists under a different queue. Use the existing case and update the history instead.</p>
+<p><strong>Tip</strong>
+If CardView shows a closed or replaced card, still complete the handoff if the disputed transaction posted to the linked account. Card status alone does not determine whether the branch submission should be accepted.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>DOP-201 — Claim Intake (All Channels)</strong></li>
+<li><strong>DOP-224 — Claims Received in Branches</strong></li>
+<li><strong>DOP-234 — Coordination with Corvane Card Services</strong></li>
+<li><strong>DOP-203 — Claim Classification and Coverage</strong></li>
+<li><strong>DOP-229 — Claim Records and Evidence Retention</strong></li>
+</ul>
+<h2>Page history</h2>
+<ul>
+<li><strong>v1 (2017-04-01):</strong> Published.</li>
+</ul></div>
+<hr><div class="meta">Page ID 402221 · Space: CPSDISPUTES</div></body></html>

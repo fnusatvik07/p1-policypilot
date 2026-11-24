@@ -1,0 +1,132 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Using the ClaimTrack 2.0 deadline clock - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Using the ClaimTrack 2.0 deadline clock</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 1</div>
+<div class="content"><h1>WI-012 — Using the ClaimTrack 2.0 deadline clock</h1>
+<p><strong>Type:</strong> Work Instruction<br />
+<strong>System(s):</strong> ClaimTrack 2.0, CardView, Corvane Card Services portal<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective / issued date:</strong> 2023-06-05<br />
+<strong>Status at issue:</strong> Active  </p>
+<h2>Purpose</h2>
+<p>Use this work instruction to check, interpret, and update the automated deadline clock in ClaimTrack 2.0 for consumer disputes and claims. ClaimTrack 2.0 became the production case-management system for Disputes Operations in June 2023 and replaces the prior manual deadline tracking method used in the legacy ClaimTrack environment.</p>
+<p>This page supports the procedures in <strong>CPS-SOP-210 — Investigation Timelines and Extensions</strong>, <strong>CPS-SOP-211 — Provisional Credit</strong>, <strong>CPS-SOP-212 — Final Determination and Customer Notices</strong>, and <strong>CPS-SOP-231 — Business Day Calculation and Holiday Calendar</strong>.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<h2>Before you start</h2>
+<ul>
+<li>Confirm the claim is open in <strong>ClaimTrack 2.0</strong> and not in a closed, voided, or duplicate status.</li>
+<li>Have the customer’s card number, claim number, and processing channel available.</li>
+<li>Use <strong>CardView</strong> for account verification before making any deadline edits.</li>
+<li>Use the <strong>Corvane Card Services portal</strong> only when the claim involves a debit, credit, or prepaid card transaction routed through Corvane.</li>
+<li>If the clock does not display or appears frozen, stop and follow the escalation path in <strong>JA-130 — Escalation Contacts</strong>.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li><strong>Open the claim in ClaimTrack 2.0.</strong>  </li>
+<li>Sign in to ClaimTrack using your standard network credentials.  </li>
+<li>From the home queue, search by <strong>claim number</strong>, <strong>customer name</strong>, or <strong>last four digits</strong> of the card.  </li>
+<li>
+<p>Open the case from the results list.</p>
+</li>
+<li>
+<p><strong>Locate the deadline clock panel.</strong>  </p>
+</li>
+<li>On the claim header, select <strong>Timeline</strong>.  </li>
+<li>Review the <strong>Deadline Clock</strong> field.  </li>
+<li>
+<p>Confirm the clock is showing the active stage, such as intake, provisional credit, investigation, final determination, or extension review.</p>
+</li>
+<li>
+<p><strong>Verify the source data before relying on the clock.</strong>  </p>
+</li>
+<li>Select <strong>Case Details</strong>.  </li>
+<li>Confirm the claim type, received date, and channel match the intake record.  </li>
+<li>
+<p>If the claim is tied to a card transaction, open <strong>CardView</strong> in a second window and verify the card status, account open date, and any recent maintenance activity.</p>
+</li>
+<li>
+<p><strong>Check for external routing impacts.</strong>  </p>
+</li>
+<li>If the case involves a debit, credit, or prepaid card transaction, open the <strong>Corvane Card Services portal</strong>.  </li>
+<li>Review the transaction response history, chargeback status, and any pending network events.  </li>
+<li>
+<p>Return to ClaimTrack and confirm the deadline clock reflects the current status shown in Corvane.</p>
+</li>
+<li>
+<p><strong>Advance the claim stage if the next action is complete.</strong>  </p>
+</li>
+<li>In ClaimTrack, select <strong>Update Status</strong>.  </li>
+<li>Choose the next processing step from the dropdown list.  </li>
+<li>Save the case.  </li>
+<li>
+<p>The automated clock should refresh after save and display the updated deadline.</p>
+</li>
+<li>
+<p><strong>Add a case note when the clock changes.</strong>  </p>
+</li>
+<li>Open <strong>Notes</strong>.  </li>
+<li>Enter the reason for the status change, the screen used to verify it, and the employee ID or team name if a handoff occurred.  </li>
+<li>
+<p>Keep the note factual and concise.</p>
+</li>
+<li>
+<p><strong>Escalate exceptions immediately.</strong>  </p>
+</li>
+<li>If the clock shows an unexpected extension, missing stage, or conflicting due date, do not overwrite the field manually.  </li>
+<li>Capture the screen details, notify your lead, and follow the escalation route in <strong>JA-130</strong>.  </li>
+<li>For policy-related exceptions, route the matter through the applicable SOP owner.</li>
+</ol>
+<blockquote>
+<p>[!TIP]
+Use the deadline clock as the primary visual indicator, but always validate it against the case history. A correct clock with incorrect source data can still produce the wrong processing outcome.</p>
+<p>[!WARNING]
+Do not use the old manual deadline worksheet from the shared drive for active ClaimTrack 2.0 cases. The worksheet may be retained for reference only and does not control case timing.</p>
+</blockquote>
+<h2>Common checks</h2>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>What to confirm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clock does not display</td>
+<td>Case is open, user has correct role, page refreshed</td>
+</tr>
+<tr>
+<td>Clock shows the wrong stage</td>
+<td>Case history, status transition, last saved action</td>
+</tr>
+<tr>
+<td>Clock changed after card research</td>
+<td>Corvane response posted and case saved</td>
+</tr>
+<tr>
+<td>Clock appears overdue</td>
+<td>Received date, business day calculation, holiday calendar</td>
+</tr>
+</tbody>
+</table>
+<h2>Related pages</h2>
+<ul>
+<li><strong>CPS-SOP-210 — Investigation Timelines and Extensions</strong></li>
+<li><strong>CPS-SOP-211 — Provisional Credit</strong></li>
+<li><strong>CPS-SOP-212 — Final Determination and Customer Notices</strong></li>
+<li><strong>CPS-SOP-231 — Business Day Calculation and Holiday Calendar</strong></li>
+<li><strong>JA-114 — Deadline Cheat Sheet</strong></li>
+<li><strong>JA-130 — Escalation Contacts</strong></li>
+<li><strong>PAGE-HOME — Disputes Operations Home</strong></li>
+<li><strong>PAGE-INTAKE — Intake Basics (landing page)</strong></li>
+</ul>
+<h2>Page history</h2>
+<ul>
+<li><strong>v1 | 2023-06-05 | Published</strong><br />
+  Initial issue to support the ClaimTrack 2.0 migration and automated deadline clocks.</li>
+</ul></div>
+<hr><div class="meta">Page ID 401941 · Space: CPSDISPUTES</div></body></html>

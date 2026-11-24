@@ -1,0 +1,1315 @@
+{
+ "generated_utc": "2026-11-23T10:34:02+00:00",
+ "file_count": 218,
+ "total_bytes": 85315992,
+ "files": [
+  {
+   "path": "calendar/us_federal_holidays.csv",
+   "bytes": 7999,
+   "sha256": "56540e6e81efd78400dfce054687ccf5648398f5e5b0fd8e3f50e5cd604add70",
+   "source_url": "python package `holidays` (US federal calendar)"
+  },
+  {
+   "path": "cfpb-enforcement/2019-01-03_usaa-federal-savings-bank_consent-order.pdf",
+   "bytes": 925676,
+   "sha256": "09dc05511818d2cf9088a26b519e4146621f302a4b01cc72de514fc74c8100af",
+   "source_url": "https://files.consumerfinance.gov/f/documents/bcfp_usaa-federal-savings-bank_consent-order.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2020-01-30_citizens-bank_stipulated-final-judgment-and-order.pdf",
+   "bytes": 261267,
+   "sha256": "3150d2d052df25e87ac205746eccf3b97488b7e2e9283e7d9c5601ae1a0b7441",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_citizens-bank_stipulated-final-judgment-order_2023-05.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2020-08-31_trans-fast-remittance-llc_consent-order.pdf",
+   "bytes": 1052520,
+   "sha256": "05eeafda935524eb43b1828241832e61ed2b2fad230823a19da7254e56681267",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_trans-fast-remittance-llc_consent-order_2020-08.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2020-12-21_envios-de-valores-la-nacional-corp_consent-order.pdf",
+   "bytes": 998029,
+   "sha256": "9a482dc8f65a4a33ccee42c82583f4f7d6c4020583f30cf50375b76c7077d2e6",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_envios-de-valores-la-nacional-corp_consent-order_2020-12.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2022-07-14_bank-of-america-na-2_consent-order.pdf",
+   "bytes": 1890300,
+   "sha256": "cdcceba40884edeb6308a33a88d618a3f2321df627b3fd855227aec1f1c0b057",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_bank-of-america_consent-order_2022-07.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2022-10-04_choice-money-transfer_consent-order.pdf",
+   "bytes": 22658203,
+   "sha256": "a4c71c3fa4966cac01b535c090ae45fcd470118fe8699389dfbdedf843b3c221",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_choice-money-transfer_consent-order_2022-10.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2022-12-22_servicio-uniteller-inc_consent-order.pdf",
+   "bytes": 890277,
+   "sha256": "2fb00d649fe59beda3fd12bc849640250d5d76c68b9a3404a28119fbcee70ee6",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_servicio-uniteller-inc_consent-order_2022-12.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2023-10-17_chime-inc-dba-sendwave_consent-order.pdf",
+   "bytes": 1079902,
+   "sha256": "503e62439372c0aba0e189f5bb15e60b00124405408927b741c67e40c1c62399",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb-0012-chime-inc-dba-sendwave-consent-order_2023-10.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2023-12-19_us-bank-national-association-prepaid-cards-2023_consent-order.pdf",
+   "bytes": 891556,
+   "sha256": "9ee35b2a9c84d93224ef8cdb92585c1148a693d607bd637d1ed3744dd19ccf65",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_us-bank-consent-order_2023-12.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2024-10-23_apple-inc_consent-order.pdf",
+   "bytes": 879243,
+   "sha256": "39663f2759f44043f1b8cc0eb4a91f25595f21124eeb9f53effe7448f2cbdfff",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_apple-inc-consent-order_2024-10.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2024-10-23_goldman-sachs-bank-usa_consent-order.pdf",
+   "bytes": 964659,
+   "sha256": "57393095fa01edbe6d60f7fd394c649a2a9a7473c6d87659b107b96d510f910e",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_goldman-sachs-bank-usa-consent-order_2024-10.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2024-12-06_comerica-bank_complaint.pdf",
+   "bytes": 308252,
+   "sha256": "07e719c30500fb1e4a371b911a350446f0fa243301912ef302a6db9793c4810f",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_CFPB-v.-Comerica-Bank__Complaint_2024_12.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2024-12-20_early-warning-services-llc-bank-of-america-na-jpmorgan-chase-bank-na-wells-fargo-bank-na_complaint.pdf",
+   "bytes": 1378017,
+   "sha256": "836cadf905b22da4bcc26390a74da30ad74934f7dfdc0959cc24141004fe127d",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_Zelle-Complaint_2024-12.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2025-01-16_block-inc_consent-order.pdf",
+   "bytes": 1006134,
+   "sha256": "8b72ad0538889fd6b4e9d1481806611955fb9a0e4e219bb87f2809471c351ed1",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_block-inc-consent-order_2025-01.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/2025-01-30_wise-us-inc_consent-order.pdf",
+   "bytes": 1068455,
+   "sha256": "aa4698f27c0047a46cb3170a808048b104b3851f3a88186211ebe576b94ad67f",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_wise-us-inc-consent-order_2025-01.pdf"
+  },
+  {
+   "path": "cfpb-enforcement/index.csv",
+   "bytes": 46953,
+   "sha256": "17121df2a136ccf2c4bc9f4b19498f897db782758ddc30183fdf4e8e55097c99",
+   "source_url": "https://www.consumerfinance.gov/enforcement/actions/"
+  },
+  {
+   "path": "cfpb-guidance/201309_cfpb_payroll-card-bulletin.pdf",
+   "bytes": 280756,
+   "sha256": "9399bdc7b5a076554644a185c62a0d2efaa7ce898ec7ad4e04f95171d8a20873",
+   "source_url": "https://files.consumerfinance.gov/f/201309_cfpb_payroll-card-bulletin.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201401_cfpb_supervisory-highlights-winter-2013.pdf",
+   "bytes": 241879,
+   "sha256": "93a20c30872560d77abfa8a1fb5d3078d1df797fc4e6b3ce0e99f66667271d71",
+   "source_url": "https://files.consumerfinance.gov/f/201401_cfpb_supervisory-highlights-winter-2013.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201410_cfpb_supervisory-highlights_fall-2014.pdf",
+   "bytes": 375408,
+   "sha256": "7413b5aa9630afb138a6dc6a31d804427c191773df913414c174900f8eec6da5",
+   "source_url": "https://files.consumerfinance.gov/f/201410_cfpb_supervisory-highlights_fall-2014.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201502_cfpb_credit_card_account_management_examination_guide.pdf",
+   "bytes": 564647,
+   "sha256": "15e2086f4b6812407efdf48c275e5ed910b089a2e87d7e80e812fbf56cd43a92",
+   "source_url": "https://files.consumerfinance.gov/f/documents/201502_cfpb_credit_card_account_management_examination_guide.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201511_cfpb_compliance-bulletin-2015-06-requirements-for-consumer-authorizations-for-preauthorized-electronic-fund-transfers.pdf",
+   "bytes": 58215,
+   "sha256": "cffaa4fb68c9e95814d67338c6b49ba7114681c36a922c199ff8b4ffad8c3afb",
+   "source_url": "https://files.consumerfinance.gov/f/201511_cfpb_compliance-bulletin-2015-06-requirements-for-consumer-authorizations-for-preauthorized-electronic-fund-transfers.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201603_cfpb_supervisory-highlights.pdf",
+   "bytes": 205031,
+   "sha256": "849dce90dd0262454a59ae04b09a7df83573f0154b4cb152f86a4ab4040e47c6",
+   "source_url": "https://files.consumerfinance.gov/f/201603_cfpb_supervisory-highlights.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201704_cfpb_Prepaid_execsummary_v2.pdf",
+   "bytes": 92097,
+   "sha256": "1a25d60d790d11d89379c38bce39973ed149c1ebbc1485b38ccf58d25e1b316a",
+   "source_url": "https://files.consumerfinance.gov/f/documents/201704_cfpb_Prepaid_execsummary_v2.pdf"
+  },
+  {
+   "path": "cfpb-guidance/201709_cfpb_Supervisory-Highlights_Issue-16.pdf",
+   "bytes": 283608,
+   "sha256": "7a2e2c3d070eccb230bd7fbca72de33c8844759ad84b87dadd331c3d224249a0",
+   "source_url": "https://files.consumerfinance.gov/f/documents/201709_cfpb_Supervisory-Highlights_Issue-16.pdf"
+  },
+  {
+   "path": "cfpb-guidance/FR_2020-04-27_2020-08084.md",
+   "bytes": 17197,
+   "sha256": "31c20469fc7dbbdcba45c081763459b29dee718affb031c5fcc3cc7fe9358961",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2020/04/27/2020-08084.html"
+  },
+  {
+   "path": "cfpb-guidance/FR_2021-04-06_2021-06969.md",
+   "bytes": 9275,
+   "sha256": "9378c74c5b78d23179a251bee3ab59ddf7520be8cd73577ec8c20df51f2733e7",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2021/04/06/2021-06969.html"
+  },
+  {
+   "path": "cfpb-guidance/FR_2022-02-24_2022-03587.md",
+   "bytes": 19543,
+   "sha256": "05c37b0e2434b16a775affbc4a52a5b75f8b8b63fb848373563601db1c1455fa",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2022/02/24/2022-03587.html"
+  },
+  {
+   "path": "cfpb-guidance/FR_2025-01-15_2025-00565.md",
+   "bytes": 42836,
+   "sha256": "86120bd0b292345af893d52c26c8f751e24dbd1a3df616c05137e061cf660bb3",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2025/01/15/2025-00565.html"
+  },
+  {
+   "path": "cfpb-guidance/FR_2025-05-12_2025-08286.md",
+   "bytes": 19861,
+   "sha256": "645759d9fda2ed642ea150695493584f3e6dc0a68507167b49d667ed8edd5098",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2025/05/12/2025-08286.html"
+  },
+  {
+   "path": "cfpb-guidance/FR_2025-05-15_2025-08646.md",
+   "bytes": 4153,
+   "sha256": "2b493fb05732e58a736f0acf3e055dc0afdf87dd230f9f697c68c9ad85721038",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2025/05/15/2025-08646.html"
+  },
+  {
+   "path": "cfpb-guidance/Prepaid_coveragechart_v1_10052016.pdf",
+   "bytes": 223367,
+   "sha256": "5699f9a82b223a2b182b489d61947f1254a5c242e883fa0f9a0d49263f84ae3c",
+   "source_url": "https://files.consumerfinance.gov/f/documents/Prepaid_coveragechart_v1_10052016.pdf"
+  },
+  {
+   "path": "cfpb-guidance/bulletin-consumer-authorizations-preauthorized-eft.md",
+   "bytes": 1378,
+   "sha256": "b690f3f3c6b1efcebcd1faca5a34fefc5befaf17e932c23ed7ad1f2d3cad27aa",
+   "source_url": "https://www.consumerfinance.gov/compliance/supervisory-guidance/bulletin-consumer-authorizations-preauthorized-eft/"
+  },
+  {
+   "path": "cfpb-guidance/bulletin-payroll-card-accounts.md",
+   "bytes": 1335,
+   "sha256": "ab9a6700512361c60f4cb48fe9f0e7c361191d1351d4e6c7dfd85a3d20c23e56",
+   "source_url": "https://www.consumerfinance.gov/compliance/supervisory-guidance/bulletin-payroll-card-accounts/"
+  },
+  {
+   "path": "cfpb-guidance/cfbp_electronic-fund-transfers-faqs.pdf",
+   "bytes": 237563,
+   "sha256": "d09958670069aaa3558f092a0e940d337fbb4d738a2038ea84ab00fb0f1ea306",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfbp_electronic-fund-transfers-faqs.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_bulletin-2022-02_electronic-fund-transfer-act_2022-02.pdf",
+   "bytes": 331302,
+   "sha256": "4990023c8b59e69720730207e03c5d7da09ab305b88562689ba8b5aab1f4bd47",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_bulletin-2022-02_electronic-fund-transfer-act_2022-02.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_interpretive-rule_pandemic-relief-payments-reg-e.pdf",
+   "bytes": 255191,
+   "sha256": "83662f10990f1de7da9164f50ba7764c27d005b179f43bbbc28d35076b5c5fef",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_interpretive-rule_pandemic-relief-payments-reg-e.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_policy-statement_remittances-covid-19_2020-04.pdf",
+   "bytes": 119770,
+   "sha256": "c50a27be8dd13fb8ee3f370dea88e90f7e32aaa40409f7298f00d6b03dc2eab7",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_policy-statement_remittances-covid-19_2020-04.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_prepaid_executive-summary_2018-amendments.pdf",
+   "bytes": 49737,
+   "sha256": "25129117b71f48d9e7f2489f984143cee7cebbbe5484435f629c68e1e298660d",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_prepaid_executive-summary_2018-amendments.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_prepaid_government-benefit-accounts_2018-amendments.pdf",
+   "bytes": 64524,
+   "sha256": "6f67b89f6dfd0bbbc4e8c775e422c9036cab6b53d59efd40078ee22e9f1afe3f",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_prepaid_government-benefit-accounts_2018-amendments.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_prepaid_payroll-card-key-changes_2018-amendments.pdf",
+   "bytes": 58610,
+   "sha256": "faaa6f615b9224cfa2b986556fb928d92fb5cfdb0deb933365cdf0f8b42af1bc",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_prepaid_payroll-card-key-changes_2018-amendments.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_prepaid_small-entity-compliance-guide.pdf",
+   "bytes": 1584472,
+   "sha256": "7a866017964649f43e3dcda52b8f5651f26f3853d3a18ac8cd109da76f1b041b",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_prepaid_small-entity-compliance-guide.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_remittance-transfer-examination-procedures.pdf",
+   "bytes": 1097192,
+   "sha256": "fe559b8253459e9029cd82633515506c1ad5b4c02eef83822f114984a8242368",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_remittance-transfer-examination-procedures.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_remittance-transfers_rule-amendments-executive-summary_2020-05.pdf",
+   "bytes": 606979,
+   "sha256": "494a06dd05e7cdc4e1e666fcf541c229651833212e09b132068f85d07b0ad739",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_remittance-transfers_rule-amendments-executive-summary_2020-05.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_remittance-transfers_small-entity-compliance-guide.pdf",
+   "bytes": 803843,
+   "sha256": "ed3226f4b5eebf5e7bdb17bcc4ae58fa5750f28a561645d00722360a8f380bff",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_remittance-transfers_small-entity-compliance-guide.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_statement_regulation-z-error-resolution-covid-19_2020-05.pdf",
+   "bytes": 166645,
+   "sha256": "cd7333d293b19049e5b27e6bdeaecfe31fe3b164cd4a4bd8187779db4846566b",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_statement_regulation-z-error-resolution-covid-19_2020-05.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervision-and-examination-manual_efta-exam-procedures-incl-remittances_2019-03.pdf",
+   "bytes": 1262275,
+   "sha256": "ee7865cb028566254392e8ff545c9072051be1e118e233ae82508e59d1a0aeff",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervision-and-examination-manual_efta-exam-procedures-incl-remittances_2019-03.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervision-and-examination-manual_prepaid-account-exam-procedures.pdf",
+   "bytes": 392068,
+   "sha256": "a487f97ad00e82c87a2ba16a9246dca2cdecba900c305d988a6a3e1d0042689a",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervision-and-examination-manual_prepaid-account-exam-procedures.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervision-and-examination-manual_tila-exam-procedures_2021-10.pdf",
+   "bytes": 2947378,
+   "sha256": "dc0b79b757d8b4adc55300fb91fb66cc8f2e016d028ae0908d16ee40c31480ca",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervision-and-examination-manual_tila-exam-procedures_2021-10.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-18_032019.pdf",
+   "bytes": 399852,
+   "sha256": "e9b964ceb845c398720e657756032eb4d02799a550d55a770d8ff6c2a8b5ed4e",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-18_032019.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-22_2020-09.pdf",
+   "bytes": 463021,
+   "sha256": "9bfb6cb15965ab98f2d643d2601b927f3ac32b0eac2f5a68ac84cbfed1e12f88",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-22_2020-09.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-24_2021-06.pdf",
+   "bytes": 518585,
+   "sha256": "b41dbb3b4bc6c028d205e5268dfc9992488ba904d553db7e8d2b62f4a7adf193",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-24_2021-06.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-25_2021-12.pdf",
+   "bytes": 406507,
+   "sha256": "32ef2d53b0dece761c353e9ad4a0e69859b4d14fae7ef727d3497cf8edb37447",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-25_2021-12.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-26_2022-04.pdf",
+   "bytes": 379329,
+   "sha256": "7fb7c9b18f5a986cfd8052dbc1a255cdb4eb5faf69465a21d1156ce648b08078",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-26_2022-04.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-28_2022-11.pdf",
+   "bytes": 354358,
+   "sha256": "dda4d5c44165d50808079b5bf048141f87892343a3f5cfed7ef68a0f005eb9c3",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-28_2022-11.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-30_2023-07.pdf",
+   "bytes": 469794,
+   "sha256": "b62f1a564c6eff6cd26bdb2075151964db86a9b59ede85d59dd93a16f0ef53c1",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-30_2023-07.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_supervisory-highlights_issue-34_2024-07.pdf",
+   "bytes": 330739,
+   "sha256": "3723e2a5f7038f6e4da4da8bd9fb0cf7bb8202a6a62396222356049938f1cdf8",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_supervisory-highlights_issue-34_2024-07.pdf"
+  },
+  {
+   "path": "cfpb-guidance/cfpb_unfair-deceptive-abusive-acts-practices-udaaps_procedures_2023-09.pdf",
+   "bytes": 132942,
+   "sha256": "6e329fe7dbc8ce6cc692663bc84e6b9b86d58cafaa3579c00133257290a68ef2",
+   "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_unfair-deceptive-abusive-acts-practices-udaaps_procedures_2023-09.pdf"
+  },
+  {
+   "path": "cfpb-guidance/electronic-fund-transfers-faqs.md",
+   "bytes": 38183,
+   "sha256": "6e94656c6c3b2b395b620e02b92b8ace780fd3b64c4d375de9f1cbb67f1d3aa6",
+   "source_url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/electronic-fund-transfers-faqs/"
+  },
+  {
+   "path": "cfpb-guidance/electronic-fund-transfers.md",
+   "bytes": 3437,
+   "sha256": "fae1dae9c8caa500419f3a6d3e36eba44a75a80292df20c82f08a483fd127f10",
+   "source_url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/electronic-fund-transfers/"
+  },
+  {
+   "path": "cfpb-guidance/index.csv",
+   "bytes": 14662,
+   "sha256": "e17c853bae622f3ce431c1afa678844c61bc79fdf2a68eca68e820f60ab7fd73",
+   "source_url": "https://www.consumerfinance.gov/"
+  },
+  {
+   "path": "cfpb-guidance/prepaid-cards.md",
+   "bytes": 5627,
+   "sha256": "ddbc84b5e2d69d49ecda9448b2f9d7cd234784a370d8a87d43f219739d0a4f85",
+   "source_url": "https://www.consumerfinance.gov/compliance/compliance-resources/consumer-cards-resources/prepaid-cards/"
+  },
+  {
+   "path": "cfpb-guidance/remittance-transfer-rule.md",
+   "bytes": 5393,
+   "sha256": "f3c80a1e2193da83cbcde402b90e2a6194ce394143624bf672e5b493a8013bcf",
+   "source_url": "https://www.consumerfinance.gov/compliance/compliance-resources/deposit-accounts-resources/remittance-transfer-rule/"
+  },
+  {
+   "path": "cfpb-guidance/withdrawn-guidance.md",
+   "bytes": 28007,
+   "sha256": "4086e6b0ae7d393595bb8f5c833c765e087b2580af57ac99ddb5accc1bd6bada",
+   "source_url": "https://www.consumerfinance.gov/compliance/guidance/withdrawn-guidance/"
+  },
+  {
+   "path": "complaints/README_stats.txt",
+   "bytes": 5483,
+   "sha256": "3a8756c5172ec4fabb891f1bda5b8fc5202831beba8b089977ab1843e49675c9",
+   "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/ ; https://huggingface.co/datasets/BEE-spoke-data/consumer-finance-complaints (narratives)"
+  },
+  {
+   "path": "complaints/complaints.parquet",
+   "bytes": 16396994,
+   "sha256": "18e398f356a5c7418e55566170c0a499acc3e89c83a9e0a6ab0e72502a77432e",
+   "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/ ; https://huggingface.co/datasets/BEE-spoke-data/consumer-finance-complaints (narratives)"
+  },
+  {
+   "path": "complaints/complaints_sample.csv",
+   "bytes": 2094202,
+   "sha256": "a542bf206f276eee00c02371128bfb6d46a8e8f8e795fea8d17881fc548838f0",
+   "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/ ; https://huggingface.co/datasets/BEE-spoke-data/consumer-finance-complaints (narratives)"
+  },
+  {
+   "path": "federal-register/2011-12-22_2011-31715.md",
+   "bytes": 2106786,
+   "sha256": "a7f4555b362197338eddfb73372e198e85be9fa2b903bfd90276ff21e5de86f4",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2011/12/22/2011-31715.html"
+  },
+  {
+   "path": "federal-register/2011-12-27_2011-31725.md",
+   "bytes": 322778,
+   "sha256": "940c6812d119236d9d312b32e925aa0d84f0403f8bcc2c8f25714a6932b80009",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2011/12/27/2011-31725.html"
+  },
+  {
+   "path": "federal-register/2012-02-07_2012-1728.md",
+   "bytes": 863659,
+   "sha256": "758dbcac746df888f04349f7e9cc1703f5608cc450cd5d7dbccbb4d9c1f22af3",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2012/02/07/2012-1728.html"
+  },
+  {
+   "path": "federal-register/2012-07-10_2012-16245.md",
+   "bytes": 6417,
+   "sha256": "ffe15c248577328790499ca735d6b27f36f4f38f8add8bc2eadc5c5c4b2c743b",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2012/07/10/2012-16245.html"
+  },
+  {
+   "path": "federal-register/2012-08-20_2012-19702.md",
+   "bytes": 346481,
+   "sha256": "004f416020e19e6dbc6514d66e8a30eeb88768c2d114e506617db3e09988cc79",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2012/08/20/2012-19702.html"
+  },
+  {
+   "path": "federal-register/2013-01-29_2013-01595.md",
+   "bytes": 16532,
+   "sha256": "2368b201e570018c065f5edf65ca0078f9f97c22f5fd0717a784dc3e3bb6c2de",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2013/01/29/2013-01595.html"
+  },
+  {
+   "path": "federal-register/2013-03-26_2013-06861.md",
+   "bytes": 27172,
+   "sha256": "37cc6984d3badaeaff0e814a56fb424604f6f08b5b90aa8165542d79767a0094",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2013/03/26/2013-06861.html"
+  },
+  {
+   "path": "federal-register/2013-05-22_2013-10604.md",
+   "bytes": 386341,
+   "sha256": "f67836606a7738f211a1933fcff40380df3ecc74de9aa351f7442767e4f275ec",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2013/05/22/2013-10604.html"
+  },
+  {
+   "path": "federal-register/2013-08-14_2013-19503.md",
+   "bytes": 11716,
+   "sha256": "aadb06d2827c4222eea82da17d7c0c33d75a5f68558593714e172742120900ec",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2013/08/14/2013-19503.html"
+  },
+  {
+   "path": "federal-register/2014-09-18_2014-20681.md",
+   "bytes": 185241,
+   "sha256": "74d2aa194a4a831b3256ab4fc9503448c39b705c36fad3c1215b356e3e4c154b",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2014/09/18/2014-20681.html"
+  },
+  {
+   "path": "federal-register/2016-04-28_2016-09431.md",
+   "bytes": 23629,
+   "sha256": "00d7a505e6bbf8eed99a78b29b3151a93e03438efbe19a26f0526ad99bba9cd5",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2016/04/28/2016-09431.html"
+  },
+  {
+   "path": "federal-register/2016-10-12_2016-24506.md",
+   "bytes": 12055,
+   "sha256": "4c7f6a973bdf87ed268ac586f416e593ad8d4063e695646bfc33ed887838121d",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2016/10/12/2016-24506.html"
+  },
+  {
+   "path": "federal-register/2016-11-22_2016-24503.md",
+   "bytes": 3530458,
+   "sha256": "a82e9a9721452e0eb10d06b59b86d400f60d86e8a72c65789ed23882039857e7",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2016/11/22/2016-24503.html"
+  },
+  {
+   "path": "federal-register/2017-04-25_2017-08341.md",
+   "bytes": 47680,
+   "sha256": "04a3c0da8db6fb9dae67602d2e4f0df4ee14a69ef4aea19026c6bff27fd5cd3b",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2017/04/25/2017-08341.html"
+  },
+  {
+   "path": "federal-register/2018-02-13_2018-01305.md",
+   "bytes": 666781,
+   "sha256": "7d0efa29c5074c6497fb41ae9bff54fb621c071289750f5f36ac08bc0474aee7",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2018/02/13/2018-01305.html"
+  },
+  {
+   "path": "federal-register/2020-06-05_2020-10278.md",
+   "bytes": 313501,
+   "sha256": "b0354f05d57b0a60bb69c58a1a96d2826212f842519fa411c9215dace6f7f1f7",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2020/06/05/2020-10278.html"
+  },
+  {
+   "path": "federal-register/2024-12-30_2024-29699.md",
+   "bytes": 625340,
+   "sha256": "cb57fc81ac1f6b43483b68c9332ab3ddfab6543b8cbe5afc3b18c1c72e189373",
+   "source_url": "https://www.federalregister.gov/documents/full_text/html/2024/12/30/2024-29699.html"
+  },
+  {
+   "path": "federal-register/index.csv",
+   "bytes": 8911,
+   "sha256": "32bd10e1af99e239807d35f476a36862c8798d4e065c08fcc4fc75309d360db2",
+   "source_url": "https://www.federalregister.gov/api/v1/documents.json"
+  },
+  {
+   "path": "regulations/reg-cc/229.10/2017-01-01.md",
+   "bytes": 4650,
+   "sha256": "8188dcb85a32c026ae67cdf7b33197ed64222e63ee2652cbfb34df1211a387d4",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=229&section=229.10"
+  },
+  {
+   "path": "regulations/reg-cc/229.10/2019-07-03.md",
+   "bytes": 4714,
+   "sha256": "de47c809548ad1b1c3566ee37f19046d28388e5939cead2b1b0e004679467fec",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-07-03/title-12.xml?part=229&section=229.10"
+  },
+  {
+   "path": "regulations/reg-cc/229.10/2020-07-01.md",
+   "bytes": 4740,
+   "sha256": "59eddf2df28385dc7fe257bfa4e620fe68099fe3155ba235fb6238b3dde21fe2",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-01/title-12.xml?part=229&section=229.10"
+  },
+  {
+   "path": "regulations/reg-cc/229.10/2024-05-20.md",
+   "bytes": 4793,
+   "sha256": "0b8b17e9a960b281080042fb1ca58142b0f4e4d03d19cc9b1b1817345707a05c",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-20/title-12.xml?part=229&section=229.10"
+  },
+  {
+   "path": "regulations/reg-cc/229.10/2025-07-01.md",
+   "bytes": 4748,
+   "sha256": "80f46d6bd3a8392886764a2842287fff745abf2ef5329443afcdc9091bd2dae0",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-07-01/title-12.xml?part=229&section=229.10"
+  },
+  {
+   "path": "regulations/reg-cc/229.11/2017-01-01.md",
+   "bytes": 364,
+   "sha256": "33f2da19562c631c8307179d1b9e52e088330150026a771432d697789c415f46",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=229&section=229.11"
+  },
+  {
+   "path": "regulations/reg-cc/229.11/2019-07-03.md",
+   "bytes": 375,
+   "sha256": "ff4de4a3883ed321476126d1e5f625871bd577351bf48dc36f5245800b382015",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-07-03/title-12.xml?part=229&section=229.11"
+  },
+  {
+   "path": "regulations/reg-cc/229.11/2020-07-01.md",
+   "bytes": 4766,
+   "sha256": "49b7943dcd51c8f5f3ae18ebc656b7c7946247948818056257a5196c3e6ba748",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-01/title-12.xml?part=229&section=229.11"
+  },
+  {
+   "path": "regulations/reg-cc/229.11/2024-05-20.md",
+   "bytes": 4819,
+   "sha256": "159f89e8ce1f69a05935f6e327d6e2907e84c9f1f245a606b34bee825be78c1a",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-20/title-12.xml?part=229&section=229.11"
+  },
+  {
+   "path": "regulations/reg-cc/229.11/2025-07-01.md",
+   "bytes": 5104,
+   "sha256": "f2da0cb274df52ac18a1d7a7f5d7d3cf987e046e99a0250c53590f6b5ab90d61",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-07-01/title-12.xml?part=229&section=229.11"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2017-01-01.md",
+   "bytes": 4276,
+   "sha256": "5424471c005383ac3babc2c1c999d039b70facf289a8be1ca3ed968f2bc6b857",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2019-07-03.md",
+   "bytes": 4340,
+   "sha256": "1304d67889129466ecb1ab6e38f261a21b08b60598c8c03ba552f5748d9973eb",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-07-03/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2019-08-29.md",
+   "bytes": 4405,
+   "sha256": "60a8407f7dfeaec46f21dfbb604af86833a110356cd6b5d1238c81711949f702",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-08-29/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2019-09-03.md",
+   "bytes": 4576,
+   "sha256": "6c0d5afe6c86f69a1b02a3db0f4be9ab2f6b81fd72c452d1d6e187eb70fe711a",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-09-03/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2020-07-01.md",
+   "bytes": 4489,
+   "sha256": "821149ab3e6096485aa19bee7ad1175cf7f48a22634e1b62cc975658c307ce65",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-01/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2024-05-20.md",
+   "bytes": 4542,
+   "sha256": "5675a68031edf05f559bb1c4776d88a78f13c3fef772a8ddbf53854a1a7a4661",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-20/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.12/2025-07-01.md",
+   "bytes": 4497,
+   "sha256": "c484bb1ae4404d1550d95213183afa2f004f67ac1f8c2b2188b001cf50c09674",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-07-01/title-12.xml?part=229&section=229.12"
+  },
+  {
+   "path": "regulations/reg-cc/229.13/2017-01-01.md",
+   "bytes": 11846,
+   "sha256": "b37b6ae5582af9c18332ea0c240e9ffc879110903b01ad156f3a101e43656372",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=229&section=229.13"
+  },
+  {
+   "path": "regulations/reg-cc/229.13/2019-08-29.md",
+   "bytes": 11911,
+   "sha256": "94faa9979013c80fa477da7cfea2cb221a8ca69212e8fc5b9b02fa2583ca69ad",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-08-29/title-12.xml?part=229&section=229.13"
+  },
+  {
+   "path": "regulations/reg-cc/229.13/2020-07-01.md",
+   "bytes": 11893,
+   "sha256": "62a09147a2c9e3aacdb11a9ea24f5bf810e3cdd20510013bfd42365625772708",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-01/title-12.xml?part=229&section=229.13"
+  },
+  {
+   "path": "regulations/reg-cc/229.13/2024-05-20.md",
+   "bytes": 11945,
+   "sha256": "e64448f258733ba609812ab40ad05ddb880fc411886dc558970be69096a7c6a4",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-20/title-12.xml?part=229&section=229.13"
+  },
+  {
+   "path": "regulations/reg-cc/229.13/2025-07-01.md",
+   "bytes": 11900,
+   "sha256": "01a94e7c2e143c27bf48e6e1c8bdd95d673c0e17ede21b443e237b5b57a8cf41",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-07-01/title-12.xml?part=229&section=229.13"
+  },
+  {
+   "path": "regulations/reg-e/1005.1/2017-01-01.md",
+   "bytes": 1297,
+   "sha256": "224ebecb8bbcab79b73e989392ebcee0387f010325f7650bb88172494f626aa2",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.1"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2017-01-01.md",
+   "bytes": 4234,
+   "sha256": "1ad2581e88b79d5859c8970f02ddf17523e4b1ff83a41653d88c60415b183aba",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2017-04-25.md",
+   "bytes": 4315,
+   "sha256": "8d4d597a9f9f537af22737becad2cec1fc99c505a3d1536d069c2dc486e23d69",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2017-12-27.md",
+   "bytes": 4326,
+   "sha256": "8dc28a0c49e8842671d22687814b87d7166fcf7cb70f7634697ab0147eb538ed",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2018-01-01.md",
+   "bytes": 4326,
+   "sha256": "861ae05316688a964d9dac2bcfc39bf528ceeeb065610f37ba09c0009e499e76",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-01/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2018-02-13.md",
+   "bytes": 4403,
+   "sha256": "dfc157ab05a650b666f6e0b04ed0799df3bc4a6c92cff20617a429a333645758",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2019-04-01.md",
+   "bytes": 4408,
+   "sha256": "cfa87d9440da5b618b7db6499b856e8a441a4748b046cd4000ee1c2ef75fc3f7",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2024-12-30.md",
+   "bytes": 4463,
+   "sha256": "c36c5d734d3a4dc1f91005581ab4bafa3895a2ad70c45ea1024d412d5446ca07",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-30/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.10/2025-10-01.md",
+   "bytes": 4587,
+   "sha256": "90a145f0980af176583161e26143105fba01ec141ba5b6c5eccaa05511660001",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-10-01/title-12.xml?part=1005&section=1005.10"
+  },
+  {
+   "path": "regulations/reg-e/1005.11/2017-01-01.md",
+   "bytes": 8169,
+   "sha256": "5e9ccc6ebf179f6d8dde6c83083c17e9f138d67d867660ce0354380202c0cc13",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.11"
+  },
+  {
+   "path": "regulations/reg-e/1005.11/2017-04-25.md",
+   "bytes": 8250,
+   "sha256": "18562029f6a82b1bda316e94a9bf348022c50535ff879c4ecba818feca1b880a",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.11"
+  },
+  {
+   "path": "regulations/reg-e/1005.11/2017-12-27.md",
+   "bytes": 8260,
+   "sha256": "edc29c0a5a59d69ddce6e1ab6f87fd5a2d68147a118cf87387848ba2e2898362",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-12.xml?part=1005&section=1005.11"
+  },
+  {
+   "path": "regulations/reg-e/1005.11/2018-01-01.md",
+   "bytes": 8260,
+   "sha256": "36eab1daaf1eacd05aba0e7c23d2cb311caa9363522c067bfb51cb543d6982d5",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-01/title-12.xml?part=1005&section=1005.11"
+  },
+  {
+   "path": "regulations/reg-e/1005.11/2018-02-13.md",
+   "bytes": 8402,
+   "sha256": "80938fcb5877ef3db725c81242910ec50e4f20bc4717a155e1044ae98c6f6501",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.11"
+  },
+  {
+   "path": "regulations/reg-e/1005.11/2019-04-01.md",
+   "bytes": 8208,
+   "sha256": "bcd4a256e729bfa0b51194aa6a5a935b9d73477c0b5d1d934d4c8163d8d8a2a4",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.11"
+  },
+  {
+   "path": "regulations/reg-e/1005.12/2017-01-01.md",
+   "bytes": 4122,
+   "sha256": "f707e4d92788b8a9631eac9addf5c42c89231bed57597c213645bebd32cb1b69",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.12"
+  },
+  {
+   "path": "regulations/reg-e/1005.12/2017-04-25.md",
+   "bytes": 4203,
+   "sha256": "a7e32cf53ee2336dc256982e3490a1a2f753c27ef79bbf11ce2f01a68b8a0566",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.12"
+  },
+  {
+   "path": "regulations/reg-e/1005.12/2018-02-13.md",
+   "bytes": 4291,
+   "sha256": "42b6a47b22e84c77fce44f71628c339d509f9ba638c227433fbb5787275f84af",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.12"
+  },
+  {
+   "path": "regulations/reg-e/1005.12/2019-04-01.md",
+   "bytes": 5666,
+   "sha256": "cba03a1e116814daae7c8a39ab4b80b59d8f3e176ad2639bfe44d688b78312a7",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.12"
+  },
+  {
+   "path": "regulations/reg-e/1005.13/2017-01-01.md",
+   "bytes": 1290,
+   "sha256": "6d5746bab604ea8c33e291454017cac5e36e3a534a389ce03d980c11179d40aa",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.13"
+  },
+  {
+   "path": "regulations/reg-e/1005.14/2017-01-01.md",
+   "bytes": 4814,
+   "sha256": "425fb1ef12ee55e41380a8f153afb605ea1f67c4bd761f608f692e2d5e8d10c5",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.14"
+  },
+  {
+   "path": "regulations/reg-e/1005.15/2017-01-01.md",
+   "bytes": 4626,
+   "sha256": "75265c3d45c355b82e471b42d736dec9d346ffe3a991c2f51af5de9310d34d00",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.15"
+  },
+  {
+   "path": "regulations/reg-e/1005.15/2017-04-25.md",
+   "bytes": 4707,
+   "sha256": "7821cea32ff322fadb9a94cac6fd33a8c2c06d6214dfad16f0de658e110de713",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.15"
+  },
+  {
+   "path": "regulations/reg-e/1005.15/2018-02-13.md",
+   "bytes": 4795,
+   "sha256": "aa916eaf15ef801ccf1a0509aae87e7c0adaa5d16f19689e7bf9091c9e52738f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.15"
+  },
+  {
+   "path": "regulations/reg-e/1005.15/2019-04-01.md",
+   "bytes": 10467,
+   "sha256": "82458a87d7cc727eeb81824b44e1429cc8e186bec1fc328baf1c632b603069bf",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.15"
+  },
+  {
+   "path": "regulations/reg-e/1005.16/2017-01-01.md",
+   "bytes": 1736,
+   "sha256": "06bc89bb80babc1b7c7315ba2880abbf20c777e1c951a130f5a56b4f2536db1e",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.16"
+  },
+  {
+   "path": "regulations/reg-e/1005.17/2017-01-01.md",
+   "bytes": 8108,
+   "sha256": "6cb5f339589f1235ff3ab4f980f0a020fcceab9f2b8ec6389e7a70098ba1b8b2",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.17"
+  },
+  {
+   "path": "regulations/reg-e/1005.17/2017-04-25.md",
+   "bytes": 8189,
+   "sha256": "bb49f55f1af1d36f5f55be8b8908fcf1fc0f45ed8b625d86bb275ad3123cb64c",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.17"
+  },
+  {
+   "path": "regulations/reg-e/1005.17/2018-02-13.md",
+   "bytes": 8277,
+   "sha256": "f7d4d3b33ba594cc838354c44050b9dc4a862aedc627e71381689b62e3b4f7cb",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.17"
+  },
+  {
+   "path": "regulations/reg-e/1005.17/2019-04-01.md",
+   "bytes": 8387,
+   "sha256": "ba5364368e2095ec274b53adebd53e40889f759324d4314fffe04c8454998711",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.17"
+  },
+  {
+   "path": "regulations/reg-e/1005.18/2017-01-01.md",
+   "bytes": 5365,
+   "sha256": "8e4bfd63572f8845a9c6f3d32ce093fbb4897005732dc3f7a95ec7668f373cf4",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.18"
+  },
+  {
+   "path": "regulations/reg-e/1005.18/2017-04-25.md",
+   "bytes": 5511,
+   "sha256": "ff8303e69035363084369594f8c0a6a313460a4f6fb28b16c644e4edbb62fe4b",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.18"
+  },
+  {
+   "path": "regulations/reg-e/1005.18/2018-02-13.md",
+   "bytes": 5743,
+   "sha256": "679a4e8a17f3f1ffd7a297c2758c20a2b6f69094932e5d69ce34f212d3316002",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.18"
+  },
+  {
+   "path": "regulations/reg-e/1005.18/2019-04-01.md",
+   "bytes": 64477,
+   "sha256": "e13f7c0bcc315da227009148fef527d6cb60f9af788d3529248302aaef59beab",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.18"
+  },
+  {
+   "path": "regulations/reg-e/1005.18/2019-11-14.md",
+   "bytes": 64480,
+   "sha256": "4a0b7967730af912825af1017683a19eb51592124e6324005b04da7458faa7ad",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-11-14/title-12.xml?part=1005&section=1005.18"
+  },
+  {
+   "path": "regulations/reg-e/1005.19/2017-01-01.md",
+   "bytes": 420,
+   "sha256": "90ce3e7119ef130cc4a21f02f856de52d300d14a8ae627a7ee8c48f78ea7a028",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.19"
+  },
+  {
+   "path": "regulations/reg-e/1005.19/2017-04-25.md",
+   "bytes": 566,
+   "sha256": "0464182a87ac230197c359a200d9b9cb9393b08d954fecb837d6d4ab0fe77b09",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.19"
+  },
+  {
+   "path": "regulations/reg-e/1005.19/2018-02-13.md",
+   "bytes": 798,
+   "sha256": "8ae6b2113a6a232570e7d6d0a3d281c77bb6d56e67be7ccde501db3fc3a4855f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.19"
+  },
+  {
+   "path": "regulations/reg-e/1005.19/2019-04-01.md",
+   "bytes": 14361,
+   "sha256": "4d9deaadb210248e7df580a1fee5bcf4f3c19aca8701cf9f843029a5fb5e75ba",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.19"
+  },
+  {
+   "path": "regulations/reg-e/1005.2/2017-01-01.md",
+   "bytes": 4869,
+   "sha256": "62843d899446c147232c027a8610a61d4220c7c3f1c52973daf6fd39128bc895",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.2"
+  },
+  {
+   "path": "regulations/reg-e/1005.2/2017-04-25.md",
+   "bytes": 4950,
+   "sha256": "9ae76cec68fa2b81a48d532911302e5f432c43407125a2cccc760892bd4f7b0c",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.2"
+  },
+  {
+   "path": "regulations/reg-e/1005.2/2018-02-13.md",
+   "bytes": 5102,
+   "sha256": "dc43e4c25dc32843349c7466aef065ee35cd5f6b91117f11eafbac671d302c66",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.2"
+  },
+  {
+   "path": "regulations/reg-e/1005.2/2019-04-01.md",
+   "bytes": 7038,
+   "sha256": "b3072f3f526987dded8619c774bcfc1a78072ba04c57346a4e8739cf5f2e5b69",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.2"
+  },
+  {
+   "path": "regulations/reg-e/1005.20/2017-01-01.md",
+   "bytes": 12837,
+   "sha256": "6aa4ef27a125969606e3e9df78d131825ab669849bd864c40a7572f48a566587",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.20"
+  },
+  {
+   "path": "regulations/reg-e/1005.3/2017-01-01.md",
+   "bytes": 8122,
+   "sha256": "e2f5de4f0a027b45431d2b527042ad454475d6ebcfd6f869b708650838e80cc5",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.3"
+  },
+  {
+   "path": "regulations/reg-e/1005.30/2017-01-01.md",
+   "bytes": 4152,
+   "sha256": "a649093da300d92c4898a0bdc28bab9b2d9f64ba9545123ce40c1035091e2ea5",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.30"
+  },
+  {
+   "path": "regulations/reg-e/1005.30/2020-06-05.md",
+   "bytes": 4216,
+   "sha256": "f42da4c3e1d23df62e2ebb20891c1380890f5d960676c734fe76d0350451e6d0",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-05/title-12.xml?part=1005&section=1005.30"
+  },
+  {
+   "path": "regulations/reg-e/1005.30/2020-07-21.md",
+   "bytes": 4916,
+   "sha256": "0f5855e33eff1ae6741b115c257c4c655942ea5c9ef68277e4185509fd14efb6",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-21/title-12.xml?part=1005&section=1005.30"
+  },
+  {
+   "path": "regulations/reg-e/1005.31/2017-01-01.md",
+   "bytes": 18509,
+   "sha256": "bae271b8c39d045db4c8c22ce506795eee19c981ca54b667123562a06a836cfd",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.31"
+  },
+  {
+   "path": "regulations/reg-e/1005.32/2017-01-01.md",
+   "bytes": 8660,
+   "sha256": "78b42dd2e4a73b847a23100419a0f5c9c4f1da88780e6378588b5f4253eeff61",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.32"
+  },
+  {
+   "path": "regulations/reg-e/1005.32/2017-04-25.md",
+   "bytes": 8741,
+   "sha256": "bb98b77a7d45905f7f0d00e5476cc2f9434f6258fbff44b7d67c4e26ba16ba69",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&section=1005.32"
+  },
+  {
+   "path": "regulations/reg-e/1005.32/2018-02-13.md",
+   "bytes": 8829,
+   "sha256": "3a2451ad6d36d6f156cfabc7f3b9b42caae8ada2e90172c888b4eb2b4045a9e3",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&section=1005.32"
+  },
+  {
+   "path": "regulations/reg-e/1005.32/2019-04-01.md",
+   "bytes": 8818,
+   "sha256": "54d02273775bcff675b47d700b87e035f944d196af889a9d86a77295f553af09",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&section=1005.32"
+  },
+  {
+   "path": "regulations/reg-e/1005.32/2020-06-05.md",
+   "bytes": 8882,
+   "sha256": "3668aa324e76939b23728ed9fae3d7c3b5421e29dec3d0e23fc5a296776e9864",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-05/title-12.xml?part=1005&section=1005.32"
+  },
+  {
+   "path": "regulations/reg-e/1005.32/2020-07-21.md",
+   "bytes": 12583,
+   "sha256": "13a70daaca0ed62efb12b8ee87f5fffddd9c2851ec841b855f00dab7ea8a03be",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-21/title-12.xml?part=1005&section=1005.32"
+  },
+  {
+   "path": "regulations/reg-e/1005.33/2017-01-01.md",
+   "bytes": 15371,
+   "sha256": "493c52ba3a6e1318156924c566d9583ea1944febc7b7ea4ece4dda4bea3dec26",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.33"
+  },
+  {
+   "path": "regulations/reg-e/1005.33/2020-06-05.md",
+   "bytes": 15435,
+   "sha256": "6e8ea988b5cafe05a7ac59ec66bba50411600d4178ba08ae2bc752e2dba2ff6f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-05/title-12.xml?part=1005&section=1005.33"
+  },
+  {
+   "path": "regulations/reg-e/1005.33/2020-07-21.md",
+   "bytes": 15411,
+   "sha256": "0d37cae98132394122db89045744e1aeec5f997f0d01612c4c307b34de76b9d2",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-21/title-12.xml?part=1005&section=1005.33"
+  },
+  {
+   "path": "regulations/reg-e/1005.34/2017-01-01.md",
+   "bytes": 1588,
+   "sha256": "f181a911c417b22ca7f823cec6c18add5ec65926f866c4eda19cce7b101fda5f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.34"
+  },
+  {
+   "path": "regulations/reg-e/1005.35/2017-01-01.md",
+   "bytes": 498,
+   "sha256": "c5e524aa8a8ef6377a23585ff6c2a00471ba1ed0554ce8698c67023ccdb1314c",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.35"
+  },
+  {
+   "path": "regulations/reg-e/1005.36/2017-01-01.md",
+   "bytes": 7352,
+   "sha256": "e32631a5a733028b18654e6524e1e4cb2b8cd98e6c730327215470f9bf16d6eb",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.36"
+  },
+  {
+   "path": "regulations/reg-e/1005.36/2020-06-05.md",
+   "bytes": 7416,
+   "sha256": "49fa4e8f74586d1f861c0ba1c6a75188709d35aba45f586489aa1607ab20fdac",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-05/title-12.xml?part=1005&section=1005.36"
+  },
+  {
+   "path": "regulations/reg-e/1005.36/2020-07-21.md",
+   "bytes": 7395,
+   "sha256": "b752a9d4908d489926a9e93939d6b5e3e066b8517950cb1e40d64baf4b240159",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-21/title-12.xml?part=1005&section=1005.36"
+  },
+  {
+   "path": "regulations/reg-e/1005.4/2017-01-01.md",
+   "bytes": 2497,
+   "sha256": "7f2388527986aef8cfb89c79aaaf8f27b5924f1ff1f7661380e80f6af3a881f6",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.4"
+  },
+  {
+   "path": "regulations/reg-e/1005.5/2017-01-01.md",
+   "bytes": 1538,
+   "sha256": "8844c3e54873f3002588d0f3eaa12f41b5f5495039f88a9c4585f58a2f07d3da",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.5"
+  },
+  {
+   "path": "regulations/reg-e/1005.6/2017-01-01.md",
+   "bytes": 4130,
+   "sha256": "322d603ed8fd841fbb4fec4f547e2efabb0602ce5f8af1bdb496b48ea4318bee",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.6"
+  },
+  {
+   "path": "regulations/reg-e/1005.7/2017-01-01.md",
+   "bytes": 3191,
+   "sha256": "fe24e188e547f8810f5748a638bb597dabeea04ee182d9fa0e750cfd1d4979ff",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.7"
+  },
+  {
+   "path": "regulations/reg-e/1005.8/2017-01-01.md",
+   "bytes": 2053,
+   "sha256": "a22308795d029e9b73bc8115751bfb344ba595944f256a0215424a7912e7d537",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.8"
+  },
+  {
+   "path": "regulations/reg-e/1005.9/2017-01-01.md",
+   "bytes": 6090,
+   "sha256": "4fab5cf6428247931675c80f991f2ada9e8a11c3d7ed0cf6eea57bdaf33f54c3",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&section=1005.9"
+  },
+  {
+   "path": "regulations/reg-e/appendix-a/2017-01-01.md",
+   "bytes": 27033,
+   "sha256": "4c150f89d53f86ffa02bb274d5b91479327dda023c2b00b0a9f2cdc4485e0d89",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&appendix=Appendix%20A%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-a/2017-04-25.md",
+   "bytes": 27114,
+   "sha256": "0a80271f1aa98d9506ed76072902adde327ceba8efd695ff060bd680901e6527",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&appendix=Appendix%20A%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-a/2018-02-13.md",
+   "bytes": 27266,
+   "sha256": "673f511d04b82c54a9c131cd82c81cdac8c6b275a98d76e76e6f62a7c47b37f0",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&appendix=Appendix%20A%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-a/2019-04-01.md",
+   "bytes": 29458,
+   "sha256": "12fc280785b0d64613baa36df0411a058092c7dba1a1c459bd25db0e69de7838",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&appendix=Appendix%20A%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-b/2017-01-01.md",
+   "bytes": 415,
+   "sha256": "806a9c851a4cc0a96e5db34d66ad0b6214659a6db88ffa2db3e9f2cdbdfab7da",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&appendix=Appendix%20B%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-c/2017-01-01.md",
+   "bytes": 1550,
+   "sha256": "a1b28cee347583e0e80c2030edd5eca3fc4ab24053031a75445e8740cc6135d0",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&appendix=Appendix%20C%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-c/2023-03-20.md",
+   "bytes": 1626,
+   "sha256": "ad3112eb801401aa7b04a8329f5acf00200ed7857d11dfbf096767dffc10d7a3",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2023-03-20/title-12.xml?part=1005&appendix=Appendix%20C%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/appendix-c/2023-04-19.md",
+   "bytes": 1453,
+   "sha256": "183f141e61cab5c3dc5eba813e359f8ae7a54240092848b8c2fe2b57d538689a",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2023-04-19/title-12.xml?part=1005&appendix=Appendix%20C%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2017-01-01.md",
+   "bytes": 340775,
+   "sha256": "ab16564e53bfbf4a41682e5ee1b180361e5c98379b4386044b4f6a73cb9ab08f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2017-04-25.md",
+   "bytes": 340921,
+   "sha256": "ba1a2a018de59cf0fbaacd6b068f66b7ac786153839d00235da145f1d41913da",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2018-02-13.md",
+   "bytes": 341153,
+   "sha256": "1aa465253aa5e088eb008f98c530b64e5ba8bb830479def6ef559dc8282e53d1",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2019-04-01.md",
+   "bytes": 541689,
+   "sha256": "b0b923cab8f473fd7ba9621a2323b555eddd423013105aaf53fd0b47da326da7",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2020-06-05.md",
+   "bytes": 541742,
+   "sha256": "0e2e981d389a3269e92f277d2be7080a14e053643ca72faa504e55163e0018d1",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-05/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2020-07-21.md",
+   "bytes": 565739,
+   "sha256": "45683851cd2ac07ec2e354b9073acbe541b695a0a333605d7fd19c5654d655a1",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2020-07-21/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2024-12-30.md",
+   "bytes": 565794,
+   "sha256": "957353a345ca0001aa09c273ca80a46d946e2a03f38f5c3c40d0eacd1cfd31ef",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-30/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-e/supplement-i/2025-10-01.md",
+   "bytes": 566620,
+   "sha256": "228c46dd733a622ba301e70360aeb3ff0189b8bc059514359c65ea350b7608cd",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-10-01/title-12.xml?part=1005&appendix=Supplement%20I%20to%20Part%201005"
+  },
+  {
+   "path": "regulations/reg-z/1026.12/2017-01-01.md",
+   "bytes": 9134,
+   "sha256": "ca80dfc5b3ca7dfaf964118879cb2198de9ba24f1acd14bf660f2ab4d1cae538",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1026&section=1026.12"
+  },
+  {
+   "path": "regulations/reg-z/1026.12/2017-04-25.md",
+   "bytes": 9215,
+   "sha256": "c0910e071f1953374f76ed67ea5280c4b0e17b6baa6317b41a7a588f01a687f2",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1026&section=1026.12"
+  },
+  {
+   "path": "regulations/reg-z/1026.12/2018-02-13.md",
+   "bytes": 9303,
+   "sha256": "456567e16499bba4d5aae75742062485cb81f02f6091cb9463b766838fb69a45",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1026&section=1026.12"
+  },
+  {
+   "path": "regulations/reg-z/1026.12/2019-04-01.md",
+   "bytes": 9716,
+   "sha256": "c3ab3b9c8aeecdd07833c960bd4bfed94f7598d6a4fbda47f13c48042c0b7529",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1026&section=1026.12"
+  },
+  {
+   "path": "regulations/reg-z/1026.13/2017-01-01.md",
+   "bytes": 9039,
+   "sha256": "782602b4c2368ab0172012cf94f35e3394e61cc0503d269e499ff2fe7b97c16f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1026&section=1026.13"
+  },
+  {
+   "path": "regulations/reg-z/1026.13/2017-04-25.md",
+   "bytes": 9120,
+   "sha256": "f2ebfbb9aba90e67d5946233d702e9e52a9842efc7799fbf338647ee1626b409",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1026&section=1026.13"
+  },
+  {
+   "path": "regulations/reg-z/1026.13/2018-02-13.md",
+   "bytes": 9208,
+   "sha256": "e6a68fbd74034056f502ea4841773184cf470390157b337c2a84efee9a594895",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1026&section=1026.13"
+  },
+  {
+   "path": "regulations/reg-z/1026.13/2019-04-01.md",
+   "bytes": 9604,
+   "sha256": "5bf31145788b25ec11a586ead0618c655ebc50947abc387aa85c55b403561c02",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1026&section=1026.13"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2017-01-01.md",
+   "bytes": 11074,
+   "sha256": "e17c720e69e70128c011eef187eb8be0820ea60197c24e2a8c48a774ef670ad4",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2017-04-25.md",
+   "bytes": 11155,
+   "sha256": "72b979a0173096663c22fc38a8c7b6758022399de72643ac54c2cb783dab5775",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-04-25/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2018-02-13.md",
+   "bytes": 11243,
+   "sha256": "98a8a090f1550206265ddd110858407e3476f72f8c1f19ab1ffa5b0766986317",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-02-13/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2018-04-19.md",
+   "bytes": 12399,
+   "sha256": "4b064ff0f2dcf29a0876e4561eb98abb9e3c95ca1298c21c726a0d9b1ec1d3da",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-19/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2019-04-01.md",
+   "bytes": 12728,
+   "sha256": "bb59b011131deac21e3f55cce3592066563baba449dcbfe62b0614cdf5c23f30",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2023-05-11.md",
+   "bytes": 12792,
+   "sha256": "b97c159d4e702f0d193e6045fee191cd9caa9849b5efc576a442e7666b4e643f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2023-05-11/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2023-05-15.md",
+   "bytes": 13206,
+   "sha256": "33ada0ac3ad33ed6f48a097042797f6ad4406315432f61f5c1cd126ad33d76db",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2023-05-15/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2024-08-07.md",
+   "bytes": 13270,
+   "sha256": "22696e1b71f34116cd75eed72bf61d3a150878fa11cb0936019e389d1d11bf7d",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-08-07/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2024-12-30.md",
+   "bytes": 13336,
+   "sha256": "e871318b634d44e53d2b2d5217ebd9a2787dc82f5fef73f3b26b4d7118f18a22",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-30/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/1026.2/2025-10-01.md",
+   "bytes": 13532,
+   "sha256": "6d2227024b9f12094eb2fb1f522cd924656853770f07e2fb9f6c7a6bcbb40b9d",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-10-01/title-12.xml?part=1026&section=1026.2"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.12/2017-01-01.md",
+   "bytes": 33456,
+   "sha256": "bb7335289b1fb816dfc7fc0ee4d568baeeabb4b5114f4e2f971e07f92747564f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.12/2019-04-01.md",
+   "bytes": 43079,
+   "sha256": "b2566597e4936d038536c95d94f1a3df3535915bd0a3a3583bbe6f7c290d6dc9",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.12/2023-03-20.md",
+   "bytes": 43090,
+   "sha256": "e6a60521431e8a917f893424e44a780150b523873f18549adf7198f164d6543c",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2023-03-20/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.12/2025-10-01.md",
+   "bytes": 1400,
+   "sha256": "c74a7c61fd19133aaff6105b703a6c958e9d0c6e9a7ce1be1b37d613357c1e64",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-10-01/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.13/2017-01-01.md",
+   "bytes": 26187,
+   "sha256": "96fdcaf09fae2d0da052fb2d67a53775f735994e2564b38cc815af78de4db90f",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-01/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.13/2019-04-01.md",
+   "bytes": 30741,
+   "sha256": "ac8bbd1bd92607a59a384de807ef87897b2c0fa7d5e19f1f7f8a8fedb9fc3d7a",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2019-04-01/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/reg-z/supplement-i-1026.13/2023-03-20.md",
+   "bytes": 30744,
+   "sha256": "fcdff3a2b96d73aa21f8e9d2b8d32d20c46f9f67514a75703fa6b36122be6042",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/full/2023-03-20/title-12.xml?part=1026&appendix=Supplement%20I%20to%20Part%201026"
+  },
+  {
+   "path": "regulations/versions_index.csv",
+   "bytes": 31514,
+   "sha256": "9fe7e23ec4c763cbf083af1547e5384127ba0d491ecdf30bcf89e2e55f090438",
+   "source_url": "https://www.ecfr.gov/api/versioner/v1/"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+From: Luis Carvajal <luis.carvajal@harborlinebank.com>
+To: Gregory Hale <gregory.hale@harborlinebank.com>,
+ Tasha Morrow <tasha.morrow@harborlinebank.com>
+Cc: Dana Whitfield <dana.whitfield@harborlinebank.com>,
+ Marcus Oyelaran <marcus.oyelaran@harborlinebank.com>,
+ Ifeoma Adeyemi <ifeoma.adeyemi@harborlinebank.com>,
+ Mei-Lin Zhou <mei-lin.zhou@harborlinebank.com>
+Subject: RE: New 7-day target =?utf-8?b?4oCU?= clarification
+Date: Fri, 03 Sep 2021 09:14:00 -0500
+Message-ID: <179543013434.89985.13662908291426823533@harborlinebank.com>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+From: Luis Carvajal =20
+To: Gregory Hale; Tasha Morrow =20
+Cc: Dana Whitfield; Marcus Oyelaran; Ifeoma Adeyemi; Mei-Lin Zhou =20
+Date: 2021-09-03 16:18 =20
+Subject: RE: New 7-day target =E2=80=94 clarification
+
+Gregory,
+
+Confirming the clarification for the team and QA:
+
+Harborline's internal target is to decide and post provisional credit by the =
+7th business day after the notice of error.
+
+This is the timing we will use in DOP-210 and DOP-211 for debit, ACH debit, Q=
+uickSend, and FlexCard cases that qualify for provisional credit. The 7th bus=
+iness day is an internal target only; it does not change any legal deadline o=
+r the customer notice requirements in DOP-212 and DOP-230.
+
+Operationally, analysts should continue to:
+1. log the notice in ClaimTrack the same day received;
+2. determine provisional credit eligibility as soon as the claim is classifie=
+d;
+3. post the credit in HLX Core or via Corvane workflow, as applicable; and
+4. document the posting date in the case notes and correspondence queue.
+
+QA will measure timeliness against the day the notice of error is received, u=
+sing the business-day calculation in DOP-231. If the case is pending document=
+ation or routing to another queue, the clock does not stop unless the procedu=
+re specifically allows it.
+
+Please use this wording in the update to the procedures set and the manager h=
+uddle notes.
+
+Luis
+
+---
+
+From: Gregory Hale =20
+To: Luis Carvajal =20
+Cc: Dana Whitfield; Marcus Oyelaran; Tasha Morrow; Ifeoma Adeyemi =20
+Date: 2021-09-03 15:47 =20
+Subject: RE: New 7-day target =E2=80=94 clarification
+
+Thanks, Luis. One point to confirm before I send it out: when we say 7th busi=
+ness day, do we mean from receipt of the notice of error or from claim setup =
+in ClaimTrack?
+
+Also, I want to make sure the phrasing is consistent with the remediation fro=
+m IA-2021-07 and with DOP-210 / DOP-211 so Tasha and QA are aligned.
+
+Greg
+
+> From: Luis Carvajal =20
+> To: Gregory Hale =20
+> Cc: Dana Whitfield; Marcus Oyelaran; Ifeoma Adeyemi =20
+> Date: 2021-09-03 15:10 =20
+> Subject: New 7-day target =E2=80=94 clarification
+>
+> Team,
+>
+> Following the procedure rewrite, we need one clean sentence for the ops upd=
+ate and the QA checklist. The target is now 7 business days, and I want to ma=
+ke sure the language is consistent across Debit & EFT and Claims Intake befor=
+e we brief the analysts tomorrow.
+>
+> Luis
+
+---
+
+From: Dana Whitfield =20
+To: Luis Carvajal; Gregory Hale =20
+Cc: Marcus Oyelaran; Tasha Morrow; Ifeoma Adeyemi; Mei-Lin Zhou =20
+Date: 2021-09-03 15:10 =20
+Subject: New 7-day target =E2=80=94 clarification
+
+Team,
+
+Following the procedure rewrite, we need one clean sentence for the ops updat=
+e and the QA checklist. The target is now 7 business days, and I want to make=
+ sure the language is consistent across Debit & EFT and Claims Intake before =
+we brief the analysts tomorrow.
+
+Luis

@@ -1,0 +1,134 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Classifying a claim: decision tree - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>Classifying a claim: decision tree</h1>
+<div class="meta">Created by Darnell Price · Last updated 2017-04-01 · Version 1</div>
+<div class="content"><h1>WI-007 — Classifying a claim: decision tree</h1>
+<p><strong>Type:</strong> Work Instruction<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective / issued date:</strong> 2017-04-01<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training</p>
+<h2>Purpose</h2>
+<p>Use this procedure to classify a consumer dispute claim into the correct claim type before investigation work is assigned. Accurate classification ensures the claim is routed to the appropriate work queue, coverage review is applied consistently, and downstream notices reflect the correct product and transaction type.</p>
+<p>This page is used by Claims Intake associates in ClaimTrack, with reference to CardView and Corvane Card Services as needed.</p>
+<blockquote>
+<p><strong>Before you start</strong></p>
+<ul>
+<li>Confirm the customer identity and claim intake details are already complete per <strong>DOP-201</strong>.</li>
+<li>Open the claim in <strong>ClaimTrack</strong> and verify the product, transaction date, and transaction channel.</li>
+<li>If the claim involves a debit, credit, or prepaid card transaction, have <strong>CardView</strong> available.</li>
+<li>If the transaction is chargeback-eligible or a network item, be prepared to open <strong>Corvane Card Services</strong>.</li>
+<li>Do not classify a claim based only on the customer’s description. Use the account and transaction record first.</li>
+</ul>
+</blockquote>
+<h2>Procedure</h2>
+<ol>
+<li>In <strong>ClaimTrack</strong>, open the customer’s claim from the <strong>Open Claims</strong> queue.</li>
+<li>Review the <strong>Claim Summary</strong> panel and confirm:</li>
+<li>account number,</li>
+<li>disputed amount,</li>
+<li>transaction date,</li>
+<li>product type,</li>
+<li>channel of receipt.</li>
+<li>Select <strong>Transactions</strong> to display the disputed item list.</li>
+<li>Compare the disputed item against the account record in <strong>CardView</strong>:</li>
+<li>Click <strong>Open CardView</strong> from the claim record.</li>
+<li>Search by card number or masked account number.</li>
+<li>Open the most recent card account page.</li>
+<li>Verify whether the transaction is debit, credit, or prepaid.</li>
+<li>Determine whether the dispute is:</li>
+<li>a card purchase,</li>
+<li>an ATM cash withdrawal,</li>
+<li>an ACH debit,</li>
+<li>a billing error,</li>
+<li>a network chargeback item,</li>
+<li>or a duplicate / repeat claim.</li>
+<li>In <strong>ClaimTrack</strong>, open <strong>Classification</strong> and select the first-level claim type:</li>
+<li><strong>Debit Card POS</strong></li>
+<li><strong>ATM</strong></li>
+<li><strong>ACH Debit</strong></li>
+<li><strong>Credit Card Billing Error</strong></li>
+<li><strong>Chargeback / Merchant Dispute</strong></li>
+<li><strong>Other / Refer</strong></li>
+<li>If the claim is a card dispute processed through Corvane:</li>
+<li>Click <strong>Launch Corvane Portal</strong> from the claim record.</li>
+<li>Locate the transaction using the ARN, trace number, or transaction date.</li>
+<li>Confirm whether the item is still within network processing scope.</li>
+<li>Record the Corvane status in the claim notes.</li>
+<li>If the claim involves multiple transactions, classify each transaction line separately in ClaimTrack.</li>
+<li>If the claim appears to involve fraud, a compromised account, or an unauthorized transfer, mark <strong>Potential Fraud</strong> and route according to <strong>DOP-218</strong> and <strong>DOP-203</strong>.</li>
+<li>If the claim cannot be matched to a supported claim type, select <strong>Refer for Review</strong> and add a concise note stating the reason.</li>
+<li>Save the classification.</li>
+<li>Reopen the claim summary and confirm the work queue has updated correctly.</li>
+<li>Add a case note that includes:</li>
+<li>selected claim type,</li>
+<li>source system reviewed,</li>
+<li>any discrepancy between customer description and transaction record,</li>
+<li>any referral or exception.</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>Use the transaction record first, then the customer narrative. Inconsistent descriptions are common during intake and do not by themselves determine the claim type.</p>
+<p><strong>Warning</strong></p>
+<p>Do not assign a chargeback classification unless the transaction is actually card-network eligible. If uncertain, refer the claim instead of forcing a category.</p>
+</blockquote>
+<h2>Classification cues</h2>
+<table>
+<thead>
+<tr>
+<th>If the transaction is…</th>
+<th>Start with…</th>
+<th>Supporting page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Card purchase disputed as unauthorized or incorrect</td>
+<td>Credit or debit card classification</td>
+<td>DOP-204 / DOP-209</td>
+</tr>
+<tr>
+<td>Cash withdrawal at an ATM</td>
+<td>ATM classification</td>
+<td>DOP-205</td>
+</tr>
+<tr>
+<td>Electronic debit from deposit account</td>
+<td>ACH debit classification</td>
+<td>DOP-206</td>
+</tr>
+<tr>
+<td>Customer says a card charge is incorrect but not unauthorized</td>
+<td>Billing error classification</td>
+<td>DOP-209</td>
+</tr>
+<tr>
+<td>Network dispute on debit, credit, or prepaid card</td>
+<td>Corvane review</td>
+<td>DOP-217 / DOP-234</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Tip</strong></p>
+<p>If a claim spans more than one product, classify the primary transaction first and keep the secondary transaction in the notes for downstream review.</p>
+</blockquote>
+<h2>Related pages</h2>
+<ul>
+<li><strong>DOP-201</strong> — Claim Intake (All Channels)</li>
+<li><strong>DOP-203</strong> — Claim Classification and Coverage</li>
+<li><strong>DOP-204</strong> — Debit Card Point-of-Sale Disputes</li>
+<li><strong>DOP-205</strong> — ATM Transaction Disputes</li>
+<li><strong>DOP-206</strong> — ACH Debit Disputes</li>
+<li><strong>DOP-209</strong> — Credit Card Billing Error Disputes</li>
+<li><strong>DOP-217</strong> — Chargeback Filing and Recovery</li>
+<li><strong>DOP-218</strong> — Fraud Referral and Account Compromise</li>
+<li><strong>DOP-223</strong> — Duplicate and Repeat Claims</li>
+<li><strong>DOP-234</strong> — Coordination with Corvane Card Services</li>
+</ul>
+<h2>Page history</h2>
+<ul>
+<li><strong>v1 — 2017-04-01:</strong> Published.</li>
+</ul></div>
+<hr><div class="meta">Page ID 401891 · Space: CPSDISPUTES</div></body></html>

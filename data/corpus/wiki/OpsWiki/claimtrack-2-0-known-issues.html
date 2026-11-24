@@ -1,0 +1,98 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>ClaimTrack 2.0 known issues - OpsWiki - Harborline</title>
+<style>body{font-family:Arial,sans-serif;max-width:900px;margin:24px auto;color:#172b4d} .crumbs{font-size:12px;color:#6b778c}
+table{border-collapse:collapse} td,th{border:1px solid #c1c7d0;padding:4px 8px} .meta{font-size:12px;color:#6b778c;margin-bottom:16px}</style></head>
+<body><div class="crumbs">OpsWiki / Disputes Operations / Work Instructions</div><h1>ClaimTrack 2.0 known issues</h1>
+<div class="meta">Created by Darnell Price · Last updated 2023-06-05 · Version 1</div>
+<div class="content"><h1>WI-048 — ClaimTrack 2.0 known issues</h1>
+<p><strong>Type:</strong> Work Instruction<br />
+<strong>Version:</strong> 1<br />
+<strong>Effective/issued date:</strong> 2023-06-05<br />
+<strong>Status at issue:</strong> Active<br />
+<strong>Owner:</strong> Darnell Price, Manager, Operations Training</p>
+<h2>Purpose</h2>
+<p>This page captures recurring ClaimTrack 2.0 behaviors and the approved workarounds used by Disputes Operations when processing claims in ClaimTrack, CardView, and the Corvane portal. It is intended for Claims Intake, Debit &amp; EFT Investigations, Credit Card Investigations, Chargeback Recovery, and QA reviewers who need to complete daily work without delay while the system migration stabilizes.</p>
+<p>ClaimTrack 2.0 launched with automated deadline clocks. Use the steps below whenever a case presents one of the known issues listed on this page. Do not create duplicate work items unless the original case is unrecoverable.</p>
+<blockquote>
+<p>[!NOTE]
+ClaimTrack 2.0 is the system of record for dispute case management beginning 2023-06-05. If the case is visible in an older queue or legacy view, process it in ClaimTrack 2.0 and use the legacy screen only for reference.</p>
+</blockquote>
+<h2>Before you start</h2>
+<blockquote>
+<p>[!IMPORTANT]
+Confirm you are using the correct customer profile and claim type before editing any deadline, assignment, or status field. ClaimTrack 2.0 will recalculate due dates after each save.</p>
+<p><strong>Common issues tracked on this page</strong>
+- Claim deadline clock appears one business day ahead of the worksheet.
+- Attachment upload succeeds, but the document list does not refresh immediately.
+- Status changes in ClaimTrack do not always match CardView until the case is re-opened.
+- Corvane response codes may display after a short delay when a network chargeback is filed.
+- Work items can briefly appear in both the old and new queue views during the first open/save cycle.</p>
+</blockquote>
+<h2>Known issue handling steps</h2>
+<h3>1) Deadline clock does not match the case worksheet</h3>
+<ol>
+<li>Open the claim in <strong>ClaimTrack 2.0</strong>.</li>
+<li>Select <strong>Case Summary</strong> and review the <strong>Deadline Clock</strong> field.</li>
+<li>Open the associated worksheet from the case attachments or the Disputes Ops Library reference copy.</li>
+<li>Compare the worksheet date to the ClaimTrack date.</li>
+<li>If the ClaimTrack date is correct, continue processing and add an internal note: <strong>deadline clock verified against worksheet</strong>.</li>
+<li>If the worksheet reflects the earlier case logic, confirm whether the claim was migrated from the legacy DOP-2xx record set.</li>
+<li>Do not overwrite the ClaimTrack date unless you have validated the issue against the case facts and the applicable procedure.</li>
+</ol>
+<h3>2) Attachment upload does not refresh on screen</h3>
+<ol>
+<li>In <strong>ClaimTrack 2.0</strong>, open the case and go to <strong>Evidence</strong>.</li>
+<li>Select <strong>Upload Document</strong> and attach the file.</li>
+<li>Wait for the upload confirmation banner.</li>
+<li>If the new item does not display, select <strong>Refresh Case</strong> once.</li>
+<li>If the document still does not display, save the case, close it, and re-open from the queue.</li>
+<li>If the attachment remains missing after re-open, verify whether the file is visible in the case audit trail before re-uploading.</li>
+</ol>
+<blockquote>
+<p>[!TIP]
+Do not upload the same file multiple times while the list is lagging. Duplicate attachments slow review and make QA reconciliation harder.</p>
+</blockquote>
+<h3>3) CardView and ClaimTrack show different account status</h3>
+<ol>
+<li>From ClaimTrack, open the <strong>Account Details</strong> section.</li>
+<li>Launch <strong>CardView</strong> from the case action menu.</li>
+<li>Compare the card status, available balance, and recent transaction list.</li>
+<li>If CardView appears more current, keep both screens open and continue using CardView for servicing reference.</li>
+<li>Return to ClaimTrack and save only after you have confirmed the case note, status, and assignment fields.</li>
+<li>If the discrepancy affects a debit, credit, or prepaid dispute decision, follow the governing procedure in the relevant CPS-SOP document before finalizing the case.</li>
+</ol>
+<h3>4) Corvane chargeback response is delayed</h3>
+<ol>
+<li>Open the case in <strong>ClaimTrack 2.0</strong>.</li>
+<li>Select <strong>External Processor</strong> and confirm the case is routed to <strong>Corvane Card Services</strong>.</li>
+<li>In the <strong>Corvane portal</strong>, review the chargeback file status.</li>
+<li>If the response code is pending, leave the case in the current queue and set a follow-up reminder.</li>
+<li>Recheck the portal after the case refreshes in ClaimTrack.</li>
+<li>Once the Corvane response posts, update the dispute outcome and continue with the normal recovery or investigation path.</li>
+</ol>
+<blockquote>
+<p>[!WARNING]
+Do not manually close a Corvane-linked chargeback case while the portal response is pending. Allow the processor status to post before completing the file.</p>
+</blockquote>
+<h3>5) Queue assignment briefly flips after save</h3>
+<ol>
+<li>Open the case in <strong>ClaimTrack 2.0</strong>.</li>
+<li>Review the assigned queue and owner.</li>
+<li>Make the required update.</li>
+<li>Click <strong>Save</strong> once.</li>
+<li>If the queue flips back to the prior value for a few seconds, wait for the page to finish refreshing.</li>
+<li>Confirm the final queue value before routing the case onward.</li>
+</ol>
+<h2>Related pages</h2>
+<ul>
+<li><a href="PAGE-HOME">PAGE-HOME — Disputes Operations Home</a></li>
+<li><a href="PAGE-INTAKE">PAGE-INTAKE — Intake Basics</a></li>
+<li><a href="CPS-SOP-201">CPS-SOP-201 — Claim Intake (All Channels)</a></li>
+<li><a href="CPS-SOP-210">CPS-SOP-210 — Investigation Timelines and Extensions</a></li>
+<li><a href="CPS-SOP-217">CPS-SOP-217 — Chargeback Filing and Recovery</a></li>
+<li><a href="CPS-SOP-229">CPS-SOP-229 — Claim Records and Evidence Retention</a></li>
+<li><a href="JA-114">JA-114 — Deadline Cheat Sheet</a></li>
+<li><a href="JA-130">JA-130 — Escalation Contacts</a></li>
+</ul>
+<h2>Page history</h2>
+<p><strong>v1 — 2023-06-05:</strong> Published. ClaimTrack 2.0 rollout support page issued for active use.</p></div>
+<hr><div class="meta">Page ID 402301 · Space: CPSDISPUTES</div></body></html>
