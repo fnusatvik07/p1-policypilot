@@ -6,48 +6,62 @@
 
 </div>
 
-About 3.5 minutes. No dates are mentioned, so the same video works for every batch.
+About 3 minutes. No dates are mentioned, so the same video works for every batch.
 
-## Scene 1: Hook
+Voice: Kokoro (open source, Apache-2.0). Images: generated for this video.
 
-> A customer calls their bank. "I never made this purchase." ... From that second, a federal clock starts ticking. Ten business days to give provisional credit. Forty-five days to finish the investigation. Miss it... and the regulator notices.
+## Scene 1: Late at night
 
-## Scene 2: Why this happens
+> It's late. Maya opens her banking app... and freezes. Four hundred eighty-nine dollars. At a store she has never even heard of.
 
-> And banks do miss it. Not because nobody knows the rule... but because the right answer is buried in the wrong version of the wrong document. A memo quietly changed a threshold. An old wiki page is still linked. Two documents disagree. Every year, the CFPB orders banks and fintechs to pay millions for exactly this.
+## Scene 2: The call
 
-## Scene 3: Welcome
+> She calls her bank. "I never made this purchase." And in that exact moment, a federal clock starts ticking. Ten business days to put her money back. Forty-five days to finish the investigation.
 
-> Welcome to Project One. PolicyPilot! You are joining the card and payment disputes team at Harborline Bank... and your job is to build the assistant every analyst wishes they had.
+## Scene 3: Meet Jordan
 
-## Scene 4: The problem
+> On the other end of that call is Jordan, a disputes analyst. Jordan has one simple question. What is the rule? So Jordan searches... and finds three different answers.
 
-> Here's the problem. Analysts ask two questions all day. What is the rule? And was it followed? The answer depends on Regulation E for debit cards and transfers, Regulation Z for credit cards, and hundreds of internal documents that keep changing. And every question has a date.
+## Scene 4: Three answers
 
-## Scene 5: What we are looking for
+> A procedure from last year. A wiki page that was replaced, but is still linked. A memo that changed the rule last week. Which one is right? Pick the wrong one, and the bank breaks federal law.
 
-> So what are we looking for? An assistant you can trust. Every answer cited: document, version, exact quote. Answers as of any date. It knows what is active, superseded, or retired. It spots conflicts and says which source wins. It calculates business-day deadlines with a real tool. It queries the case database. And when the answer isn't there... it says so.
+## Scene 5: What is at stake
 
-## Scene 6: What the data looks like
+> This is exactly how banks end up in regulator enforcement orders, paying millions. Not because nobody knew the rule. But because nobody could find the right version of it.
 
-> Here's what you get. Three hundred sixty-four bank documents from five systems: policies, procedures, wiki pages, memos and emails, in six file types. A document registry. A disputes case database with thousands of cases and hundreds of thousands of transactions. Real regulations with their full version history, real CFPB guidance and enforcement orders, and more than fifty thousand real consumer complaints. Plus live government APIs.
+## Scene 6: Welcome to Project 1
 
-## Scene 7: The change feed
+> Welcome to Project One. PolicyPilot! Your mission: build the AI co-pilot that Jordan wishes they had.
 
-> And the library won't sit still. During the project, change releases arrive. New versions. Retired pages. Deleted files. Your system has to absorb them... and its answers have to change with them.
+## Scene 7: PolicyPilot in action
 
-## Scene 8: What we expect you to build
+> Jordan asks: the wiki says customers have sixty days from the transaction date. Is that right? PolicyPilot answers. No. That page is outdated. The sixty days start from the statement. Here is the document, the version, and the exact line.
 
-> What do we expect you to build? An ingestion pipeline for every source. An index, plus a knowledge graph that links documents to regulations. An agent loop that plans, retrieves, and calls tools. A change feed processor. An evaluation harness. And a simple interface to ask questions.
+## Scene 8: Who uses it
 
-## Scene 9: How you are evaluated
+> And it's not just Jordan. A compliance officer asks: was this old case handled correctly, under the rules that applied back then? A team lead asks: what changed after this week's memo? An analyst asks: when is the deadline, if there's a holiday in between? Every answer, cited, dated, and checked.
 
-> You get one hundred seventeen public questions across ten types. As-of questions, conflicts, deadline math, database lookups, multi-hop chains, and questions with no answer at all. Your system will also face hidden questions. So build for the problem... not for the test.
+## Scene 9: What you get
 
-## Scene 10: What to submit
+> You get everything a real bank team would have. Three hundred sixty-four internal documents from five different systems. A case database with thousands of disputes. The real regulations, with every version. Real enforcement orders. And more than fifty thousand real consumer complaints.
 
-> What do you submit? Your code repository, with a README that runs end to end. Predictions for every public question. An architecture write-up. An evaluation report, before and after each change release. A change feed log. And a five to eight minute demo video.
+## Scene 10: The library keeps changing
 
-## Scene 11: Close
+> And just like real life, the library keeps changing. During the project, new releases arrive. New versions. Retired pages. Deleted files. Your system must keep up, and its answers must change with them.
 
-> Everything is in the project repository: the problem statement, the data guide, the live APIs, and the submission rules. Read it. Explore the data. Start building. Welcome to Project One... let's build PolicyPilot.
+## Scene 11: What you build
+
+> You will build the full system. Ingest every source. Connect it all in a knowledge graph. An agent that plans, retrieves, and uses real tools. Then measure everything with an evaluation harness.
+
+## Scene 12: How you are tested
+
+> We test you with one hundred seventeen public questions. And then... with hidden ones. So build for the problem, not for the test.
+
+## Scene 13: What you submit
+
+> You submit your code, your predictions, an architecture write-up, an evaluation report, a change log, and a short demo video.
+
+## Scene 14: Let's build
+
+> Maya will never know your name. But when her money comes back on time... that's your PolicyPilot at work. Welcome to Project One. Let's build.
